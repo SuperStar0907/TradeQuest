@@ -1,0 +1,416 @@
+{
+  "tracks": [
+    {
+      "id": "stock-markets",
+      "label": "Stock Markets"
+    },
+    {
+      "id": "options",
+      "label": "Options Trading"
+    },
+    {
+      "id": "quantitative",
+      "label": "Quantitative Finance"
+    },
+    {
+      "id": "advanced",
+      "label": "Advanced Strategies"
+    },
+    {
+      "id": "expert",
+      "label": "Expert / Research"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "what-is-a-stock",
+      "track": "stock-markets",
+      "file": "stock-markets/what-is-a-stock.js",
+      "order": 1
+    },
+    {
+      "id": "reading-price-charts",
+      "track": "stock-markets",
+      "file": "stock-markets/reading-price-charts.js",
+      "order": 2
+    },
+    {
+      "id": "volume-analysis",
+      "track": "stock-markets",
+      "file": "stock-markets/volume-analysis.js",
+      "order": 3
+    },
+    {
+      "id": "support-resistance",
+      "track": "stock-markets",
+      "file": "stock-markets/support-resistance.js",
+      "order": 4
+    },
+    {
+      "id": "moving-averages",
+      "track": "stock-markets",
+      "file": "stock-markets/moving-averages.js",
+      "order": 5
+    },
+    {
+      "id": "rsi-indicator",
+      "track": "stock-markets",
+      "file": "stock-markets/rsi-indicator.js",
+      "order": 6
+    },
+    {
+      "id": "macd-indicator",
+      "track": "stock-markets",
+      "file": "stock-markets/macd-indicator.js",
+      "order": 7
+    },
+    {
+      "id": "bollinger-bands",
+      "track": "stock-markets",
+      "file": "stock-markets/bollinger-bands.js",
+      "order": 8
+    },
+    {
+      "id": "fibonacci-retracements",
+      "track": "stock-markets",
+      "file": "stock-markets/fibonacci-retracements.js",
+      "order": 9
+    },
+    {
+      "id": "chart-patterns",
+      "track": "stock-markets",
+      "file": "stock-markets/chart-patterns.js",
+      "order": 10
+    },
+    {
+      "id": "candlestick-patterns",
+      "track": "stock-markets",
+      "file": "stock-markets/candlestick-patterns.js",
+      "order": 11
+    },
+    {
+      "id": "order-types",
+      "track": "stock-markets",
+      "file": "stock-markets/order-types.js",
+      "order": 12
+    },
+    {
+      "id": "risk-management",
+      "track": "stock-markets",
+      "file": "stock-markets/risk-management.js",
+      "order": 13
+    },
+    {
+      "id": "fundamental-analysis",
+      "track": "stock-markets",
+      "file": "stock-markets/fundamental-analysis.js",
+      "order": 14
+    },
+    {
+      "id": "sector-analysis",
+      "track": "stock-markets",
+      "file": "stock-markets/sector-analysis.js",
+      "order": 15
+    },
+    {
+      "id": "market-microstructure",
+      "track": "stock-markets",
+      "file": "stock-markets/market-microstructure.js",
+      "order": 16
+    },
+    {
+      "id": "trading-psychology",
+      "track": "stock-markets",
+      "file": "stock-markets/trading-psychology.js",
+      "order": 17
+    },
+    {
+      "id": "backtesting-strategies",
+      "track": "stock-markets",
+      "file": "stock-markets/backtesting-strategies.js",
+      "order": 18
+    },
+    {
+      "id": "portfolio-construction",
+      "track": "stock-markets",
+      "file": "stock-markets/portfolio-construction.js",
+      "order": 19
+    },
+    {
+      "id": "tax-regulatory",
+      "track": "stock-markets",
+      "file": "stock-markets/tax-regulatory.js",
+      "order": 20
+    },
+    {
+      "id": "what-are-options",
+      "track": "options",
+      "file": "options/what-are-options.js",
+      "order": 21
+    },
+    {
+      "id": "options-pricing-intrinsic-value",
+      "track": "options",
+      "file": "options/options-pricing-intrinsic-value.js",
+      "order": 22
+    },
+    {
+      "id": "the-greeks-delta",
+      "track": "options",
+      "file": "options/the-greeks-delta.js",
+      "order": 23
+    },
+    {
+      "id": "gamma-theta-vega",
+      "track": "options",
+      "file": "options/gamma-theta-vega.js",
+      "order": 24
+    },
+    {
+      "id": "payoff-diagrams-calls-puts",
+      "track": "options",
+      "file": "options/payoff-diagrams-calls-puts.js",
+      "order": 25
+    },
+    {
+      "id": "reading-an-options-chain",
+      "track": "options",
+      "file": "options/reading-an-options-chain.js",
+      "order": 26
+    },
+    {
+      "id": "covered-calls",
+      "track": "options",
+      "file": "options/covered-calls.js",
+      "order": 27
+    },
+    {
+      "id": "cash-secured-puts",
+      "track": "options",
+      "file": "options/cash-secured-puts.js",
+      "order": 28
+    },
+    {
+      "id": "vertical-spreads",
+      "track": "options",
+      "file": "options/vertical-spreads.js",
+      "order": 29
+    },
+    {
+      "id": "iron-condors",
+      "track": "options",
+      "file": "options/iron-condors.js",
+      "order": 30
+    },
+    {
+      "id": "straddles-and-strangles",
+      "track": "options",
+      "file": "options/straddles-and-strangles.js",
+      "order": 31
+    },
+    {
+      "id": "the-wheel-strategy",
+      "track": "options",
+      "file": "options/the-wheel-strategy.js",
+      "order": 32
+    },
+    {
+      "id": "implied-volatility-iv-rank",
+      "track": "options",
+      "file": "options/implied-volatility-iv-rank.js",
+      "order": 33
+    },
+    {
+      "id": "earnings-plays-iv-crush",
+      "track": "options",
+      "file": "options/earnings-plays-iv-crush.js",
+      "order": 34
+    },
+    {
+      "id": "options-risk-management",
+      "track": "options",
+      "file": "options/options-risk-management.js",
+      "order": 35
+    },
+    {
+      "id": "pairs-trading",
+      "track": "quantitative",
+      "file": "quantitative/pairs-trading.js",
+      "order": 36
+    },
+    {
+      "id": "mean-reversion",
+      "track": "quantitative",
+      "file": "quantitative/mean-reversion.js",
+      "order": 37
+    },
+    {
+      "id": "momentum-strategies",
+      "track": "quantitative",
+      "file": "quantitative/momentum-strategies.js",
+      "order": 38
+    },
+    {
+      "id": "time-series-analysis",
+      "track": "quantitative",
+      "file": "quantitative/time-series-analysis.js",
+      "order": 39
+    },
+    {
+      "id": "factor-models",
+      "track": "quantitative",
+      "file": "quantitative/factor-models.js",
+      "order": 40
+    },
+    {
+      "id": "markowitz-optimization",
+      "track": "quantitative",
+      "file": "quantitative/markowitz-optimization.js",
+      "order": 41
+    },
+    {
+      "id": "black-litterman",
+      "track": "quantitative",
+      "file": "quantitative/black-litterman.js",
+      "order": 42
+    },
+    {
+      "id": "kelly-criterion",
+      "track": "quantitative",
+      "file": "quantitative/kelly-criterion.js",
+      "order": 43
+    },
+    {
+      "id": "risk-parity",
+      "track": "quantitative",
+      "file": "quantitative/risk-parity.js",
+      "order": 44
+    },
+    {
+      "id": "monte-carlo-trading",
+      "track": "quantitative",
+      "file": "quantitative/monte-carlo-trading.js",
+      "order": 45
+    },
+    {
+      "id": "elliott-wave",
+      "track": "advanced",
+      "file": "advanced/elliott-wave.js",
+      "order": 46
+    },
+    {
+      "id": "wyckoff-method",
+      "track": "advanced",
+      "file": "advanced/wyckoff-method.js",
+      "order": 47
+    },
+    {
+      "id": "order-flow-analysis",
+      "track": "advanced",
+      "file": "advanced/order-flow-analysis.js",
+      "order": 48
+    },
+    {
+      "id": "market-profile",
+      "track": "advanced",
+      "file": "advanced/market-profile.js",
+      "order": 49
+    },
+    {
+      "id": "volatility-surface",
+      "track": "advanced",
+      "file": "advanced/volatility-surface.js",
+      "order": 50
+    },
+    {
+      "id": "exotic-options",
+      "track": "advanced",
+      "file": "advanced/exotic-options.js",
+      "order": 51
+    },
+    {
+      "id": "advanced-greeks",
+      "track": "advanced",
+      "file": "advanced/advanced-greeks.js",
+      "order": 52
+    },
+    {
+      "id": "algo-execution",
+      "track": "advanced",
+      "file": "advanced/algo-execution.js",
+      "order": 53
+    },
+    {
+      "id": "statistical-arbitrage",
+      "track": "advanced",
+      "file": "advanced/statistical-arbitrage.js",
+      "order": 54
+    },
+    {
+      "id": "options-market-making",
+      "track": "advanced",
+      "file": "advanced/options-market-making.js",
+      "order": 55
+    },
+    {
+      "id": "macro-cycle-trading",
+      "track": "advanced",
+      "file": "advanced/macro-cycle-trading.js",
+      "order": 56
+    },
+    {
+      "id": "stress-testing",
+      "track": "advanced",
+      "file": "advanced/stress-testing.js",
+      "order": 57
+    },
+    {
+      "id": "ml-feature-engineering",
+      "track": "expert",
+      "file": "expert/ml-feature-engineering.js",
+      "order": 58
+    },
+    {
+      "id": "reinforcement-learning-trading",
+      "track": "expert",
+      "file": "expert/reinforcement-learning-trading.js",
+      "order": 59
+    },
+    {
+      "id": "hft-dynamics",
+      "track": "expert",
+      "file": "expert/hft-dynamics.js",
+      "order": 60
+    },
+    {
+      "id": "volatility-derivatives",
+      "track": "expert",
+      "file": "expert/volatility-derivatives.js",
+      "order": 61
+    },
+    {
+      "id": "defi-tokenomics",
+      "track": "expert",
+      "file": "expert/defi-tokenomics.js",
+      "order": 62
+    },
+    {
+      "id": "alpha-attribution",
+      "track": "expert",
+      "file": "expert/alpha-attribution.js",
+      "order": 63
+    },
+    {
+      "id": "leverage-systemic-risk",
+      "track": "expert",
+      "file": "expert/leverage-systemic-risk.js",
+      "order": 64
+    },
+    {
+      "id": "building-trading-system",
+      "track": "expert",
+      "file": "expert/building-trading-system.js",
+      "order": 65
+    }
+  ]
+}
