@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TradeQuest — Interactive Trading Academy</title>
+  <link rel="preconnect" href="/" crossorigin>
+  <meta name="color-scheme" content="dark light">
+  <link rel="preload" href="js/boot.js" as="script">
+  <link rel="preload" href="js/app.js" as="script">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-logo">
+      <span class="logo-icon">📈</span>
+      <span class="logo-text">TradeQuest</span>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav">
+      <!-- Populated by app.js -->
+    </nav>
+    <div class="sidebar-footer">
+      <div class="xp-display" id="xpDisplay">0 XP</div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main-content" id="mainContent">
+    <!-- Top bar -->
+    <header class="topbar">
+      <button class="sidebar-toggle" id="sidebarToggle">☰</button>
+      <h1 class="topbar-title" id="topbarTitle">Dashboard</h1>
+      <div class="topbar-actions">
+        <div class="search-box">
+          <input type="text" id="tickerSearch" placeholder="Search ticker..." autocomplete="off">
+          <div class="search-results" id="searchResults"></div>
+        </div>
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+      </div>
+    </header>
+
+    <!-- Content area (scrollable) -->
+    <div class="content-area" id="contentArea">
+
+      <!-- Dashboard -->
+      <section class="content-section active" id="section-dashboard">
+        <div class="dashboard-grid">
+          <div class="stat-card"><div class="stat-value" id="statLessons">0/0</div><div class="stat-label">Lessons</div></div>
+          <div class="stat-card"><div class="stat-value" id="statQuizAvg">--</div><div class="stat-label">Quiz Avg</div></div>
+          <div class="stat-card"><div class="stat-value" id="statXP">0</div><div class="stat-label">Total XP</div></div>
+          <div class="stat-card"><div class="stat-value" id="statStreak">0</div><div class="stat-label">Day Streak</div></div>
+        </div>
+        <div class="dashboard-columns">
+          <div class="dashboard-main">
+            <h3>Learning Tracks</h3>
+            <div id="dashboardTracks"></div>
+          </div>
+          <div class="dashboard-side">
+            <h3>Recent Activity</h3>
+            <div id="activityFeed" class="activity-feed"></div>
+            <h3 style="margin-top: 24px;">Daily Tip</h3>
+            <div id="dailyTip" class="daily-tip-card"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Lessons -->
+      <section class="content-section" id="section-lessons">
+        <div class="lesson-header" id="lessonHeader"></div>
+        <div class="lesson-progress"><div class="lesson-progress-fill" id="lessonProgressFill"></div></div>
+        <div class="lesson-body" id="lessonBody"></div>
+        <div class="lesson-footer">
+          <button class="btn btn-primary" id="lessonComplete" style="display:none;">Complete Lesson</button>
+        </div>
+      </section>
+
+      <!-- Quizzes -->
+      <section class="content-section" id="section-quizzes">
+        <h2>Quizzes</h2>
+        <div id="quizCategories" class="quiz-categories"></div>
+        <div id="quizActive" class="quiz-active hidden">
+          <div class="quiz-progress"><div class="quiz-progress-fill" id="quizProgressFill"></div></div>
+          <div id="quizQuestion" class="quiz-question"></div>
+          <div id="quizOptions" class="quiz-options"></div>
+          <div id="quizExplanation" class="quiz-explanation hidden"></div>
+          <div id="quizActions" class="quiz-actions" style="visibility: hidden;">
+            <button class="btn btn-primary" id="quizNext">Next Question</button>
+          </div>
+        </div>
+        <div id="quizResults" class="quiz-results hidden"></div>
+      </section>
+
+      <!-- Charts -->
+      <section class="content-section" id="section-charts">
+        <h2>Interactive Charts</h2>
+        <div class="chart-toolbar">
+          <select id="chartTicker" class="form-select"></select>
+          <div class="indicator-toggles" id="indicatorToggles">
+            <label><input type="checkbox" data-indicator="sma20"> SMA 20</label>
+            <label><input type="checkbox" data-indicator="sma50"> SMA 50</label>
+            <label><input type="checkbox" data-indicator="ema12"> EMA 12</label>
+            <label><input type="checkbox" data-indicator="bollinger"> Bollinger</label>
+            <label><input type="checkbox" data-indicator="rsi"> RSI</label>
+            <label><input type="checkbox" data-indicator="macd"> MACD</label>
+          </div>
+        </div>
+        <div id="mainChart" style="height: 450px;"></div>
+        <div id="rsiChart" style="height: 130px; margin-top: 8px;" class="hidden"></div>
+        <div id="macdChart" style="height: 130px; margin-top: 8px;" class="hidden"></div>
+      </section>
+
+      <!-- Reference -->
+      <section class="content-section" id="section-resources">
+        <h2>Reference Library</h2>
+        <div class="ref-toolbar">
+          <div class="ref-tabs">
+            <button class="tab active" data-ref="glossary">Glossary</button>
+            <button class="tab" data-ref="formulas">Formulas</button>
+            <button class="tab" data-ref="patterns">Patterns</button>
+            <button class="tab" data-ref="strategies">Strategies</button>
+          </div>
+          <input type="text" id="refSearch" class="form-input" placeholder="Search...">
+        </div>
+        <div id="refContent" class="ref-content"></div>
+      </section>
+
+      <!-- Books & Courses -->
+      <section class="content-section" id="section-books">
+        <h2>Books & Courses</h2>
+        <div class="resources-tabs" style="display:flex;gap:4px;margin-bottom:12px;">
+          <button class="tab active" data-restab="books">Books</button>
+          <button class="tab" data-restab="courses">Courses</button>
+        </div>
+        <div class="resources-search" style="margin-bottom:12px;">
+          <input type="text" id="resourcesSearch" class="form-input" placeholder="Search books & courses...">
+        </div>
+        <div id="resourcesFilters" class="resources-filters" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;"></div>
+        <div id="resourcesGrid" class="resources-grid"></div>
+        <div id="resourceDetail" class="hidden"></div>
+      </section>
+
+      <!-- Paper Trading Simulator -->
+      <section class="content-section" id="section-simulator">
+        <h2>Paper Trading Simulator</h2>
+        <div class="sim-layout">
+          <div class="sim-chart-area">
+            <div class="sim-playback">
+              <select id="simTicker" class="form-select">
+                <option value="SPY">SPY</option><option value="TSLA">TSLA</option>
+                <option value="AAPL">AAPL</option><option value="MSFT">MSFT</option>
+                <option value="GOOG">GOOG</option><option value="AMZN">AMZN</option>
+                <option value="NVDA">NVDA</option>
+              </select>
+              <div class="sim-controls">
+                <button class="btn btn-secondary" id="simStepBack" title="Step back">&#9664;&#9664;</button>
+                <button class="btn btn-primary" id="simPlayPause" title="Play/Pause">
+                  <svg width="16" height="16" viewBox="0 0 16 16"><path d="M4 2l10 6-10 6V2z" fill="currentColor"/></svg>
+                </button>
+                <button class="btn btn-secondary" id="simStepForward" title="Step forward">&#9654;&#9654;</button>
+              </div>
+              <select id="simSpeed" class="form-select" style="width:70px;">
+                <option value="1">1x</option><option value="2">2x</option><option value="5" selected>5x</option><option value="10">10x</option>
+              </select>
+            </div>
+            <div id="simChart" style="height:400px;"></div>
+          </div>
+          <div class="sim-panel">
+            <div class="sim-portfolio-summary">
+              <div class="sim-portfolio-label">Portfolio Value</div>
+              <div class="sim-portfolio-value" id="simPortfolioValue">$100,000.00</div>
+              <div class="sim-portfolio-change" id="simPortfolioChange">+$0.00 (0.00%)</div>
+            </div>
+            <div class="sim-order-form">
+              <div style="display:flex;gap:4px;margin-bottom:10px;">
+                <button class="tab active" data-type="buy">Buy</button>
+                <button class="tab" data-type="sell">Sell</button>
+              </div>
+              <div style="display:flex;gap:8px;margin-bottom:8px;">
+                <select id="simOrderType" class="form-select" style="flex:1;"><option value="market">Market</option><option value="limit">Limit</option></select>
+                <input type="number" id="simShares" class="form-input" placeholder="Shares" value="10" min="1" style="width:80px;">
+              </div>
+              <div id="simLimitGroup" class="hidden" style="margin-bottom:8px;">
+                <input type="number" id="simLimitPrice" class="form-input" placeholder="Limit price" step="0.01" style="width:100%;">
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:12px;color:var(--text-muted);margin-bottom:8px;">
+                <span>Est. Cost: <span id="simEstCost">$0.00</span></span>
+                <span>Cash: <span id="simCashAvail">$100,000.00</span></span>
+              </div>
+              <button class="btn btn-buy" id="simExecuteOrder" style="width:100%;">Buy 10 shares</button>
+            </div>
+            <div class="sim-holdings">
+              <h4 style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">Holdings</h4>
+              <div id="simHoldingsList"></div>
+            </div>
+            <div class="sim-history">
+              <h4 style="font-size:13px;color:var(--text-secondary);margin-bottom:8px;">Trade History</h4>
+              <table class="sim-trade-table">
+                <thead><tr><th>Date</th><th>Side</th><th>Ticker</th><th>Qty</th><th>Price</th><th>Total</th><th>P&L</th></tr></thead>
+                <tbody id="simTradeHistory"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Market Monitor -->
+      <section class="content-section" id="section-monitor">
+        <h2>Market Monitor <span id="monitorTime" style="font-size:12px;font-weight:400;color:var(--text-muted);margin-left:12px;"></span></h2>
+        <div class="monitor-filters" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px;align-items:center;">
+          <select id="monitorRegion" class="form-select" style="min-width:130px;">
+            <option value="all">All Markets</option>
+            <option value="in">India</option>
+            <option value="global">Global</option>
+          </select>
+          <div style="width:1px;height:20px;background:var(--border);margin:0 6px;"></div>
+          <button class="monitor-filter active" data-filter="all">All</button>
+          <button class="monitor-filter" data-filter="stocks">Stocks</button>
+          <button class="monitor-filter" data-filter="indices">Indices</button>
+          <button class="monitor-filter" data-filter="crypto">Crypto</button>
+          <button class="monitor-filter" data-filter="forex">Forex</button>
+          <button class="monitor-filter" data-filter="commodities">Commodities</button>
+        </div>
+        <div class="monitor-grid">
+          <div class="monitor-card monitor-card-wide" id="monitorHeatmap"><h3>Market Heatmap</h3><div id="heatmapGrid" class="heatmap-grid"></div></div>
+          <div class="monitor-card" id="monitorIndices"><h3>Global Indices</h3><div id="indicesBody"></div></div>
+          <div class="monitor-card" id="monitorMovers"><h3>Top Movers</h3><div id="moversBody"></div></div>
+          <div class="monitor-card" id="monitorETFs"><h3>ETFs</h3><div id="etfsBody"></div></div>
+          <div class="monitor-card" id="monitorVolatility"><h3>Volatility</h3><div id="volatilityBody"></div></div>
+          <div class="monitor-card" id="monitorCrypto"><h3>Crypto</h3><div id="cryptoBody"></div></div>
+          <div class="monitor-card" id="monitorForex"><h3>Forex</h3><div id="forexBody"></div></div>
+          <div class="monitor-card" id="monitorCommodities"><h3>Commodities</h3><div id="commoditiesBody"></div></div>
+          <div class="monitor-card" id="monitorTreasury"><h3>Treasury Yields</h3><div id="treasuryBody"></div></div>
+          <div class="monitor-card" id="monitorStats"><h3>Key Metrics</h3><div id="statsBody"></div></div>
+        </div>
+      </section>
+
+    </div><!-- /content-area -->
+  </main>
+
+  <!-- Scripts in order -->
+  <!-- Scripts -->
+  <script src="vendor/lightweight-charts.js"></script>
+  <script src="vendor/plotly-basic.js"></script>
+  <script src="js/boot.js"></script>
+  <script src="js/registry.js"></script>
+  <script src="js/indicators.js"></script>
+  <script src="js/content-reference.js"></script>
+  <script src="js/content-quizzes.js"></script>
+  <script src="js/content-stock.js"></script>
+  <script src="js/content-options.js"></script>
+  <script src="js/content-resources.js"></script>
+  <script src="js/content-summaries-1.js"></script>
+  <script src="js/content-summaries-2.js"></script>
+  <script src="js/content-summaries-3.js"></script>
+  <script src="js/content-summaries.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/mindmap.js"></script>
+  <script src="js/lessons.js"></script>
+  <script src="js/quiz.js"></script>
+  <script src="js/reference.js"></script>
+  <script src="js/resources.js"></script>
+  <script src="js/simulator.js"></script>
+  <script src="js/monitor.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "fundamentals",
+    "file": "fundamentals.js"
+  },
+  {
+    "id": "technical-analysis",
+    "file": "technical-analysis.js"
+  },
+  {
+    "id": "options-basics",
+    "file": "options-basics.js"
+  },
+  {
+    "id": "options-greeks",
+    "file": "options-greeks.js"
+  },
+  {
+    "id": "options-strategies",
+    "file": "options-strategies.js"
+  },
+  {
+    "id": "risk-management",
+    "file": "risk-management.js"
+  }
+]

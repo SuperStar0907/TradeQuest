@@ -1,0 +1,6 @@
+  <script src="quizzes/fundamentals.js"></script>
+  <script src="quizzes/technical-analysis.js"></script>
+  <script src="quizzes/options-basics.js"></script>
+  <script src="quizzes/options-greeks.js"></script>
+  <script src="quizzes/options-strategies.js"></script>
+  <script src="quizzes/risk-management.js"></script>

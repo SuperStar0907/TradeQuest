@@ -1,0 +1,15 @@
+{
+  "name": "tradequest",
+  "version": "1.0.0",
+  "description": "Interactive Trading Academy — Learn stocks & options trading",
+  "scripts": {
+    "start": "node server.js",
+    "refresh-data": "node scripts/fetch-data.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "lightweight-charts": "^4.1.3",
+    "plotly.js-basic-dist-min": "^2.27.0"
+  },
+  "private": true
+}
