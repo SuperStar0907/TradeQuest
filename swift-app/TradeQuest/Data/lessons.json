@@ -1,0 +1,2417 @@
+[
+  {
+    "id": "what-is-a-stock",
+    "title": "What is a Stock?",
+    "category": "fundamentals",
+    "difficulty": "beginner",
+    "estimatedMinutes": 8,
+    "xpReward": 50,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Ownership in a Company</h3><p>A stock represents a fractional ownership stake in a company. When you buy a share of Apple (AAPL), you literally own a tiny piece of the company — its assets, its earnings, and its future growth.</p><p>Companies issue stock to raise capital. Instead of borrowing money (debt), they sell ownership stakes to investors. This happens first in an <strong>IPO (Initial Public Offering)</strong>, and then shares trade freely on exchanges.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Stock Exchanges</h3><p>Stocks trade on exchanges — organized marketplaces where buyers and sellers meet electronically. The two biggest in the US:</p><ul><li><strong>NYSE (New York Stock Exchange)</strong> — The largest by market cap. Trading hours: 9:30 AM to 4:00 PM ET.</li><li><strong>NASDAQ</strong> — Tech-heavy, fully electronic. Home to AAPL, MSFT, AMZN, NVDA, TSLA.</li></ul><p>When you place a buy order, your broker routes it to the exchange. A market maker matches it with a sell order. This happens in milliseconds.</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "AAPL",
+          "title": "Apple (AAPL) — Your First Chart",
+          "description": "This is a candlestick chart. Each candle represents one trading day. Hover over candles to see Open, High, Low, Close (OHLC) prices and volume."
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Bull vs Bear Markets",
+        "content": "A <strong>bull market</strong> is when prices rise 20%+ from a recent low. A <strong>bear market</strong> is when prices fall 20%+ from a recent high. These terms come from how each animal attacks — bulls thrust horns up, bears swipe paws down."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Why Stock Prices Move</h3><p>A stock price reflects what buyers will pay and sellers will accept. Prices move based on:</p><ul><li><strong>Earnings</strong> — Did the company make more or less money than expected?</li><li><strong>News</strong> — Product launches, lawsuits, management changes</li><li><strong>Macro factors</strong> — Interest rates, inflation, GDP growth</li><li><strong>Sentiment</strong> — Fear and greed drive short-term swings</li></ul>"
+      }
+    ],
+    "track": "stock-markets",
+    "order": 0
+  },
+  {
+    "id": "reading-price-charts",
+    "title": "Reading Price Charts",
+    "category": "technical-analysis",
+    "difficulty": "beginner",
+    "estimatedMinutes": 10,
+    "xpReward": 60,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Three Types of Price Charts</h3><p>Traders use charts to visualize price history and spot patterns. The three most common:</p><ol><li><strong>Line Chart</strong> — Connects closing prices. Simplest view, good for overall trend.</li><li><strong>Bar Chart (OHLC)</strong> — Each bar shows Open, High, Low, Close. More data than a line chart.</li><li><strong>Candlestick Chart</strong> — Like bar charts but with a filled/hollow body. The most popular choice among traders.</li></ol>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Anatomy of a Candlestick</h3><p>Each candlestick tells a story about the battle between buyers and sellers:</p><ul><li><strong>Body</strong> — The thick part. Shows the range between open and close.</li><li><strong>Wicks/Shadows</strong> — The thin lines above and below. Show the high and low.</li><li><strong>Green candle</strong> — Close > Open (buyers won)</li><li><strong>Red candle</strong> — Close < Open (sellers won)</li></ul><p>Long bodies = strong conviction. Long wicks = rejection at that price level.</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "TSLA",
+          "title": "Tesla (TSLA) — Reading Candlesticks",
+          "description": "Notice the large green and red candles. Big green = strong buying pressure. Big red = strong selling. Long upper wicks mean sellers pushed price back down."
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Volume Confirms Price",
+        "content": "A price move on high volume is more significant than on low volume. If a stock breaks to a new high on 3x average volume, that is a strong signal. The same breakout on low volume is suspicious and may fail."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Timeframes</h3><p>Charts can show different timeframes:</p><ul><li><strong>1-minute, 5-minute</strong> — Day traders</li><li><strong>1-hour, 4-hour</strong> — Swing traders</li><li><strong>Daily</strong> — Most common for analysis</li><li><strong>Weekly, Monthly</strong> — Long-term investors</li></ul><p>The same stock can look bullish on a daily chart and bearish on a 5-minute chart. Always consider the timeframe.</p>"
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 1
+  },
+  {
+    "id": "volume-analysis",
+    "title": "Volume & What It Tells You",
+    "category": "technical-analysis",
+    "difficulty": "beginner",
+    "estimatedMinutes": 10,
+    "xpReward": 60,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>What is Volume?</h3><p>Volume is the number of shares traded in a given period. It is the most important confirmation tool in technical analysis.</p><p>Think of volume as the <strong>conviction</strong> behind a price move. Price tells you WHAT happened. Volume tells you HOW MUCH conviction was behind it.</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "NVDA",
+          "title": "NVIDIA (NVDA) — Volume Analysis",
+          "description": "The bars at the bottom show volume. Notice how volume spikes on big price moves. Green bars = up days, red = down days.",
+          "showVolume": true
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Volume Signals",
+        "content": "<strong>High volume + price up</strong> = strong buying (bullish). <strong>High volume + price down</strong> = strong selling (bearish). <strong>Low volume + price up</strong> = weak rally (suspicious). <strong>Low volume + price down</strong> = lack of sellers (potentially bullish)."
+      },
+      {
+        "type": "text",
+        "content": "<h3>On-Balance Volume (OBV)</h3><p>OBV is a cumulative indicator. It adds volume on up days and subtracts on down days. If OBV is trending up while price is flat, it suggests accumulation — smart money buying before a move up.</p><p><strong>Volume Spike Rule:</strong> If today's volume is 2x or more the 20-day average, pay attention. Combine this with price action for trading signals.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>How a Real Trader Uses Volume</h3><p>Suppose you are watching NVDA and it has been consolidating between $800 and $850 for two weeks. One morning, the stock breaks above $850 on volume that is 3x the 20-day average. A volume-aware trader treats this as a high-conviction breakout because the surge in participation confirms that institutional money is driving the move, not just a handful of retail orders.</p><p>Conversely, if NVDA drifts above $850 on below-average volume, an experienced trader would be skeptical. The breakout lacks conviction and is more likely to fail. Many traders will wait for a volume-confirmed retest of the breakout level before committing capital.</p><p>Volume also matters on pullbacks. If a stock pulls back to a key moving average on declining volume, it suggests sellers are drying up and the uptrend is likely to continue. Heavy volume on the pullback, on the other hand, signals genuine distribution and a potential trend change.</p>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Volume Pattern",
+          "What It Means",
+          "Trader Action"
+        ],
+        "rows": [
+          [
+            "Breakout on high volume",
+            "Strong conviction, likely to follow through",
+            "Enter in the direction of the breakout with a stop below the breakout level"
+          ],
+          [
+            "Breakout on low volume",
+            "Weak conviction, likely a false breakout",
+            "Wait for a retest or skip the trade entirely"
+          ],
+          [
+            "Pullback on declining volume",
+            "Sellers drying up, trend intact",
+            "Look for entries near support or a moving average"
+          ],
+          [
+            "Pullback on rising volume",
+            "Distribution, potential trend reversal",
+            "Tighten stops or reduce position size"
+          ],
+          [
+            "Volume spike on a reversal candle",
+            "Capitulation or climax buying",
+            "Watch for follow-through the next day before acting"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for Volume Analysis",
+        "content": "Always compare current volume to its own average, not to another stock. NVDA trading 50 million shares may be normal, while the same volume on a small-cap would be extraordinary. Use the 20-day average volume as your baseline. Also pay attention to volume at specific price levels (Volume Profile), which reveals where the most trading activity occurred and highlights support and resistance zones that pure price charts miss."
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 2
+  },
+  {
+    "id": "support-resistance",
+    "title": "Support & Resistance",
+    "category": "technical-analysis",
+    "difficulty": "beginner",
+    "estimatedMinutes": 12,
+    "xpReward": 75,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The Foundation of Technical Analysis</h3><p>Support and resistance are the most fundamental concepts in charting. Every other pattern builds on them.</p><ul><li><strong>Support</strong> — A price level where buying pressure prevents further decline. Think of it as a floor.</li><li><strong>Resistance</strong> — A price level where selling pressure prevents further advance. Think of it as a ceiling.</li></ul><p>These levels form because traders remember prices. If you bought at $150 and it dropped to $130, you might sell at $150 when it comes back — creating resistance.</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "MSFT",
+          "title": "Microsoft (MSFT) — Support & Resistance",
+          "description": "Look for price levels where the stock bounces multiple times (support) or gets rejected multiple times (resistance). The more touches, the stronger the level."
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Role Reversal",
+        "content": "When support breaks, it often becomes resistance. When resistance breaks, it often becomes support. This is called <strong>role reversal</strong> and is one of the most reliable patterns in trading."
+      },
+      {
+        "type": "text",
+        "content": "<h3>How to Identify Key Levels</h3><ol><li><strong>Multiple touches</strong> — At least 2-3 bounces from the same level</li><li><strong>Round numbers</strong> — $100, $200, $500 act as psychological S/R</li><li><strong>Previous highs/lows</strong> — Last week high, 52-week high, all-time high</li><li><strong>Gap fills</strong> — Gaps in price often act as magnets</li></ol><p>Support and resistance are <em>zones</em>, not exact prices. A stock with support at $150 might bounce from $149.50 or $150.80.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes with Support and Resistance</h3><ul><li><strong>Drawing too many levels</strong> — If your chart looks like a barcode, you have too many lines. Focus on the 2-3 most significant levels where price reacted strongly and recently. Quality matters more than quantity.</li><li><strong>Treating levels as exact prices</strong> — Support at $150 does not mean the stock will bounce at exactly $150.00. Think in zones of $1-2 around the level. Setting a stop at exactly $150.00 will get you stopped out on normal volatility.</li><li><strong>Ignoring the timeframe</strong> — A support level on a daily chart is far more significant than one on a 5-minute chart. Weekly and monthly levels carry the most weight because they represent decisions by the largest pool of market participants.</li><li><strong>Fighting a strong trend</strong> — Buying at support in a strong downtrend is called catching a falling knife. Support levels break in downtrends. Wait for confirmation that buyers have actually stepped in before committing capital.</li></ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for Support and Resistance",
+        "content": "The strongest support and resistance levels are ones where multiple factors converge at the same price. For example, a round number ($200) that also aligns with the 200-day moving average and was a previous breakout level is a much stronger zone than any single factor alone. Also remember that the longer a support or resistance level holds, the more significant the eventual break will be. A resistance level that has rejected price five times over six months will produce a powerful move when it finally breaks."
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 3
+  },
+  {
+    "id": "moving-averages",
+    "title": "Moving Averages (SMA & EMA)",
+    "category": "technical-analysis",
+    "difficulty": "beginner",
+    "estimatedMinutes": 12,
+    "xpReward": 75,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Smoothing Out the Noise</h3><p>A moving average smooths price data by creating a constantly updated average. It helps you see the trend by filtering out day-to-day noise.</p><ul><li><strong>SMA (Simple Moving Average)</strong> — Equal weight to all periods. The 20-day SMA = average closing price of last 20 days.</li><li><strong>EMA (Exponential Moving Average)</strong> — More weight on recent prices. Reacts faster to new data.</li></ul>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "AAPL",
+          "title": "Apple (AAPL) — Moving Averages",
+          "description": "Adjust the slider to change the SMA period. Shorter periods (10-20) hug price tightly. Longer periods (100-200) show broader trend.",
+          "indicators": [
+            "sma"
+          ],
+          "controls": [
+            {
+              "type": "slider",
+              "label": "SMA Period",
+              "min": 5,
+              "max": 200,
+              "default": 20,
+              "id": "smaPeriod"
+            }
+          ]
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Golden Cross & Death Cross",
+        "content": "The <strong>Golden Cross</strong> occurs when the 50-day SMA crosses ABOVE the 200-day SMA — a bullish signal. The <strong>Death Cross</strong> is the opposite — the 50-day crosses BELOW the 200-day, signaling bearish momentum."
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Feature",
+          "SMA",
+          "EMA"
+        ],
+        "rows": [
+          [
+            "Weight",
+            "Equal weight to all periods",
+            "More weight to recent prices"
+          ],
+          [
+            "Lag",
+            "More lag (slower)",
+            "Less lag (faster)"
+          ],
+          [
+            "False Signals",
+            "Fewer",
+            "More but catches turns faster"
+          ],
+          [
+            "Best For",
+            "Long-term trends",
+            "Short-term signals"
+          ],
+          [
+            "Popular Periods",
+            "20, 50, 100, 200",
+            "9, 12, 21, 26"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "content": "<h3>MAs as Dynamic Support/Resistance</h3><p>In an uptrend, the 20-day or 50-day MA often acts as dynamic support — the stock pulls back to the MA and bounces. In a downtrend, the MA acts as resistance.</p><p><strong>Pro tip:</strong> Institutions watch the 200-day SMA closely. A stock trading above its 200-day is considered in a long-term uptrend.</p>"
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 4
+  },
+  {
+    "id": "rsi-indicator",
+    "title": "RSI (Relative Strength Index)",
+    "category": "technical-analysis",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 80,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Measuring Momentum</h3><p>The RSI is a momentum oscillator that measures the speed and magnitude of price movements on a scale from 0 to 100. Developed by J. Welles Wilder in 1978.</p><ul><li><strong>RSI > 70</strong> — Overbought (potentially due for a pullback)</li><li><strong>RSI < 30</strong> — Oversold (potentially due for a bounce)</li><li><strong>RSI = 50</strong> — Neutral</li></ul><p>The standard period is 14 days.</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "TSLA",
+          "title": "Tesla (TSLA) — RSI Analysis",
+          "description": "The RSI subplot oscillates between 0-100. Shaded zones show overbought (>70) and oversold (<30) areas.",
+          "indicators": [
+            "rsi"
+          ],
+          "showRSI": true,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "RSI Period",
+              "min": 5,
+              "max": 30,
+              "default": 14,
+              "id": "rsiPeriod"
+            }
+          ]
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "RSI Divergence",
+        "content": "<strong>Bullish divergence</strong>: Price makes a lower low, but RSI makes a higher low — momentum is shifting up. <strong>Bearish divergence</strong>: Price makes a higher high, but RSI makes a lower high — momentum is fading. Divergences are among the most reliable signals RSI produces."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes with RSI</h3><ul><li><strong>Do not blindly buy at RSI 30</strong> — In a strong downtrend, RSI can stay oversold for weeks.</li><li><strong>Context matters</strong> — RSI 70 in a strong uptrend is normal, not necessarily a sell signal.</li><li><strong>Combine with price action</strong> — RSI works best when confirmed by candlestick patterns or S/R levels.</li></ul>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>How a Real Trader Uses RSI</h3><p>Consider a scenario where TSLA has pulled back 15% over two weeks and RSI drops to 28. A beginner might rush to buy because \"it is oversold.\" An experienced trader would wait for confirmation. They look for RSI to start turning up from below 30 — not just touching it, but forming a higher low on the RSI itself. They then check the daily chart for a bullish candlestick pattern at a key support level.</p><p>If all three conditions align — RSI turning up from oversold, bullish candle pattern, and price at a known support zone — the trader enters with a stop below the recent low. This multi-factor approach dramatically improves the probability compared to trading RSI alone.</p><p>For swing traders, a useful RSI technique is the \"50-line bounce.\" In a strong uptrend, RSI rarely drops below 40-50. When it pulls back to the 40-50 zone and bounces, it signals the uptrend is intact and the pullback is a buying opportunity. If RSI breaks below 40 in what you thought was an uptrend, the trend may be weakening.</p>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "RSI Reading",
+          "Market Context",
+          "Interpretation",
+          "Action"
+        ],
+        "rows": [
+          [
+            "Below 30",
+            "Downtrend",
+            "Can stay oversold for weeks; trend is strong to the downside",
+            "Do not buy blindly; wait for trend reversal confirmation"
+          ],
+          [
+            "Below 30",
+            "Uptrend pullback",
+            "Likely oversold bounce coming",
+            "Look for bullish candle and support confluence to enter long"
+          ],
+          [
+            "40-50",
+            "Uptrend",
+            "Healthy pullback; trend intact",
+            "Buy the dip with stop below the swing low"
+          ],
+          [
+            "Above 70",
+            "Strong uptrend",
+            "Momentum is strong; overbought is normal",
+            "Hold positions; do not short just because RSI is high"
+          ],
+          [
+            "Above 70",
+            "Extended rally after long base",
+            "Potential exhaustion",
+            "Tighten stops and watch for bearish divergence"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for RSI",
+        "content": "Adjust RSI settings based on your trading timeframe. The default 14-period works well for daily charts. Shorter-term traders often use RSI(7) for more responsive signals, while position traders may prefer RSI(21) for smoother readings. Also consider using RSI on multiple timeframes simultaneously. If the weekly RSI is above 50 (bullish trend) and the daily RSI just bounced from 30, that is a much higher-probability long entry than a daily RSI bounce in a weekly downtrend."
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 5
+  },
+  {
+    "id": "macd-indicator",
+    "title": "MACD — Trend & Momentum",
+    "category": "technical-analysis",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 80,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The MACD Explained</h3><p>MACD (Moving Average Convergence Divergence) is both a trend and momentum indicator. It shows the relationship between two EMAs.</p><ul><li><strong>MACD Line</strong> = 12-period EMA minus 26-period EMA</li><li><strong>Signal Line</strong> = 9-period EMA of the MACD Line</li><li><strong>Histogram</strong> = MACD Line minus Signal Line</li></ul>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "AMZN",
+          "title": "Amazon (AMZN) — MACD Analysis",
+          "description": "MACD subplot: blue=MACD line, orange=signal, green/red bars=histogram. Crossovers generate signals.",
+          "indicators": [
+            "macd"
+          ],
+          "showMACD": true
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "MACD Signals",
+        "content": "<strong>Bullish crossover</strong>: MACD crosses ABOVE signal line — buy signal. <strong>Bearish crossover</strong>: MACD crosses BELOW signal line — sell signal. <strong>Histogram growing</strong>: Momentum increasing. <strong>Histogram shrinking</strong>: Momentum fading (early warning)."
+      },
+      {
+        "type": "text",
+        "content": "<h3>MACD vs RSI</h3><p>RSI measures <em>how fast</em> price is moving. MACD measures <em>trend direction</em> and momentum. They complement each other. Use MACD for trend and crossover signals. Use RSI for overbought/oversold extremes. When both agree (MACD bullish cross + RSI bouncing from 30), the signal is stronger.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes with MACD</h3><ul><li><strong>Trading every crossover</strong> — In choppy, sideways markets, MACD will produce numerous crossovers that lead to whipsaw losses. Only trade MACD crossovers when the stock is trending. If the MACD line is hovering near zero and crossing back and forth, the market is range-bound and MACD signals are unreliable.</li><li><strong>Ignoring the histogram</strong> — Many traders only watch for crossovers and miss the histogram, which is actually the earliest warning signal. When the histogram starts shrinking, momentum is fading even before the crossover happens. This gives you a head start on exits.</li><li><strong>Using default settings blindly</strong> — The standard 12/26/9 settings work well for daily charts, but they lag on shorter timeframes. Day traders sometimes use 3/10/16 for faster signals. Test different settings on your specific timeframe before committing real capital.</li></ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Indicator",
+          "Type",
+          "Best For",
+          "Weakness"
+        ],
+        "rows": [
+          [
+            "MACD",
+            "Trend and momentum",
+            "Identifying trend direction and crossover entries",
+            "Lags in fast markets; generates false signals in ranges"
+          ],
+          [
+            "RSI",
+            "Momentum oscillator",
+            "Identifying overbought/oversold extremes and divergences",
+            "Can stay overbought/oversold for extended periods in strong trends"
+          ],
+          [
+            "Bollinger Bands",
+            "Volatility",
+            "Identifying squeezes, mean reversion, and band walks",
+            "Does not indicate direction; requires context for interpretation"
+          ],
+          [
+            "Moving Averages",
+            "Trend",
+            "Defining trend direction and dynamic support/resistance",
+            "Lagging indicator; slow to react to sudden reversals"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for MACD",
+        "content": "The most powerful MACD signal is divergence combined with a crossover. If the stock makes a new high but MACD makes a lower high (bearish divergence), and then MACD crosses below its signal line, that is a high-probability sell signal. The divergence shows weakening momentum and the crossover confirms the shift. Also look at where the crossover occurs relative to the zero line. A bullish crossover above zero is a continuation signal in an uptrend. A bullish crossover below zero is a potential trend reversal — higher reward but also higher risk."
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 6
+  },
+  {
+    "id": "bollinger-bands",
+    "title": "Bollinger Bands",
+    "category": "technical-analysis",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 80,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Volatility Envelope</h3><p>Bollinger Bands consist of three lines plotted on a price chart:</p><ul><li><strong>Middle Band</strong> = 20-period SMA</li><li><strong>Upper Band</strong> = Middle + 2 standard deviations</li><li><strong>Lower Band</strong> = Middle - 2 standard deviations</li></ul><p>About 95% of price action falls within the bands. When bands are wide, volatility is high. When bands are narrow, volatility is low.</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "SPY",
+          "title": "S&P 500 (SPY) — Bollinger Bands",
+          "description": "Watch for band squeezes (narrow bands) which often precede big moves. Price touching the upper band is not automatically a sell signal."
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "The Bollinger Squeeze",
+        "content": "When the bands contract to their narrowest width in months, it signals a <strong>squeeze</strong> — a period of low volatility that typically precedes a large move. The direction of the breakout determines the trade. Combine with volume for confirmation."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Trading with Bollinger Bands</h3><p><strong>Mean Reversion</strong>: In sideways markets, price tends to bounce between the bands. Buy near the lower band, sell near the upper band.</p><p><strong>Trend Following</strong>: In strong trends, price \"rides\" the upper band (uptrend) or lower band (downtrend). This is called a Bollinger Band walk and is NOT a reversal signal.</p><p><strong>%B Indicator</strong>: Measures where price is relative to the bands. %B = (Price - Lower Band) / (Upper - Lower). Above 1 = above upper band. Below 0 = below lower band.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes with Bollinger Bands</h3><ul><li><strong>Selling every touch of the upper band</strong> — In a strong uptrend, price can \"walk\" along the upper band for weeks. Selling at the upper band in a trend means you are shorting a strong stock. Only use band touches as reversal signals in range-bound markets.</li><li><strong>Ignoring the bandwidth</strong> — The distance between the bands (bandwidth) tells you about volatility. Narrow bands mean low volatility and a big move is coming. Wide bands mean high volatility that may be peaking. Many traders watch for squeezes but forget to monitor when bands are abnormally wide, which often precedes a return to the mean.</li><li><strong>Using bands in isolation</strong> — A touch of the lower band is more significant if it occurs at a known support level and RSI is oversold. Without confirming signals, band touches alone have a poor win rate.</li></ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for Bollinger Bands",
+        "content": "One of the most reliable Bollinger Band setups is the \"squeeze breakout.\" When the bands contract to their narrowest point in at least 6 months, mark the upper and lower bands. Place a buy-stop above the upper band and a sell-stop below the lower band, then let the market tell you the direction. Cancel the unfilled order once one side triggers. Combine this with volume — a squeeze breakout on high volume is much more trustworthy. Also experiment with different settings: 20-period / 2 standard deviations is the default, but some traders use 10-period / 1.5 deviations for shorter-term trading or 50-period / 2.5 deviations for a broader view."
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 7
+  },
+  {
+    "id": "fibonacci-retracements",
+    "title": "Fibonacci Retracements",
+    "category": "technical-analysis",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 85,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The Golden Ratio in Markets</h3><p>Fibonacci retracements are horizontal lines that indicate where support and resistance are likely to occur. They are based on the Fibonacci sequence and the golden ratio (1.618).</p><p>Key Fibonacci levels:</p><ul><li><strong>23.6%</strong> — Shallow retracement (strong trend)</li><li><strong>38.2%</strong> — Moderate pullback</li><li><strong>50.0%</strong> — Not a Fibonacci number, but widely watched</li><li><strong>61.8%</strong> — The golden ratio. Most important level</li><li><strong>78.6%</strong> — Deep retracement (trend may be weakening)</li></ul>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "NVDA",
+          "title": "NVIDIA (NVDA) — Fibonacci Levels",
+          "description": "In a strong uptrend, pullbacks often find support near the 38.2% or 61.8% retracement levels. These levels act as natural support zones."
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Confluence is Power",
+        "content": "A Fibonacci level alone is moderately useful. But when it aligns with other factors — a moving average, a support level, a round number, or high volume — it becomes very powerful. This alignment is called <strong>confluence</strong>. Always look for 2+ factors agreeing at the same price."
+      },
+      {
+        "type": "text",
+        "content": "<h3>How to Draw Fibonacci Retracements</h3><p>For an <strong>uptrend</strong>: Draw from the swing low to the swing high. The retracement levels show where pullbacks may find support.</p><p>For a <strong>downtrend</strong>: Draw from the swing high to the swing low. The levels show where bounces may find resistance.</p><p>Fibonacci extensions (127.2%, 161.8%) can project profit targets beyond the original move.</p>"
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 8
+  },
+  {
+    "id": "chart-patterns",
+    "title": "Chart Patterns",
+    "category": "technical-analysis",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 15,
+    "xpReward": 85,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Reversal Patterns</h3><p>These patterns signal that the current trend is about to reverse:</p><ul><li><strong>Head and Shoulders</strong> — Three peaks: middle (head) is highest. Neckline connects the troughs. Break below neckline confirms bearish reversal. Measured move = head-to-neckline distance.</li><li><strong>Inverse Head and Shoulders</strong> — Mirror image. Three troughs with middle lowest. Breakout above neckline signals bullish reversal.</li><li><strong>Double Top</strong> — M-shape. Price hits resistance twice and fails. Break below support between peaks confirms.</li><li><strong>Double Bottom</strong> — W-shape. Price hits support twice and bounces. Break above resistance confirms bullish reversal.</li></ul>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Continuation Patterns</h3><p>These signal a pause in the trend before it continues:</p><ul><li><strong>Ascending Triangle</strong> — Flat resistance + rising support (higher lows). Usually breaks up. Volume decreases during formation.</li><li><strong>Descending Triangle</strong> — Flat support + falling resistance (lower highs). Usually breaks down.</li><li><strong>Symmetrical Triangle</strong> — Converging trendlines. Can break either way — wait for confirmation with volume.</li><li><strong>Bull Flag</strong> — Sharp rally (pole) + small downward channel (flag). Breakout continues uptrend.</li><li><strong>Cup and Handle</strong> — U-shaped recovery (cup) + small pullback (handle). Breakout above handle is the entry.</li></ul>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "MSFT",
+          "title": "Microsoft (MSFT) — Spot the Patterns",
+          "description": "Look for consolidation areas where price forms recognizable shapes. Volume typically decreases during pattern formation and spikes on breakout."
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Measured Moves",
+        "content": "Most chart patterns have a <strong>measured move</strong> — a projected price target based on the pattern height. For a double bottom at $100 with resistance at $110, the target is $120 ($10 above the breakout). This gives you a profit target for position management."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Pattern Trading Rules</h3><ol><li>Wait for <strong>confirmation</strong> — a breakout with volume, not just a pattern forming.</li><li>Set stops below the pattern's key level (neckline, support, etc.).</li><li>Use the measured move for your profit target.</li><li>Higher timeframe patterns are more reliable than lower timeframe ones.</li><li>Not every pattern works — manage risk with proper position sizing.</li></ol>"
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 9
+  },
+  {
+    "id": "candlestick-patterns",
+    "title": "Candlestick Patterns",
+    "category": "technical-analysis",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 85,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Single-Candle Patterns</h3><ul><li><strong>Doji</strong> — Open and close are nearly equal (tiny body, long wicks). Signals indecision. At the end of a trend, it can signal reversal.</li><li><strong>Hammer</strong> — Small body at top, long lower wick (2x+ body length). Appears after a downtrend. Signals bullish reversal — sellers pushed price down but buyers fought back.</li><li><strong>Inverted Hammer</strong> — Small body at bottom, long upper wick. After a downtrend, signals potential bullish reversal.</li><li><strong>Shooting Star</strong> — Like an inverted hammer but after an uptrend. Long upper wick shows buyers tried to push higher but sellers took over. Bearish signal.</li></ul>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Multi-Candle Patterns</h3><ul><li><strong>Bullish Engulfing</strong> — Small red candle followed by a larger green candle that completely engulfs it. Strong bullish reversal signal after a downtrend.</li><li><strong>Bearish Engulfing</strong> — Small green candle followed by a larger red candle. Strong bearish reversal after an uptrend.</li><li><strong>Morning Star</strong> — Three candles: (1) large red, (2) small body (gap down), (3) large green closing above midpoint of candle 1. Bullish reversal.</li><li><strong>Evening Star</strong> — Opposite of morning star. Three candles signaling bearish reversal.</li><li><strong>Three White Soldiers</strong> — Three consecutive large green candles. Strong bullish signal.</li><li><strong>Three Black Crows</strong> — Three consecutive large red candles. Strong bearish signal.</li></ul>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "TSLA",
+          "title": "Tesla (TSLA) — Candlestick Patterns",
+          "description": "Tesla is volatile enough to produce many candlestick patterns. Look for hammers at lows, shooting stars at highs, and engulfing patterns at turning points."
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Context is Everything",
+        "content": "A hammer at a key support level after a 10% decline is a strong buy signal. The same hammer in the middle of a range means nothing. Always evaluate candlestick patterns in context — where they appear on the chart matters more than the pattern itself."
+      }
+    ],
+    "track": "technical-analysis",
+    "order": 10
+  },
+  {
+    "id": "order-types",
+    "title": "Order Types",
+    "category": "trading-skills",
+    "difficulty": "beginner",
+    "estimatedMinutes": 10,
+    "xpReward": 60,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>How Orders Work</h3><p>An order is an instruction to your broker to buy or sell a security. Different order types give you control over the price and timing of your trades.</p><p>Choosing the right order type is crucial. A market order in a volatile, illiquid stock can result in terrible fills. A limit order too far from the current price may never execute.</p>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Order Type",
+          "Execution",
+          "Price Control",
+          "Best For"
+        ],
+        "rows": [
+          [
+            "Market",
+            "Immediate (guaranteed fill)",
+            "None — you get whatever price is available",
+            "Liquid stocks when you need in/out NOW"
+          ],
+          [
+            "Limit",
+            "Only at your price or better",
+            "Full control",
+            "Getting a specific entry/exit price"
+          ],
+          [
+            "Stop",
+            "Becomes market order when stop price hit",
+            "None after triggered",
+            "Protecting profits / limiting losses"
+          ],
+          [
+            "Stop-Limit",
+            "Becomes limit order when stop price hit",
+            "Control after triggered",
+            "Protection with price guarantee (but may not fill)"
+          ],
+          [
+            "Trailing Stop",
+            "Follows price by fixed amount/percentage",
+            "Adjusts automatically",
+            "Locking in profits as price moves in your favor"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Slippage",
+        "content": "Slippage is the difference between the price you expected and the price you actually got. Market orders in volatile or low-volume stocks can experience significant slippage. Use limit orders for illiquid stocks or during high-volatility events like earnings."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Time-in-Force</h3><p>Orders also have a duration:</p><ul><li><strong>Day Order</strong> — Expires at market close if not filled</li><li><strong>GTC (Good Til Cancelled)</strong> — Stays active until filled or you cancel (usually up to 90 days)</li><li><strong>IOC (Immediate or Cancel)</strong> — Fill what you can immediately, cancel the rest</li><li><strong>FOK (Fill or Kill)</strong> — Fill the entire order immediately or cancel everything</li></ul>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes with Order Types</h3><ul><li><strong>Using market orders on illiquid stocks</strong> — A market order on a stock with a $0.50 spread can cost you significantly more than expected. If the stock trades 50,000 shares a day, a market order for 5,000 shares will chew through multiple price levels. Always use limit orders on low-volume names.</li><li><strong>Setting stops at obvious levels</strong> — If a stock has clear support at $100, thousands of traders have stops at $99.90. Market makers and algorithms know this. The stock dips to $99.85, triggers all the stops, and then reverses higher. Place stops slightly below the obvious level or use a closing-price stop instead.</li><li><strong>Forgetting about GTC orders</strong> — Traders place GTC limit orders and forget about them. Weeks later, the market context has changed but the old order fills at a price that no longer makes sense. Review your open orders at least weekly.</li><li><strong>Not using bracket orders</strong> — Most brokers support OCO (One Cancels Other) or bracket orders that attach a profit target and stop loss to your entry. This automates your exits and removes emotion from the equation. Use them on every trade.</li></ul>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>How a Real Trader Chooses Order Types</h3><p>Here is how an experienced swing trader might handle a typical setup. They spot MSFT breaking out above resistance at $420 on strong volume. Instead of chasing with a market order, they place a limit buy at $421 — slightly above the breakout level to confirm the break is real, but still a controlled entry price.</p><p>Simultaneously, they set up a bracket order: a stop loss at $412 (below the previous resistance, now support) and a limit sell at $440 (their profit target based on the measured move). If MSFT hits $440 first, the profit target fills and the stop is automatically cancelled. If MSFT drops to $412, the stop triggers and the profit target is cancelled.</p><p>This approach means the trader defines their entire risk and reward before the trade begins. No emotional decisions, no watching the screen all day, and no scrambling to exit when things move fast.</p>"
+      }
+    ],
+    "track": "risk-management",
+    "order": 11
+  },
+  {
+    "id": "risk-management",
+    "title": "Risk Management & Position Sizing",
+    "category": "trading-skills",
+    "difficulty": "beginner",
+    "estimatedMinutes": 12,
+    "xpReward": 75,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The Most Important Skill in Trading</h3><p>Risk management is what separates profitable traders from those who blow up their accounts. You can have a 40% win rate and still be profitable if your winners are bigger than your losers.</p><p>The golden rules:</p><ul><li><strong>Never risk more than 1-2% of your account on a single trade</strong></li><li><strong>Always know your exit before you enter</strong></li><li><strong>Never let a winner turn into a loser</strong></li></ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Position Sizing Formula",
+        "content": "<strong>Shares = (Account Size x Risk %) / (Entry Price - Stop Loss Price)</strong><br><br>Example: $100,000 account, risking 1%, entry at $150, stop at $145.<br>Shares = ($100,000 x 0.01) / ($150 - $145) = $1,000 / $5 = 200 shares.<br>Total position = $30,000 (30% of account), but risk is only $1,000 (1%)."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Risk/Reward Ratio</h3><p>Before every trade, calculate your risk/reward ratio:</p><p><strong>R:R = (Target Price - Entry) / (Entry - Stop Loss)</strong></p><p>Aim for at least 2:1. This means risking $1 to make $2. With a 2:1 ratio, you only need to be right 34% of the time to break even.</p><ul><li>1:1 R:R — Need 50%+ win rate (breakeven)</li><li>2:1 R:R — Need 34%+ win rate (profitable)</li><li>3:1 R:R — Need 25%+ win rate (highly profitable)</li></ul>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Stop Loss Placement</h3><p>Place stops at levels that invalidate your trade thesis:</p><ul><li>Below a key support level (for long trades)</li><li>Below the most recent swing low</li><li>Below a moving average</li><li>A fixed percentage (e.g., 5-8% below entry)</li></ul><p><strong>Never move your stop further away from your entry.</strong> If you are wrong, accept the loss. Moving stops to avoid being stopped out leads to catastrophic losses.</p>"
+      }
+    ],
+    "track": "risk-management",
+    "order": 12
+  },
+  {
+    "id": "fundamental-analysis",
+    "title": "Fundamental Analysis",
+    "category": "fundamentals",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 15,
+    "xpReward": 80,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Valuing a Company</h3><p>Fundamental analysis evaluates a stock by examining the underlying business. While technical analysis looks at price and volume, fundamental analysis looks at financial statements, competitive position, and growth prospects.</p><p>Key financial statements: <strong>Income Statement</strong> (revenue, expenses, profit), <strong>Balance Sheet</strong> (assets, liabilities, equity), <strong>Cash Flow Statement</strong> (actual cash generated).</p>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Metric",
+          "Formula",
+          "What It Tells You"
+        ],
+        "rows": [
+          [
+            "P/E Ratio",
+            "Stock Price / Earnings Per Share",
+            "How much you pay per dollar of earnings. Lower = cheaper (generally)"
+          ],
+          [
+            "EPS",
+            "Net Income / Shares Outstanding",
+            "Profit per share. Growth over time is key"
+          ],
+          [
+            "P/S Ratio",
+            "Market Cap / Revenue",
+            "Useful for unprofitable companies (no earnings to use P/E)"
+          ],
+          [
+            "PEG Ratio",
+            "P/E / Earnings Growth Rate",
+            "P/E adjusted for growth. PEG < 1 = potentially undervalued"
+          ],
+          [
+            "ROE",
+            "Net Income / Shareholders Equity",
+            "How efficiently company uses equity. Higher = better"
+          ],
+          [
+            "Free Cash Flow",
+            "Operating Cash - CapEx",
+            "Actual cash generated. More reliable than earnings"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Growth vs Value",
+        "content": "<strong>Growth stocks</strong> trade at high P/E ratios because investors expect rapid earnings growth (NVDA, TSLA). <strong>Value stocks</strong> trade at low P/E ratios, often mature companies with dividends (JNJ, KO). Neither approach is inherently better — it depends on market conditions and your risk tolerance."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Reading an Earnings Report</h3><p>Every quarter, public companies report earnings. Key things to watch:</p><ul><li><strong>Revenue beat/miss</strong> — Did they sell more than expected?</li><li><strong>EPS beat/miss</strong> — Did they earn more per share than expected?</li><li><strong>Guidance</strong> — What does management expect for next quarter? This often moves the stock more than the actual numbers.</li><li><strong>Margins</strong> — Are profit margins expanding or shrinking?</li></ul><p>A company can beat on earnings and still drop if guidance disappoints. Always listen to the earnings call.</p>"
+      }
+    ],
+    "track": "stock-markets",
+    "order": 13
+  },
+  {
+    "id": "sector-analysis",
+    "title": "Sector Analysis & Correlation",
+    "category": "fundamentals",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 75,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The 11 GICS Sectors</h3><p>The stock market is divided into 11 sectors (Global Industry Classification Standard):</p><ol><li>Technology (XLK)</li><li>Healthcare (XLV)</li><li>Financials (XLF)</li><li>Consumer Discretionary (XLY)</li><li>Communication Services (XLC)</li><li>Industrials (XLI)</li><li>Consumer Staples (XLP)</li><li>Energy (XLE)</li><li>Utilities (XLU)</li><li>Real Estate (XLRE)</li><li>Materials (XLB)</li></ol><p>Each sector has an ETF that tracks it. Understanding sector rotation helps you identify where money is flowing.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Sector Rotation",
+        "content": "Different sectors lead at different points in the economic cycle. <strong>Early recovery</strong>: Financials, Consumer Discretionary. <strong>Mid-cycle</strong>: Technology, Industrials. <strong>Late cycle</strong>: Energy, Materials. <strong>Recession</strong>: Utilities, Healthcare, Consumer Staples (defensive sectors)."
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "SPY",
+          "title": "S&P 500 (SPY) — Market Benchmark",
+          "description": "SPY represents the overall market. Compare individual stock performance against SPY to see if a stock is outperforming or underperforming the market."
+        }
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Type",
+          "Sectors",
+          "When They Lead",
+          "Characteristics"
+        ],
+        "rows": [
+          [
+            "Cyclical",
+            "Tech, Financials, Consumer Disc.",
+            "Economic expansion",
+            "Higher beta, more volatile"
+          ],
+          [
+            "Defensive",
+            "Utilities, Healthcare, Staples",
+            "Recession / uncertainty",
+            "Lower beta, dividends, stable"
+          ]
+        ]
+      }
+    ],
+    "track": "stock-markets",
+    "order": 14
+  },
+  {
+    "id": "market-microstructure",
+    "title": "Market Microstructure",
+    "category": "trading-skills",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 80,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>How Markets Actually Work</h3><p>Behind every trade is a complex system of market makers, exchanges, and electronic matching engines.</p><ul><li><strong>Bid</strong> — The highest price a buyer will pay</li><li><strong>Ask (Offer)</strong> — The lowest price a seller will accept</li><li><strong>Spread</strong> — The difference between bid and ask. Tighter spread = more liquid</li></ul><p>AAPL might have a spread of $0.01 (very liquid). A small-cap stock might have a spread of $0.10-$0.50 (illiquid). The spread is a hidden cost of trading.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Market Makers",
+        "content": "Market makers are firms that provide liquidity by continuously quoting bid and ask prices. They profit from the spread. Major market makers: Citadel Securities, Virtu Financial, GTS. They ensure you can always buy or sell, but they also see order flow, which gives them an information advantage."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Order Book & Liquidity</h3><p>The order book shows all pending buy and sell orders at each price level. A \"thick\" order book with many orders means high liquidity — your large orders will not move the price much. A \"thin\" order book means even small orders can cause big price swings.</p><p><strong>Dark Pools</strong> are private exchanges where institutional investors trade large blocks without showing their orders to the public order book. About 40% of US equity volume trades in dark pools.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Payment for Order Flow (PFOF)</h3><p>Commission-free brokers like Robinhood make money by selling your orders to market makers (Citadel, Virtu). The market maker pays the broker a small fee and then fills your order, profiting from the spread. This is legal and common, but it means your orders may not always get the best possible price.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes Related to Market Microstructure</h3><ul><li><strong>Trading during the first and last 15 minutes blindly</strong> — The open and close are the most volatile periods. Spreads can widen dramatically, and large institutional orders can cause rapid price swings. Unless you have a specific strategy designed for these windows, consider waiting until 10:00 AM ET for conditions to stabilize.</li><li><strong>Ignoring the bid-ask spread as a cost</strong> — If you buy at the ask and immediately sell at the bid, you lose the spread. On a stock with a $0.05 spread, that is negligible. On an illiquid option with a $0.30 spread, you are starting every trade down $30 per contract. Always factor the spread into your expected return.</li><li><strong>Not understanding the difference between displayed and hidden liquidity</strong> — The order book you see on Level 2 quotes is only part of the picture. Iceberg orders show only a fraction of their true size, and dark pool volume does not appear at all. A \"thin\" order book does not always mean low liquidity.</li></ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Venue",
+          "Visibility",
+          "Typical Users",
+          "Percentage of US Equity Volume"
+        ],
+        "rows": [
+          [
+            "NYSE / NASDAQ (lit exchanges)",
+            "Fully visible order book",
+            "All market participants",
+            "Approximately 55-60%"
+          ],
+          [
+            "Dark Pools",
+            "Hidden; no pre-trade transparency",
+            "Institutional investors trading large blocks",
+            "Approximately 35-40%"
+          ],
+          [
+            "Internalization (PFOF)",
+            "Routed to market maker, not exchange",
+            "Retail brokers (Robinhood, Schwab, etc.)",
+            "Included in the above figures"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for Understanding Microstructure",
+        "content": "Pay attention to the time and sales tape (also called the \"tape\" or \"prints\"). It shows every executed trade with its price, size, and timestamp. Large prints at the ask price indicate aggressive buying. Large prints at the bid indicate aggressive selling. A series of large prints at the ask on rising volume often precedes a significant move up. Learning to read the tape takes practice but gives you an edge that chart patterns alone cannot provide."
+      }
+    ],
+    "track": "risk-management",
+    "order": 15
+  },
+  {
+    "id": "trading-psychology",
+    "title": "Trading Psychology",
+    "category": "trading-skills",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 85,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Your Biggest Enemy is You</h3><p>Most traders fail not because of bad strategy, but because of bad psychology. The same cognitive biases that help us in daily life destroy us in markets.</p><ul><li><strong>Loss Aversion</strong> — Losses hurt 2x more than equivalent gains feel good. This causes traders to hold losers too long (hoping for recovery) and cut winners too early (locking in gains).</li><li><strong>Confirmation Bias</strong> — Seeking information that confirms your existing view. If you are long TSLA, you will unconsciously ignore bearish signals.</li><li><strong>Anchoring</strong> — Fixating on a specific price. \"I will sell when it gets back to my entry\" is anchoring, not strategy.</li><li><strong>Recency Bias</strong> — Overweighting recent events. Three wins in a row makes you overconfident. Three losses makes you afraid.</li></ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "FOMO and Revenge Trading",
+        "content": "<strong>FOMO (Fear of Missing Out)</strong> makes you chase trades after they have already moved. You enter late, buy at the top, and panic sell at the bottom. <strong>Revenge trading</strong> is trying to \"make back\" losses by taking bigger, riskier trades. Both destroy accounts. The solution: have a written trading plan and follow it mechanically."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Building Discipline</h3><ol><li><strong>Write a trading plan</strong> — Entry criteria, exit criteria, position size. Follow it every trade.</li><li><strong>Journal every trade</strong> — What you traded, why, what happened, what you felt. Review weekly.</li><li><strong>Accept losses</strong> — Losses are the cost of doing business. A 1% loss on a bad trade is a successful execution of risk management.</li><li><strong>Take breaks</strong> — After 2-3 consecutive losses, step away. Emotional trading leads to more losses.</li><li><strong>Focus on process, not P&L</strong> — If you follow your rules, the money follows. Obsessing over daily P&L creates emotional decisions.</li></ol>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>The Emotional Cycle of Trading</h3><p>Every trader goes through this cycle: <strong>Optimism</strong> (entering a trade) > <strong>Excitement</strong> (it is working) > <strong>Euphoria</strong> (this is easy!) > <strong>Anxiety</strong> (starting to reverse) > <strong>Denial</strong> (it will come back) > <strong>Fear</strong> (this is bad) > <strong>Panic</strong> (selling at the worst time) > <strong>Depression</strong> (why did I do this).</p><p>Recognizing where you are in this cycle helps you make rational decisions instead of emotional ones.</p>"
+      }
+    ],
+    "track": "risk-management",
+    "order": 16
+  },
+  {
+    "id": "backtesting-strategies",
+    "title": "Backtesting & Strategy Development",
+    "category": "trading-skills",
+    "difficulty": "advanced",
+    "estimatedMinutes": 15,
+    "xpReward": 90,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Test Before You Trade</h3><p>Backtesting is applying a trading strategy to historical data to see how it would have performed. It answers: \"If I had traded this strategy over the past 5 years, would I have made money?\"</p><p>Steps: (1) Define precise entry/exit rules, (2) Apply to historical data, (3) Measure performance metrics, (4) Validate with out-of-sample data, (5) Paper trade before going live.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Overfitting: The Silent Killer",
+        "content": "Overfitting occurs when your strategy is too perfectly tuned to past data. A strategy with 20 parameters that shows 90% returns is almost certainly overfit — it found noise, not signal. It will fail in live trading. Simple strategies with 2-3 rules that work across multiple markets and timeframes are far more robust."
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Metric",
+          "Formula",
+          "Good Target"
+        ],
+        "rows": [
+          [
+            "Sharpe Ratio",
+            "(Return - Risk-Free Rate) / Std Dev",
+            "> 1.0 (> 2.0 excellent)"
+          ],
+          [
+            "Max Drawdown",
+            "Peak-to-Trough decline",
+            "< 20%"
+          ],
+          [
+            "Win Rate",
+            "Winning Trades / Total Trades",
+            "> 40% (with good R:R)"
+          ],
+          [
+            "Profit Factor",
+            "Gross Profit / Gross Loss",
+            "> 1.5"
+          ],
+          [
+            "Average R:R",
+            "Avg Win / Avg Loss",
+            "> 2.0"
+          ],
+          [
+            "Expectancy",
+            "(Win% x Avg Win) - (Loss% x Avg Loss)",
+            "> 0 (positive)"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "content": "<h3>Walk-Forward Analysis</h3><p>The gold standard for strategy validation. Split your data into in-sample (optimization) and out-of-sample (validation) windows. Optimize on the first window, test on the next, then roll forward. If the strategy performs well out-of-sample across multiple windows, it is likely robust, not overfit.</p><p>Remember: Past performance does not guarantee future results. Markets change. A strategy that worked for 10 years can stop working when market conditions shift. Always monitor your live strategy performance against its historical expectations.</p>"
+      }
+    ],
+    "track": "risk-management",
+    "order": 17
+  },
+  {
+    "id": "portfolio-construction",
+    "title": "Portfolio Construction & Diversification",
+    "category": "trading-skills",
+    "difficulty": "advanced",
+    "estimatedMinutes": 15,
+    "xpReward": 90,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Building a Portfolio</h3><p>A portfolio is not just a collection of stocks — it is a risk management system. The goal is to maximize returns for a given level of risk.</p><p>Key principles:</p><ul><li><strong>Diversification</strong> — Do not put all eggs in one basket. Spread across sectors, asset classes, and geographies.</li><li><strong>Asset Allocation</strong> — The split between stocks, bonds, cash, and alternatives. This single decision drives 90%+ of long-term returns.</li><li><strong>Correlation</strong> — Adding assets that do not move together reduces portfolio volatility without reducing expected returns.</li></ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Modern Portfolio Theory",
+        "content": "Harry Markowitz showed that you can build an <strong>efficient frontier</strong> — the set of portfolios with the highest return for each level of risk. The key insight: adding a volatile but uncorrelated asset can actually REDUCE portfolio risk. This is why even conservative portfolios often include some international stocks or commodities."
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Approach",
+          "Description",
+          "Pros",
+          "Cons"
+        ],
+        "rows": [
+          [
+            "Core-Satellite",
+            "Core = index funds (70-80%), Satellite = individual picks (20-30%)",
+            "Low cost, diversified base, room for alpha",
+            "Requires stock-picking skill for satellite"
+          ],
+          [
+            "Equal Weight",
+            "Equal allocation to each position",
+            "Simple, avoids concentration",
+            "Ignores conviction levels"
+          ],
+          [
+            "Risk Parity",
+            "Allocate based on risk contribution, not capital",
+            "Balanced risk exposure",
+            "Complex, may over-allocate to bonds"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "content": "<h3>Rebalancing</h3><p>Over time, winners grow and losers shrink, causing your portfolio to drift from target allocations. Rebalancing brings it back in line.</p><p>Two approaches: <strong>Calendar</strong> (rebalance quarterly or annually) or <strong>Threshold</strong> (rebalance when any position drifts 5%+ from target). Rebalancing forces you to sell high and buy low — a mechanical discipline that improves long-term returns.</p>"
+      }
+    ],
+    "track": "risk-management",
+    "order": 18
+  },
+  {
+    "id": "tax-regulatory",
+    "title": "Tax & Regulatory Basics",
+    "category": "fundamentals",
+    "difficulty": "advanced",
+    "estimatedMinutes": 10,
+    "xpReward": 80,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Taxes on Trading</h3><p>Trading profits are taxable. Understanding the rules can save you thousands:</p><ul><li><strong>Short-Term Capital Gains</strong> — Positions held less than 1 year. Taxed as ordinary income (up to 37%).</li><li><strong>Long-Term Capital Gains</strong> — Positions held more than 1 year. Taxed at 0%, 15%, or 20% depending on income.</li></ul><p>This means a $10,000 profit on a day trade could cost you $3,700 in taxes, while the same profit on a stock held for 13 months might only cost $1,500. Time horizon matters enormously for after-tax returns.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "The Wash Sale Rule",
+        "content": "You cannot claim a tax loss if you buy the same or \"substantially identical\" security within 30 days before or after the sale. Example: You sell AAPL at a loss on Dec 15, then buy AAPL back on Jan 5. The loss is <strong>disallowed</strong>. The 30-day window applies in both directions. This rule prevents people from selling for a tax deduction and immediately buying back."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Pattern Day Trader (PDT) Rule</h3><p>If you execute 4 or more day trades within 5 business days in a margin account, you are classified as a Pattern Day Trader. You must maintain a minimum equity of <strong>$25,000</strong> in your account.</p><p>If you fall below $25K, your account is restricted to closing trades only until you deposit more funds. Workarounds: use a cash account (no PDT rule but requires settled funds), or keep multiple broker accounts.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Tax-Loss Harvesting</h3><p>Tax-loss harvesting is selling losing positions to offset gains. If you have $5,000 in gains and $3,000 in losses, you only pay tax on $2,000 net gain. You can deduct up to $3,000 of net losses against ordinary income per year, and carry forward unused losses indefinitely.</p><p><strong>Strategy</strong>: In December, review your portfolio for positions with unrealized losses. Sell them to harvest the tax benefit. Wait 31 days (wash sale rule), then repurchase if you still want the position. In the meantime, you can buy a similar (but not identical) ETF to maintain exposure.</p>"
+      }
+    ],
+    "track": "stock-markets",
+    "order": 19
+  },
+  {
+    "id": "what-are-options",
+    "title": "What Are Options?",
+    "category": "options-basics",
+    "difficulty": "beginner",
+    "estimatedMinutes": 10,
+    "xpReward": 50,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Calls and Puts: The Two Building Blocks</h3>\n<p>An option is a contract that gives you the <strong>right, but not the obligation</strong>, to buy or sell a stock at a specific price (the <em>strike price</em>) before a specific date (the <em>expiration date</em>).</p>\n<ul>\n  <li><strong>Call Option</strong> &mdash; gives you the right to <em>buy</em> 100 shares at the strike price.</li>\n  <li><strong>Put Option</strong> &mdash; gives you the right to <em>sell</em> 100 shares at the strike price.</li>\n</ul>\n<p>Every single options contract controls <strong>100 shares</strong> of the underlying stock. When you see a premium quoted at $3.00, the actual cost is $3.00 x 100 = <strong>$300</strong>.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Right vs. Obligation",
+        "content": "Option buyers pay a premium and receive the RIGHT to act. Option sellers collect a premium and take on the OBLIGATION to fulfill the contract if the buyer exercises. This asymmetry is the foundation of all options trading."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Why Trade Options?</h3>\n<ol>\n  <li><strong>Leverage</strong> &mdash; Control 100 shares of a $180 stock ($18,000) for a fraction of the cost. A $5 call costs only $500.</li>\n  <li><strong>Defined Risk</strong> &mdash; When buying options, your maximum loss is the premium you paid. No margin calls, no surprises.</li>\n  <li><strong>Flexibility</strong> &mdash; Profit in up, down, or sideways markets depending on your strategy.</li>\n  <li><strong>Income Generation</strong> &mdash; Sell options to collect premium and generate consistent income on stocks you own.</li>\n</ol>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "",
+          "Buying 100 Shares of AAPL at $180",
+          "Buying 1 AAPL $180 Call at $5"
+        ],
+        "rows": [
+          [
+            "Capital Required",
+            "$18,000",
+            "$500"
+          ],
+          [
+            "Max Loss",
+            "$18,000 (stock goes to $0)",
+            "$500 (premium paid)"
+          ],
+          [
+            "If AAPL rises to $200",
+            "Profit: $2,000 (11.1%)",
+            "Profit: $1,500 (300%)"
+          ],
+          [
+            "If AAPL drops to $160",
+            "Loss: $2,000 (11.1%)",
+            "Loss: $500 (100%)"
+          ],
+          [
+            "Time Limit",
+            "None",
+            "Expires on expiration date"
+          ]
+        ]
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "AAPL",
+          "title": "AAPL Stock Price",
+          "description": "Observe how AAPL stock moves. Options derive their value from this underlying price action."
+        }
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Long Call — Your First Payoff Diagram",
+          "description": "This shows profit/loss at expiration. Above the breakeven point, profits are unlimited. Below it, you lose only the premium.",
+          "strategies": [
+            {
+              "type": "long-call",
+              "strike": 180,
+              "premium": 5
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Strike Price",
+              "min": 150,
+              "max": 210,
+              "default": 180,
+              "id": "strikePrice",
+              "step": 5
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes Beginners Make with Options</h3>\n<ul>\n  <li><strong>Buying far out-of-the-money options because they are \"cheap\"</strong> &mdash; A $0.10 call seems like a bargain, but its probability of expiring in the money might be 2%. Buying 50 of them is not a strategy, it is a lottery ticket. The vast majority expire worthless.</li>\n  <li><strong>Ignoring time decay</strong> &mdash; Options are wasting assets. Every day that passes, your option loses a small amount of value even if the stock does not move. Beginners often buy options with only a few days to expiration because they are cheap, then watch the premium evaporate.</li>\n  <li><strong>Not understanding that each contract controls 100 shares</strong> &mdash; Buying 10 contracts is not the same as buying 10 shares. Ten contracts control 1,000 shares. A $2 move in the stock can mean a $2,000 swing in your position.</li>\n  <li><strong>Confusing the premium with the strike price</strong> &mdash; The premium is what you pay for the option. The strike price is the price at which you can buy (call) or sell (put) the stock. These are two different numbers and both affect your breakeven.</li>\n</ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for Getting Started with Options",
+        "content": "Start by paper trading options for at least 2-4 weeks before risking real money. Focus on liquid, well-known stocks like AAPL, MSFT, or SPY where bid-ask spreads are tight. Buy options with at least 30-45 days to expiration to give your thesis time to play out without excessive time decay. And always know your maximum loss before entering a trade — with long options, that number is simply the premium you paid, which makes them a good starting point for beginners."
+      }
+    ],
+    "track": "options",
+    "order": 0
+  },
+  {
+    "id": "options-pricing-intrinsic-value",
+    "title": "Options Pricing & Intrinsic Value",
+    "category": "options-basics",
+    "difficulty": "beginner",
+    "estimatedMinutes": 10,
+    "xpReward": 55,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The Two Components of an Option's Price</h3>\n<p>Every option premium can be broken into two parts:</p>\n<p><strong>Premium = Intrinsic Value + Extrinsic Value (Time Value)</strong></p>\n<ul>\n  <li><strong>Intrinsic Value</strong> &mdash; The amount the option is \"in the money.\" This is real, tangible value you could capture right now by exercising.</li>\n  <li><strong>Extrinsic Value (Time Value)</strong> &mdash; The extra amount traders pay for the <em>possibility</em> that the option could become more valuable before expiration. This portion decays to zero by expiration.</li>\n</ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Intrinsic Value Formulas",
+        "content": "Call Intrinsic Value = max(Stock Price - Strike Price, 0). Put Intrinsic Value = max(Strike Price - Stock Price, 0). Intrinsic value can never be negative -- if the formula yields a negative number, intrinsic value is simply zero."
+      },
+      {
+        "type": "text",
+        "content": "<h3>In the Money, At the Money, Out of the Money</h3>\n<ul>\n  <li><strong>In the Money (ITM)</strong> &mdash; The option has intrinsic value. A $170 call on a $180 stock is $10 ITM.</li>\n  <li><strong>At the Money (ATM)</strong> &mdash; Strike price equals the current stock price. All value is extrinsic.</li>\n  <li><strong>Out of the Money (OTM)</strong> &mdash; The option has zero intrinsic value. A $190 call on a $180 stock is OTM.</li>\n</ul>\n<p>Example: AAPL is at $180. A $170 call is trading at $14.50.</p>\n<ul>\n  <li>Intrinsic value = $180 - $170 = <strong>$10.00</strong></li>\n  <li>Extrinsic value = $14.50 - $10.00 = <strong>$4.50</strong></li>\n</ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Factor",
+          "Effect on Call Price",
+          "Effect on Put Price"
+        ],
+        "rows": [
+          [
+            "Stock Price Rises",
+            "Increases",
+            "Decreases"
+          ],
+          [
+            "Stock Price Falls",
+            "Decreases",
+            "Increases"
+          ],
+          [
+            "More Time to Expiry",
+            "Increases",
+            "Increases"
+          ],
+          [
+            "Higher Implied Volatility",
+            "Increases",
+            "Increases"
+          ],
+          [
+            "Higher Strike Price",
+            "Decreases",
+            "Increases"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "content": "<h3>Time Decay: The Option Buyer's Enemy</h3>\n<p>Every day that passes, the extrinsic value of your option shrinks a little. This is called <strong>time decay</strong> (measured by the Greek \"Theta\").</p>\n<p>Time decay is not linear &mdash; it <em>accelerates</em> as expiration approaches. An option loses roughly one-third of its time value in the first half of its life and two-thirds in the second half. The last 30 days are brutal for buyers.</p>\n<p>This is why experienced traders say: <strong>\"Option buyers need to be right about direction AND timing. Option sellers just need to be patient.\"</strong></p>"
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Long Put Payoff",
+          "description": "A long put profits when the stock falls below the strike price minus the premium. Your maximum loss is the premium paid. Use puts to hedge downside or bet on a decline.",
+          "strategies": [
+            {
+              "type": "long-put",
+              "strike": 170,
+              "premium": 4
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Strike Price",
+              "min": 150,
+              "max": 200,
+              "default": 170,
+              "id": "strikePrice",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Premium Paid",
+              "min": 1,
+              "max": 12,
+              "default": 4,
+              "id": "premium",
+              "step": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>How a Real Trader Thinks About Options Pricing</h3>\n<p>Imagine AAPL is trading at $180 and you are considering a $185 call expiring in 30 days for $3.50. Before buying, an experienced trader asks three questions:</p>\n<ol>\n  <li><strong>What move do I need?</strong> The breakeven is $188.50. That is a 4.7% move in 30 days. Is that realistic given AAPL's typical range?</li>\n  <li><strong>How much is time value?</strong> The entire $3.50 is extrinsic value since the option is out of the money. All of it will decay to zero by expiration unless AAPL moves above $185.</li>\n  <li><strong>Is volatility inflated?</strong> If earnings are next week, implied volatility may be pumping up this premium. After earnings, IV will collapse and the option could lose 30-40% of its value overnight even if AAPL does not move.</li>\n</ol>\n<p>This kind of thinking separates informed traders from gamblers. The premium is not just a price — it encodes the market's expectations about magnitude, timing, and uncertainty.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for Options Pricing",
+        "content": "Always compare the cost of the option to the expected move. If an ATM straddle costs $12, the market is pricing in a $12 move (roughly). If you think the stock will only move $8, buying that straddle is a losing proposition. Also remember that deep in-the-money options have very little extrinsic value, which means minimal time decay. They behave almost like stock but require less capital. This makes them useful as stock replacement positions for traders who want leverage with less time decay risk."
+      }
+    ],
+    "track": "options",
+    "order": 1
+  },
+  {
+    "id": "the-greeks-delta",
+    "title": "The Greeks: Delta",
+    "category": "options-greeks",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 70,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>What Is Delta?</h3>\n<p>Delta measures <strong>how much an option's price changes for every $1 move in the underlying stock</strong>. It is the most important Greek for everyday trading.</p>\n<ul>\n  <li><strong>Call deltas</strong> range from <strong>0 to +1.00</strong>. A delta of 0.60 means the call gains $0.60 for every $1 the stock rises.</li>\n  <li><strong>Put deltas</strong> range from <strong>-1.00 to 0</strong>. A delta of -0.40 means the put gains $0.40 for every $1 the stock falls.</li>\n</ul>\n<p>An at-the-money option has a delta near <strong>0.50</strong> (calls) or <strong>-0.50</strong> (puts). Deep in-the-money options approach 1.00 (or -1.00), and far out-of-the-money options approach 0.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Delta as a Probability Proxy",
+        "content": "Delta roughly approximates the probability that an option will expire in the money. A 0.30 delta call has approximately a 30% chance of finishing ITM at expiration. This is not exact, but it is a useful mental shortcut for evaluating trades."
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Option Moneyness",
+          "Call Delta",
+          "Put Delta",
+          "Approx. Probability ITM"
+        ],
+        "rows": [
+          [
+            "Deep ITM",
+            "0.80 - 1.00",
+            "-0.80 to -1.00",
+            "80-100%"
+          ],
+          [
+            "Slightly ITM",
+            "0.55 - 0.80",
+            "-0.55 to -0.80",
+            "55-80%"
+          ],
+          [
+            "ATM",
+            "~0.50",
+            "~-0.50",
+            "~50%"
+          ],
+          [
+            "Slightly OTM",
+            "0.20 - 0.45",
+            "-0.20 to -0.45",
+            "20-45%"
+          ],
+          [
+            "Deep OTM",
+            "0.00 - 0.20",
+            "-0.00 to -0.20",
+            "0-20%"
+          ]
+        ]
+      },
+      {
+        "type": "text",
+        "content": "<h3>Delta Hedging</h3>\n<p>Market makers and institutional traders use delta to create <strong>delta-neutral</strong> positions &mdash; positions that do not gain or lose money from small stock movements.</p>\n<p>Example: You sell 10 call contracts with a delta of 0.50. Your total delta exposure is -500 shares (10 contracts x 100 shares x 0.50). To hedge, you buy 500 shares of stock. Now your position is delta neutral: stock gains offset option losses, and vice versa.</p>\n<p>As the stock moves, delta changes (because of Gamma), so delta hedges need continuous adjustment. This is called <strong>dynamic hedging</strong>.</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "AAPL",
+          "title": "Watch Delta in Action",
+          "description": "As AAPL moves up, call deltas increase toward 1.00 and put deltas move toward 0. As AAPL drops, the reverse happens. ATM options experience the most delta change."
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes with Delta</h3>\n<ul>\n  <li><strong>Thinking delta is constant</strong> &mdash; Delta changes as the stock moves (that change is measured by Gamma). A 0.30 delta call might become a 0.60 delta call after a $10 rally. Your position's risk profile shifts as the trade progresses.</li>\n  <li><strong>Ignoring portfolio delta</strong> &mdash; If you have three long call positions on tech stocks, each with 0.50 delta, your total portfolio delta is heavily long. A market pullback will hit all three positions simultaneously. Track your overall portfolio delta to understand your net directional exposure.</li>\n  <li><strong>Confusing delta with probability</strong> &mdash; While delta approximates the probability of finishing ITM, it is not exact. Deep OTM options occasionally have outsized moves due to news or volatility spikes that delta alone does not account for.</li>\n</ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Pro Tips for Using Delta",
+        "content": "Use delta to quickly estimate your profit on a directional move. If you own 5 contracts with a 0.40 delta, your position behaves like 200 shares (5 x 100 x 0.40). A $3 stock move means roughly $600 in profit. This mental math helps you size positions appropriately. Also, when selling options for income, many traders target the 0.20-0.30 delta range. This corresponds to roughly a 70-80% probability of the option expiring worthless, giving the seller a statistical edge on each trade."
+      }
+    ],
+    "track": "options",
+    "order": 2
+  },
+  {
+    "id": "gamma-theta-vega",
+    "title": "Gamma, Theta, Vega",
+    "category": "options-greeks",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 14,
+    "xpReward": 75,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Gamma: The Accelerator</h3>\n<p><strong>Gamma</strong> measures the rate of change of delta for every $1 move in the stock. Think of delta as speed and gamma as acceleration.</p>\n<ul>\n  <li>Gamma is <strong>highest for ATM options</strong> near expiration. These options have the most \"explosive\" delta changes.</li>\n  <li>Gamma is <strong>lowest for deep ITM or deep OTM</strong> options, because their deltas are already near their extremes.</li>\n  <li>Long options have <strong>positive gamma</strong> (delta moves in your favor). Short options have <strong>negative gamma</strong> (delta moves against you).</li>\n</ul>\n<p>High gamma near expiration is why short-dated ATM options can swing wildly in value. A stock that crosses through your strike price in the last few days can cause enormous P&amp;L swings.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Theta: The Clock Is Ticking</h3>\n<p><strong>Theta</strong> measures how much value an option loses each day, all else being equal. It is expressed as a negative number for option buyers.</p>\n<ul>\n  <li>An option with theta of -0.05 loses <strong>$5 per contract per day</strong> ($0.05 x 100 shares).</li>\n  <li>Theta <strong>accelerates in the last 30 days</strong> before expiration. An option that took 60 days to lose half its time value might lose the other half in just 15 days.</li>\n  <li>ATM options have the <strong>highest theta</strong> in dollar terms because they have the most extrinsic value to lose.</li>\n</ul>\n<p>This is why option sellers love time &mdash; every day that passes puts money in their pocket. Option buyers are fighting the clock.</p>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Vega: Volatility Sensitivity</h3>\n<p><strong>Vega</strong> measures how much an option's price changes for every 1% change in implied volatility (IV).</p>\n<ul>\n  <li>A vega of 0.15 means the option gains <strong>$15 per contract</strong> if IV rises 1% and loses $15 if IV drops 1%.</li>\n  <li>Higher IV means <strong>higher premiums</strong> for all options. This is why options become expensive before earnings.</li>\n  <li>Longer-dated options have <strong>higher vega</strong> because there is more time for volatility to impact the stock.</li>\n</ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Greek",
+          "Measures",
+          "Buyer Impact",
+          "Seller Impact",
+          "Highest When"
+        ],
+        "rows": [
+          [
+            "Delta",
+            "Price sensitivity per $1 stock move",
+            "Positive (calls) / Negative (puts)",
+            "Opposite of buyer",
+            "Deep ITM"
+          ],
+          [
+            "Gamma",
+            "Rate of delta change",
+            "Positive (good)",
+            "Negative (risky)",
+            "ATM, near expiration"
+          ],
+          [
+            "Theta",
+            "Daily time decay",
+            "Negative (cost)",
+            "Positive (income)",
+            "ATM, near expiration"
+          ],
+          [
+            "Vega",
+            "IV sensitivity per 1%",
+            "Positive (benefits from IV rise)",
+            "Negative (hurt by IV rise)",
+            "ATM, long-dated"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "The Gamma-Theta Tradeoff",
+        "content": "Gamma and theta are two sides of the same coin. Long option positions have positive gamma (delta moves in your favor during big moves) but negative theta (you pay time decay daily). Short option positions earn theta but carry negative gamma risk. You cannot have one without the other."
+      }
+    ],
+    "track": "options",
+    "order": 3
+  },
+  {
+    "id": "payoff-diagrams-calls-puts",
+    "title": "Payoff Diagrams: Calls & Puts",
+    "category": "options-basics",
+    "difficulty": "beginner",
+    "estimatedMinutes": 10,
+    "xpReward": 55,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>How to Read a Payoff Diagram</h3>\n<p>A payoff diagram is the single most important visual tool in options trading. It shows your profit or loss at expiration for every possible stock price.</p>\n<ul>\n  <li><strong>X-axis (horizontal)</strong> = stock price at expiration</li>\n  <li><strong>Y-axis (vertical)</strong> = your profit or loss</li>\n  <li>The <strong>breakeven point</strong> is where the line crosses zero</li>\n</ul>\n<p>Once you can read payoff diagrams fluently, you can instantly evaluate any options strategy at a glance.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Maximum Loss for Buyers",
+        "content": "When you buy a call or a put, your maximum loss is always the premium you paid -- nothing more. The payoff line flattens out below the strike price (for calls) or above the strike price (for puts), sitting at the negative premium amount."
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Long Call Payoff",
+          "description": "Buy a call option: you profit when the stock rises above your strike price plus the premium paid. Below the strike, your loss is limited to the premium. Drag the sliders to see how strike price and premium affect the payoff shape.",
+          "strategies": [
+            {
+              "type": "long-call",
+              "strike": 180,
+              "premium": 5
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Strike Price",
+              "min": 150,
+              "max": 210,
+              "default": 180,
+              "id": "strikePrice",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Premium Paid",
+              "min": 1,
+              "max": 15,
+              "default": 5,
+              "id": "premium",
+              "step": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Long Put Payoff",
+          "description": "Buy a put option: you profit when the stock falls below your strike price minus the premium paid. Above the strike, your loss is limited to the premium. This is the classic way to hedge or bet on a decline.",
+          "strategies": [
+            {
+              "type": "long-put",
+              "strike": 180,
+              "premium": 5
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Strike Price",
+              "min": 150,
+              "max": 210,
+              "default": 180,
+              "id": "strikePrice",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Premium Paid",
+              "min": 1,
+              "max": 15,
+              "default": 5,
+              "id": "premium",
+              "step": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "",
+          "Long Call",
+          "Long Put"
+        ],
+        "rows": [
+          [
+            "Market Outlook",
+            "Bullish",
+            "Bearish"
+          ],
+          [
+            "Max Profit",
+            "Unlimited",
+            "Strike - Premium (stock goes to $0)"
+          ],
+          [
+            "Max Loss",
+            "Premium paid",
+            "Premium paid"
+          ],
+          [
+            "Breakeven",
+            "Strike + Premium",
+            "Strike - Premium"
+          ],
+          [
+            "Example Breakeven",
+            "$180 + $5 = $185",
+            "$180 - $5 = $175"
+          ]
+        ]
+      }
+    ],
+    "track": "options",
+    "order": 4
+  },
+  {
+    "id": "reading-an-options-chain",
+    "title": "Reading an Options Chain",
+    "category": "options-basics",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 65,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The Options Chain Layout</h3>\n<p>An options chain is a table displaying all available options for a stock at a given expiration date. Understanding the layout is essential before placing any trade.</p>\n<ul>\n  <li><strong>Calls</strong> are displayed on the <strong>left side</strong> of the chain.</li>\n  <li><strong>Puts</strong> are displayed on the <strong>right side</strong>.</li>\n  <li><strong>Strike prices</strong> run down the center column, typically in $1, $2.50, or $5 increments.</li>\n  <li>The current stock price falls somewhere between the strikes, with ITM options highlighted or shaded.</li>\n</ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Column",
+          "What It Tells You",
+          "What to Look For"
+        ],
+        "rows": [
+          [
+            "Bid",
+            "Price someone will pay to buy your option",
+            "Tight bid/ask spread = good liquidity"
+          ],
+          [
+            "Ask",
+            "Price you must pay to buy the option",
+            "Wide spreads mean higher entry cost"
+          ],
+          [
+            "Last",
+            "Last traded price",
+            "May be stale if volume is low"
+          ],
+          [
+            "Volume",
+            "Contracts traded today",
+            "Higher volume = easier to fill orders"
+          ],
+          [
+            "Open Interest (OI)",
+            "Total open contracts",
+            "High OI = established interest at that strike"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "Liquidity Matters More Than You Think",
+        "content": "Always check the bid-ask spread before trading. A $0.05 spread on a $3.00 option means you lose 1.7% immediately. A $0.50 spread on the same option means you lose 16.7% just entering the trade. Stick to options with high volume and tight spreads -- typically ATM strikes on liquid stocks like AAPL, SPY, or MSFT."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Picking the Right Strike</h3>\n<p>Your strike selection determines your risk/reward profile:</p>\n<ul>\n  <li><strong>ITM options</strong> &mdash; Higher premium, higher delta, more expensive but more likely to profit. Behave more like stock.</li>\n  <li><strong>ATM options</strong> &mdash; Moderate premium, ~0.50 delta. Balanced risk/reward and the most liquid.</li>\n  <li><strong>OTM options</strong> &mdash; Cheap, low delta, low probability of profit. Only suitable when you expect a large move.</li>\n</ul>\n<h3>Choosing Your Expiration</h3>\n<ul>\n  <li><strong>Weeklys (0-7 DTE)</strong> &mdash; Very high theta decay. Used for short-term directional bets or premium selling.</li>\n  <li><strong>Monthlys (30-60 DTE)</strong> &mdash; The sweet spot for most strategies. Enough time for your thesis to play out without excessive time decay.</li>\n  <li><strong>LEAPS (6-24 months)</strong> &mdash; Minimal theta, but expensive. Used as a stock replacement strategy.</li>\n</ul>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "MSFT",
+          "title": "MSFT Options Context",
+          "description": "Review the current MSFT price level to understand which strikes would be ITM, ATM, or OTM on a real options chain."
+        }
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Long Call Payoff — Strike Selection",
+          "description": "See how choosing different strikes affects your risk and reward. A lower strike costs more premium but has a higher probability of profit. A higher strike is cheaper but needs a bigger move.",
+          "strategies": [
+            {
+              "type": "long-call",
+              "strike": 420,
+              "premium": 8
+            }
+          ],
+          "stockPrice": 420,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Strike Price",
+              "min": 390,
+              "max": 450,
+              "default": 420,
+              "id": "strikePrice",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Premium Paid",
+              "min": 1,
+              "max": 20,
+              "default": 8,
+              "id": "premium",
+              "step": 1
+            }
+          ]
+        }
+      }
+    ],
+    "track": "options",
+    "order": 5
+  },
+  {
+    "id": "covered-calls",
+    "title": "Covered Calls",
+    "category": "options-strategies",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 13,
+    "xpReward": 75,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>What Is a Covered Call?</h3>\n<p>A covered call is the most popular options income strategy. You <strong>own 100 shares</strong> of a stock and <strong>sell 1 call option</strong> against those shares.</p>\n<ul>\n  <li>You collect the option premium as immediate income.</li>\n  <li>In exchange, you agree to sell your shares at the strike price if the stock rises above it by expiration.</li>\n  <li>Your shares \"cover\" the short call obligation &mdash; hence the name <em>covered</em> call.</li>\n</ul>\n<h3>When to Use Covered Calls</h3>\n<p>This strategy works best when you are <strong>neutral to slightly bullish</strong> on the stock. You still want to hold your shares, but you do not expect a massive rally in the near term. The premium you collect reduces your cost basis and provides income while you wait.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Strike Selection for Covered Calls",
+        "content": "OTM strikes (above current price) allow for stock appreciation plus premium income, but collect less premium. ATM strikes collect maximum premium but cap your upside immediately. A common approach is selling calls 5-10% OTM with 30-45 days to expiration, aiming to collect premium while giving the stock some room to run."
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Covered Call Payoff",
+          "description": "The covered call payoff combines a long stock position with a short call. Below the strike, you keep the premium and the stock. Above the strike, your profit is capped at (Strike - Purchase Price + Premium). Your downside is stock ownership minus the premium cushion.",
+          "strategies": [
+            {
+              "type": "long-call",
+              "strike": 0,
+              "premium": -170
+            },
+            {
+              "type": "short-call",
+              "strike": 190,
+              "premium": 5
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Short Call Strike",
+              "min": 175,
+              "max": 210,
+              "default": 190,
+              "id": "strikePrice",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Premium Collected",
+              "min": 1,
+              "max": 10,
+              "default": 5,
+              "id": "premium",
+              "step": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>Managing Assignment and Rolling</h3>\n<p><strong>Assignment risk:</strong> If the stock is above your strike at expiration, your shares will likely be called away (sold at the strike price). This is not a disaster &mdash; you planned for it &mdash; but it can trigger a taxable event.</p>\n<p><strong>Rolling a covered call:</strong> If the stock rallies and you want to keep your shares, you can \"roll\" the call by buying back the current call and selling a new one at a higher strike and/or later expiration. This costs money (the roll debit), but lets you stay in the trade.</p>\n<ul>\n  <li><strong>Roll up</strong> &mdash; Same expiration, higher strike. Costs a debit.</li>\n  <li><strong>Roll out</strong> &mdash; Same strike, later expiration. Usually a credit.</li>\n  <li><strong>Roll up and out</strong> &mdash; Higher strike, later expiration. May be credit or debit depending on the move.</li>\n</ul>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "AAPL",
+          "title": "AAPL Covered Call Analysis",
+          "description": "Consider selling a call 5-10% above the current AAPL price with 30-45 DTE. The premium collected reduces your cost basis on the shares."
+        }
+      }
+    ],
+    "track": "options",
+    "order": 6
+  },
+  {
+    "id": "cash-secured-puts",
+    "title": "Cash-Secured Puts",
+    "category": "options-strategies",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 12,
+    "xpReward": 70,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>What Is a Cash-Secured Put?</h3>\n<p>A cash-secured put (CSP) involves <strong>selling a put option</strong> while holding enough cash in your account to buy 100 shares at the strike price if assigned.</p>\n<ul>\n  <li>You collect premium upfront as income.</li>\n  <li>If the stock stays above the strike, the put expires worthless and you keep the premium.</li>\n  <li>If the stock drops below the strike, you are assigned and buy 100 shares at the strike price &mdash; effectively purchasing the stock at a <strong>discount</strong> (strike price minus premium collected).</li>\n</ul>\n<p>This strategy is ideal when you <strong>want to own the stock but at a lower price</strong>. You get paid to wait for the dip.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Buying Stock at a Discount",
+        "content": "If you sell a $170 put on AAPL for $3.00 and get assigned, your effective purchase price is $170 - $3 = $167. Compare that to simply buying at the current $180 market price. You saved $13 per share. The tradeoff: if AAPL rockets to $200, you only collected $300 in premium instead of capturing $2,000 in stock gains."
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Cash-Secured Put Payoff",
+          "description": "Selling a put: you keep the premium if the stock stays above the strike. Below the strike, you are effectively long the stock from the strike price minus the premium collected. Your maximum profit is the premium; your maximum loss is if the stock goes to zero.",
+          "strategies": [
+            {
+              "type": "short-put",
+              "strike": 170,
+              "premium": 4
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Strike Price",
+              "min": 150,
+              "max": 185,
+              "default": 170,
+              "id": "strikePrice",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Premium Collected",
+              "min": 1,
+              "max": 10,
+              "default": 4,
+              "id": "premium",
+              "step": 1
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>Strike Selection and Income Generation</h3>\n<p>Choose your strike based on where you would <em>genuinely want to own</em> the stock:</p>\n<ul>\n  <li><strong>Conservative (deep OTM)</strong>: Sell puts 10-15% below current price. Low premium but high probability of expiring worthless. Good for income generation.</li>\n  <li><strong>Moderate (slightly OTM)</strong>: Sell puts 3-7% below current price. Better premium, reasonable chance of assignment.</li>\n  <li><strong>Aggressive (ATM)</strong>: Sell ATM puts for maximum premium. High probability of assignment. Only do this if you want the stock right now.</li>\n</ul>\n<h3>When Assignment Is a Good Thing</h3>\n<p>If you picked a great company at a great price, getting assigned is <em>exactly what you wanted</em>. Now you own 100 shares at a discount, and you can start selling covered calls on those shares for additional income. This leads directly to the Wheel Strategy (covered in Lesson 12).</p>"
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "AAPL",
+          "title": "Finding Your CSP Strike",
+          "description": "Look at where AAPL is trading. Where would you be happy to buy it? That is your target strike for selling a cash-secured put."
+        }
+      }
+    ],
+    "track": "options",
+    "order": 7
+  },
+  {
+    "id": "vertical-spreads",
+    "title": "Vertical Spreads",
+    "category": "options-strategies",
+    "difficulty": "intermediate",
+    "estimatedMinutes": 14,
+    "xpReward": 80,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>What Is a Vertical Spread?</h3>\n<p>A vertical spread involves buying one option and selling another option of the <strong>same type</strong> (both calls or both puts) with the <strong>same expiration</strong> but <strong>different strike prices</strong>.</p>\n<p>Vertical spreads reduce your cost and cap your risk, but they also cap your maximum profit.</p>\n<h3>Bull Call Spread (Debit Spread)</h3>\n<ul>\n  <li><strong>Buy</strong> a lower-strike call (e.g., $175 call for $8)</li>\n  <li><strong>Sell</strong> a higher-strike call (e.g., $185 call for $3)</li>\n  <li><strong>Net debit</strong> = $8 - $3 = $5 ($500 per contract)</li>\n  <li><strong>Max profit</strong> = Spread width - Net debit = $10 - $5 = $5 ($500)</li>\n  <li><strong>Max loss</strong> = Net debit = $5 ($500)</li>\n  <li><strong>Breakeven</strong> = Lower strike + Net debit = $175 + $5 = $180</li>\n</ul>"
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Bull Call Spread Payoff",
+          "description": "The bull call spread profits when the stock rises above the breakeven (lower strike + debit). Max profit is achieved when the stock is at or above the upper strike at expiration. Max loss is the net debit paid.",
+          "strategies": [
+            {
+              "type": "long-call",
+              "strike": 175,
+              "premium": 8
+            },
+            {
+              "type": "short-call",
+              "strike": 185,
+              "premium": 3
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Lower Strike",
+              "min": 160,
+              "max": 180,
+              "default": 175,
+              "id": "lowerStrike",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Upper Strike",
+              "min": 180,
+              "max": 200,
+              "default": 185,
+              "id": "upperStrike",
+              "step": 5
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>Bear Put Spread (Debit Spread)</h3>\n<ul>\n  <li><strong>Buy</strong> a higher-strike put (e.g., $185 put for $7)</li>\n  <li><strong>Sell</strong> a lower-strike put (e.g., $175 put for $2)</li>\n  <li><strong>Net debit</strong> = $7 - $2 = $5 ($500 per contract)</li>\n  <li><strong>Max profit</strong> = Spread width - Net debit = $10 - $5 = $5 ($500)</li>\n  <li><strong>Max loss</strong> = Net debit = $5 ($500)</li>\n  <li><strong>Breakeven</strong> = Higher strike - Net debit = $185 - $5 = $180</li>\n</ul>\n<p>Bear put spreads are the mirror image of bull call spreads &mdash; you profit when the stock declines.</p>"
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Bear Put Spread Payoff",
+          "description": "The bear put spread profits when the stock falls below the breakeven (upper strike - debit). Max profit is achieved when the stock is at or below the lower strike at expiration.",
+          "strategies": [
+            {
+              "type": "long-put",
+              "strike": 185,
+              "premium": 7
+            },
+            {
+              "type": "short-put",
+              "strike": 175,
+              "premium": 2
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Upper Strike",
+              "min": 180,
+              "max": 200,
+              "default": 185,
+              "id": "upperStrike",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Lower Strike",
+              "min": 160,
+              "max": 180,
+              "default": 175,
+              "id": "lowerStrike",
+              "step": 5
+            }
+          ]
+        }
+      },
+      {
+        "type": "key-concept",
+        "title": "Vertical Spread Math",
+        "content": "For any vertical debit spread: Max Risk = Net Debit Paid. Max Profit = Width of Strikes - Net Debit. Breakeven = Long Strike +/- Net Debit (add for calls, subtract for puts). A 2:1 reward-to-risk ratio means pay $3 to potentially make $7. Always know these numbers before entering."
+      }
+    ],
+    "track": "options",
+    "order": 8
+  },
+  {
+    "id": "iron-condors",
+    "title": "Iron Condors",
+    "category": "options-strategies",
+    "difficulty": "advanced",
+    "estimatedMinutes": 14,
+    "xpReward": 90,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>What Is an Iron Condor?</h3>\n<p>An iron condor is a <strong>four-leg, market-neutral strategy</strong> that profits when the stock stays within a range. It combines a <strong>short put spread</strong> (bull put spread) with a <strong>short call spread</strong> (bear call spread).</p>\n<h3>The Four Legs</h3>\n<ol>\n  <li><strong>Buy</strong> an OTM put (lowest strike) &mdash; protection</li>\n  <li><strong>Sell</strong> an OTM put (higher strike) &mdash; income</li>\n  <li><strong>Sell</strong> an OTM call (lower strike) &mdash; income</li>\n  <li><strong>Buy</strong> an OTM call (highest strike) &mdash; protection</li>\n</ol>\n<p>Example on a $180 stock:</p>\n<ul>\n  <li>Buy $160 put, Sell $170 put, Sell $190 call, Buy $200 call</li>\n  <li>Net credit received: $3.00 ($300 per iron condor)</li>\n  <li>Profit zone: stock stays between $167 and $193 at expiration</li>\n</ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Iron Condor Risk and Reward",
+        "content": "Max Profit = Net Credit Received. Max Loss = Width of the wider spread minus Net Credit. Breakeven points: Lower short strike minus net credit (put side) and Upper short strike plus net credit (call side). You profit as long as the stock stays between the two breakeven points. Ideal setup: IV Rank above 50%, 30-45 DTE, collect at least one-third of the width of the spreads."
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Iron Condor Payoff",
+          "description": "The iron condor profits when the stock stays inside the short strikes. The \"wings\" (long options) cap your maximum loss. The wider the short strikes, the higher the probability of profit but the lower the premium collected.",
+          "strategies": [
+            {
+              "type": "long-put",
+              "strike": 160,
+              "premium": 1
+            },
+            {
+              "type": "short-put",
+              "strike": 170,
+              "premium": 3
+            },
+            {
+              "type": "short-call",
+              "strike": 190,
+              "premium": 3
+            },
+            {
+              "type": "long-call",
+              "strike": 200,
+              "premium": 1
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Lower Short Strike (Put)",
+              "min": 160,
+              "max": 178,
+              "default": 170,
+              "id": "putShortStrike",
+              "step": 2
+            },
+            {
+              "type": "slider",
+              "label": "Upper Short Strike (Call)",
+              "min": 182,
+              "max": 200,
+              "default": 190,
+              "id": "callShortStrike",
+              "step": 2
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>When to Trade Iron Condors</h3>\n<ul>\n  <li><strong>High IV environment</strong> &mdash; When IV Rank is above 50%, premiums are inflated and more likely to contract, benefiting sellers.</li>\n  <li><strong>Range-bound markets</strong> &mdash; No strong directional catalyst expected before expiration.</li>\n  <li><strong>30-45 DTE</strong> &mdash; Enough time for theta to work in your favor without excessive gamma risk.</li>\n</ul>\n<h3>Managing Iron Condors</h3>\n<p>Common management rules:</p>\n<ul>\n  <li><strong>Take profit</strong> at 50% of max profit. If you collected $3.00, close when you can buy it back for $1.50.</li>\n  <li><strong>Cut losses</strong> at 2x the credit received. If you collected $3.00, close if the position reaches $6.00 loss.</li>\n  <li><strong>Roll the tested side</strong> if one short strike is threatened, but only if the overall position remains sound.</li>\n</ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Metric",
+          "Value (Example)"
+        ],
+        "rows": [
+          [
+            "Structure",
+            "Buy 160P / Sell 170P / Sell 190C / Buy 200C"
+          ],
+          [
+            "Net Credit",
+            "$3.00 ($300)"
+          ],
+          [
+            "Max Profit",
+            "$300 (credit received)"
+          ],
+          [
+            "Max Loss",
+            "$700 (spread width $10 - credit $3)"
+          ],
+          [
+            "Lower Breakeven",
+            "$167 (170 - 3)"
+          ],
+          [
+            "Upper Breakeven",
+            "$193 (190 + 3)"
+          ],
+          [
+            "Probability of Profit",
+            "~60-70% (depends on strike selection)"
+          ]
+        ]
+      }
+    ],
+    "track": "options",
+    "order": 9
+  },
+  {
+    "id": "straddles-and-strangles",
+    "title": "Straddles & Strangles",
+    "category": "options-strategies",
+    "difficulty": "advanced",
+    "estimatedMinutes": 13,
+    "xpReward": 85,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The Long Straddle</h3>\n<p>A long straddle involves buying <strong>both an ATM call and an ATM put</strong> with the same strike and expiration.</p>\n<ul>\n  <li>You profit from a <strong>large move in either direction</strong>.</li>\n  <li>You do not need to predict which way the stock moves &mdash; only that it moves <em>a lot</em>.</li>\n  <li>Max loss = total premium paid (both options).</li>\n  <li>Breakeven points: Strike +/- total premium paid.</li>\n</ul>\n<p>Example: Buy $180 call for $6 and $180 put for $5 = $11 total cost. Breakevens at $169 and $191. The stock must move more than $11 from the strike for you to profit.</p>"
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Long Straddle Payoff",
+          "description": "The straddle forms a V-shaped payoff. You profit when the stock moves far enough in either direction to overcome the combined premium paid. The bottom of the V is your max loss (total premium) at the strike price.",
+          "strategies": [
+            {
+              "type": "long-call",
+              "strike": 180,
+              "premium": 6
+            },
+            {
+              "type": "long-put",
+              "strike": 180,
+              "premium": 5
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Strike Price",
+              "min": 160,
+              "max": 200,
+              "default": 180,
+              "id": "strikePrice",
+              "step": 5
+            }
+          ]
+        }
+      },
+      {
+        "type": "text",
+        "content": "<h3>The Long Strangle</h3>\n<p>A long strangle is similar but uses <strong>OTM options</strong> &mdash; an OTM call (above current price) and an OTM put (below current price).</p>\n<ul>\n  <li><strong>Cheaper</strong> than a straddle because both options are OTM.</li>\n  <li>Requires a <strong>bigger move</strong> to become profitable.</li>\n  <li>Often used when you expect a massive move but want to reduce capital at risk.</li>\n</ul>\n<p>Example: Buy $190 call for $3 and $170 put for $2.50 = $5.50 total cost. Breakevens at $164.50 and $195.50.</p>\n<h3>When to Use These Strategies</h3>\n<ul>\n  <li><strong>Before earnings announcements</strong> &mdash; Stocks often make their biggest moves after earnings.</li>\n  <li><strong>Before binary events</strong> &mdash; FDA approvals, court rulings, election results.</li>\n  <li><strong>When IV is low</strong> &mdash; Cheap options can explode in value if volatility spikes.</li>\n</ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "",
+          "Long Straddle",
+          "Long Strangle"
+        ],
+        "rows": [
+          [
+            "Legs",
+            "ATM call + ATM put (same strike)",
+            "OTM call + OTM put (different strikes)"
+          ],
+          [
+            "Cost",
+            "Higher (both ATM = max extrinsic)",
+            "Lower (both OTM)"
+          ],
+          [
+            "Breakeven Range",
+            "Narrower",
+            "Wider"
+          ],
+          [
+            "Move Required",
+            "Smaller move to profit",
+            "Larger move to profit"
+          ],
+          [
+            "Max Loss",
+            "Total premium (higher $)",
+            "Total premium (lower $)"
+          ],
+          [
+            "Best When",
+            "Expecting big move, unsure of direction",
+            "Expecting very large move, want cheaper entry"
+          ]
+        ]
+      },
+      {
+        "type": "key-concept",
+        "title": "The IV Trap with Straddles",
+        "content": "Before earnings, implied volatility rises because the market expects a big move. This inflates the straddle price. After earnings, IV collapses (\"IV crush\") even if the stock moves your way. The stock might move $8, but if the straddle was priced for a $12 move, you still lose. Always compare the straddle price to the expected move before buying."
+      }
+    ],
+    "track": "options",
+    "order": 10
+  },
+  {
+    "id": "the-wheel-strategy",
+    "title": "The Wheel Strategy",
+    "category": "options-strategies",
+    "difficulty": "advanced",
+    "estimatedMinutes": 15,
+    "xpReward": 95,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>The Wheel: Systematic Options Income</h3>\n<p>The Wheel Strategy is a <strong>repeatable income cycle</strong> that combines cash-secured puts and covered calls into a single, ongoing system. Here is the cycle:</p>\n<ol>\n  <li><strong>Sell a cash-secured put</strong> on a stock you want to own at a price you like.</li>\n  <li><strong>If assigned</strong>, you now own 100 shares at a discount (strike minus premium).</li>\n  <li><strong>Sell a covered call</strong> on your 100 shares, collecting more premium.</li>\n  <li><strong>If called away</strong>, your shares are sold at the strike price plus you kept the premium.</li>\n  <li><strong>Repeat</strong> from step 1 with the cash from the sale.</li>\n</ol>\n<p>Each cycle generates premium income. Whether the stock goes up, down, or sideways, you are collecting premium at every stage.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Ideal Stocks for the Wheel",
+        "content": "The Wheel works best on stocks you would happily own for years. Look for: (1) Stable, established companies with predictable earnings. (2) Stocks with good options liquidity (tight bid-ask spreads). (3) Dividend-paying stocks provide additional income while you hold shares. (4) Moderate IV to collect reasonable premiums. Avoid highly volatile meme stocks or biotech -- assignment on a 50% drop is painful."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Step-by-Step Walkthrough</h3>\n<p>Let us walk through a complete wheel cycle on a $50 stock with $50,000 in capital:</p>\n<ol>\n  <li><strong>Week 1: Sell $48 put for $1.20</strong> &mdash; Collect $120. Stock stays above $48. Put expires worthless.</li>\n  <li><strong>Week 5: Sell $47 put for $0.90</strong> &mdash; Collect $90. Stock drops to $45. You are assigned 100 shares at $47.</li>\n  <li>Your effective cost basis: $47 - $1.20 - $0.90 = <strong>$44.90</strong> (below current price of $45).</li>\n  <li><strong>Week 9: Sell $50 call for $1.00</strong> &mdash; Collect $100. Stock rises to $51. Your shares are called away at $50.</li>\n  <li>Total profit from this cycle: ($50 - $44.90) x 100 + premiums = <strong>$510 + $310 = $820</strong></li>\n  <li><strong>Repeat</strong> with your $5,000 cash + $820 profit.</li>\n</ol>\n<h3>Expected Returns and Risks</h3>\n<ul>\n  <li><strong>Realistic annual return</strong>: 15-30% on capital deployed, depending on stock selection and market conditions.</li>\n  <li><strong>Primary risk</strong>: Stock drops significantly after assignment. You are holding shares at a loss and covered call premiums may not be enough to compensate.</li>\n  <li><strong>Opportunity cost</strong>: If the stock rallies hard, you miss the upside because your calls cap your gains.</li>\n</ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Wheel Phase",
+          "Action",
+          "You Collect",
+          "Outcome if Assigned/Called"
+        ],
+        "rows": [
+          [
+            "Phase 1: CSP",
+            "Sell cash-secured put",
+            "Put premium",
+            "Buy 100 shares at strike"
+          ],
+          [
+            "Phase 2: CC",
+            "Sell covered call on shares",
+            "Call premium",
+            "Sell 100 shares at strike"
+          ],
+          [
+            "Phase 3: Reset",
+            "Return to Phase 1 with cash",
+            "Start again",
+            "Continuous income cycle"
+          ]
+        ]
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "KO",
+          "title": "Coca-Cola: Classic Wheel Stock",
+          "description": "KO is a textbook Wheel stock -- stable, dividend-paying, moderate volatility, high options liquidity. Observe how it trades in a relatively tight range, making it ideal for selling premium."
+        }
+      }
+    ],
+    "track": "options",
+    "order": 11
+  },
+  {
+    "id": "implied-volatility-iv-rank",
+    "title": "Implied Volatility & IV Rank",
+    "category": "options-greeks",
+    "difficulty": "advanced",
+    "estimatedMinutes": 14,
+    "xpReward": 85,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>What Is Implied Volatility?</h3>\n<p><strong>Implied Volatility (IV)</strong> is the market's forecast of how much a stock is likely to move over a given period. It is derived from current option prices using the Black-Scholes model.</p>\n<ul>\n  <li>IV is expressed as an <strong>annualized percentage</strong>. An IV of 30% means the market expects the stock to move roughly 30% over the next year (one standard deviation).</li>\n  <li>IV does <strong>not predict direction</strong> &mdash; only the <em>magnitude</em> of the expected move.</li>\n  <li>Higher IV = higher option premiums. Lower IV = cheaper options.</li>\n</ul>\n<h3>Historical Volatility vs. Implied Volatility</h3>\n<ul>\n  <li><strong>Historical Volatility (HV)</strong> looks backward &mdash; how much the stock actually moved over a past period.</li>\n  <li><strong>Implied Volatility (IV)</strong> looks forward &mdash; how much the market expects the stock to move.</li>\n  <li>When IV > HV, options are \"expensive\" relative to actual movement. When IV < HV, options are \"cheap.\"</li>\n</ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "IV Rank and IV Percentile",
+        "content": "IV Rank = (Current IV - 52-week Low IV) / (52-week High IV - 52-week Low IV) x 100. If IV ranged from 20% to 60% over the past year and current IV is 40%, IV Rank = (40-20)/(60-20) = 50%. IV Percentile measures the percentage of days in the past year that IV was below the current level. Both help you determine whether options are relatively cheap or expensive compared to recent history."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Trading Rules Based on IV</h3>\n<ul>\n  <li><strong>High IV (IV Rank > 50%)</strong>: Favor <em>selling premium</em> strategies -- covered calls, cash-secured puts, iron condors, credit spreads. Premiums are inflated and likely to contract.</li>\n  <li><strong>Low IV (IV Rank < 30%)</strong>: Favor <em>buying options</em> strategies -- long calls/puts, debit spreads, straddles. Options are cheap relative to history.</li>\n  <li><strong>Middle IV (IV Rank 30-50%)</strong>: Either approach can work. Focus on directional conviction rather than volatility edge.</li>\n</ul>\n<h3>The Volatility Smile and Skew</h3>\n<p>If you plot IV across different strike prices at the same expiration, you will notice it is <strong>not a flat line</strong>:</p>\n<ul>\n  <li><strong>Volatility Smile</strong> &mdash; OTM puts and OTM calls have higher IV than ATM options. Common in indices and during uncertain markets.</li>\n  <li><strong>Volatility Skew</strong> &mdash; OTM puts have higher IV than OTM calls. This is the typical pattern for equities because markets fear crashes more than rallies.</li>\n</ul>\n<p>Skew exists because demand for protective puts (portfolio insurance) drives up their prices, while covered call selling suppresses call premiums.</p>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "IV Environment",
+          "IV Rank",
+          "Strategy Bias",
+          "Example Strategies"
+        ],
+        "rows": [
+          [
+            "Low IV",
+            "< 30%",
+            "Buy premium",
+            "Long calls/puts, debit spreads, straddles"
+          ],
+          [
+            "Normal IV",
+            "30% - 50%",
+            "Neutral",
+            "Direction-dependent; spreads preferred"
+          ],
+          [
+            "High IV",
+            "> 50%",
+            "Sell premium",
+            "Iron condors, credit spreads, CSPs, covered calls"
+          ],
+          [
+            "Extreme IV",
+            "> 80%",
+            "Aggressively sell premium",
+            "Strangles, wide iron condors (with strict risk management)"
+          ]
+        ]
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "SPY",
+          "title": "SPY and Volatility Context",
+          "description": "SPY is the most liquid options market in the world. Watch how its price action relates to volatility expansion (sharp drops) and contraction (grinding rallies)."
+        }
+      }
+    ],
+    "track": "options",
+    "order": 12
+  },
+  {
+    "id": "earnings-plays-iv-crush",
+    "title": "Earnings Plays & IV Crush",
+    "category": "options-strategies",
+    "difficulty": "advanced",
+    "estimatedMinutes": 13,
+    "xpReward": 85,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>IV Expansion Before Earnings</h3>\n<p>In the weeks leading up to an earnings announcement, implied volatility <strong>rises steadily</strong>. The market is pricing in uncertainty &mdash; nobody knows if the company will beat or miss estimates.</p>\n<ul>\n  <li>IV can increase by <strong>50-200%</strong> above its normal level heading into earnings.</li>\n  <li>This makes all options more expensive &mdash; calls and puts alike.</li>\n  <li>The closer to earnings, the faster IV climbs, especially in the final week.</li>\n</ul>\n<h3>IV Crush: The Morning After</h3>\n<p>Immediately after earnings are announced, the uncertainty is gone. IV <strong>collapses overnight</strong>, often dropping 30-60% in a single session. This is called <strong>IV crush</strong>.</p>\n<p>The critical insight: <em>even if the stock moves in your direction</em>, you can still lose money if the IV crush is severe enough to offset your directional gains.</p>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Expected Move Calculation",
+        "content": "The expected move is the market-priced range for the stock after earnings. Approximate formula: Expected Move = ATM Straddle Price x 0.85. If the ATM straddle costs $12, the expected move is roughly $10.20. The stock is expected to land within +/- $10.20 of its current price about 68% of the time. If you buy a straddle, you need the stock to move MORE than the expected move to profit."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Buying Premium Into Earnings</h3>\n<p>Buying straddles or strangles before earnings is a popular but <strong>difficult</strong> strategy:</p>\n<ul>\n  <li><strong>The math is against you</strong> &mdash; You pay inflated IV and need the stock to move beyond the expected range to profit.</li>\n  <li><strong>Better approach</strong> &mdash; Buy the straddle 1-2 weeks before earnings when IV is still ramping up. Sell before the announcement to capture the IV expansion, not the earnings move itself.</li>\n  <li><strong>Worst approach</strong> &mdash; Buying weekly options the day before earnings. Maximum IV crush exposure.</li>\n</ul>\n<h3>Selling Premium Into Earnings</h3>\n<p>Many professional traders prefer to <em>sell</em> premium into earnings:</p>\n<ul>\n  <li><strong>Iron condors</strong> &mdash; Sell an iron condor using the expected move as your short strikes. Collect rich premiums.</li>\n  <li><strong>Short strangles</strong> &mdash; Sell OTM put + OTM call. Higher risk (undefined) but higher premium.</li>\n  <li><strong>Advantage</strong> &mdash; IV crush is your friend. After earnings, IV drops and your short options lose value rapidly.</li>\n  <li><strong>Risk</strong> &mdash; If the stock gaps beyond your strikes, losses can be large and sudden.</li>\n</ul>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Strategy",
+          "Pre-Earnings Action",
+          "Post-Earnings Outcome",
+          "IV Crush Impact"
+        ],
+        "rows": [
+          [
+            "Buy Straddle (hold)",
+            "Buy ATM call + put",
+            "Need move > expected move",
+            "Hurts you (lose extrinsic)"
+          ],
+          [
+            "Buy Straddle (sell early)",
+            "Buy 1-2 weeks before, sell day of",
+            "Profit from IV expansion",
+            "Avoid it entirely"
+          ],
+          [
+            "Sell Iron Condor",
+            "Sell IC at expected move range",
+            "Keep premium if stock stays in range",
+            "Helps you (short options lose value)"
+          ],
+          [
+            "Sell Strangle",
+            "Sell OTM call + put",
+            "Keep premium, undefined risk",
+            "Helps you significantly"
+          ]
+        ]
+      },
+      {
+        "type": "interactive-chart",
+        "config": {
+          "ticker": "TSLA",
+          "title": "TSLA Earnings Volatility",
+          "description": "TSLA is known for large post-earnings moves. Observe the gaps on the chart -- these are earnings reactions. Notice how some gaps are larger than others, illustrating why earnings trades are inherently risky."
+        }
+      }
+    ],
+    "track": "options",
+    "order": 13
+  },
+  {
+    "id": "options-risk-management",
+    "title": "Options Risk Management",
+    "category": "options-basics",
+    "difficulty": "advanced",
+    "estimatedMinutes": 14,
+    "xpReward": 100,
+    "sections": [
+      {
+        "type": "text",
+        "content": "<h3>Position Sizing for Options</h3>\n<p>Options can produce outsized gains, but they can also go to zero. Proper position sizing is non-negotiable.</p>\n<ul>\n  <li><strong>Never risk more than 2-5% of your total account on a single options trade.</strong> If your account is $50,000, your maximum risk per trade should be $1,000-$2,500.</li>\n  <li>For defined-risk strategies (debit spreads, iron condors), your risk is the max loss of the position.</li>\n  <li>For long options, your risk is the total premium paid.</li>\n  <li>Start with <strong>1 contract</strong>. Scaling up is easy once you have a proven process. Scaling down from a blown-up account is not.</li>\n</ul>"
+      },
+      {
+        "type": "key-concept",
+        "title": "Defined Risk vs. Undefined Risk",
+        "content": "Defined risk strategies (debit spreads, iron condors, long options) have a known maximum loss. Undefined risk strategies (naked calls, naked puts, short strangles) have theoretically unlimited loss. Beginners should ONLY trade defined risk. Even experienced traders should limit undefined risk positions and always have a stop-loss plan."
+      },
+      {
+        "type": "text",
+        "content": "<h3>Rolling Options</h3>\n<p>\"Rolling\" means closing your current position and opening a new one at a different strike and/or expiration. Common rolling scenarios:</p>\n<ul>\n  <li><strong>Roll out in time</strong> &mdash; Move to a later expiration when you need more time for your thesis to play out.</li>\n  <li><strong>Roll up/down in strike</strong> &mdash; Adjust your strike after a big move to lock in profits or reduce risk.</li>\n  <li><strong>When to roll</strong> &mdash; Roll when the trade thesis is still intact but the position needs adjustment. Do NOT roll a bad trade just to avoid taking a loss &mdash; that turns one loss into a bigger one.</li>\n</ul>\n<h3>Early Assignment Risk</h3>\n<p>American-style options can be exercised at any time before expiration. Early assignment is most common:</p>\n<ul>\n  <li>On <strong>short calls</strong> right before an ex-dividend date (the call buyer wants the dividend).</li>\n  <li>On <strong>deep ITM short puts</strong> when extrinsic value is near zero.</li>\n  <li>Early assignment is an <strong>inconvenience, not a catastrophe</strong>. You are simply fulfilling your obligation early.</li>\n</ul>"
+      },
+      {
+        "type": "text",
+        "content": "<h3>Common Mistakes to Avoid</h3>\n<ol>\n  <li><strong>Oversizing positions</strong> &mdash; \"Going all in\" on a single options trade. One bad trade can wipe out months of gains.</li>\n  <li><strong>Ignoring the Greeks</strong> &mdash; Buying options without understanding theta decay or vega exposure.</li>\n  <li><strong>Holding to expiration</strong> &mdash; Most profitable trades should be closed early. Take 50-75% of max profit and move on.</li>\n  <li><strong>Revenge trading</strong> &mdash; Doubling down on a losing position to \"make it back.\" Cut losses and find a new trade.</li>\n  <li><strong>Trading illiquid options</strong> &mdash; Wide bid-ask spreads silently eat your profits. Stick to liquid names.</li>\n  <li><strong>No exit plan</strong> &mdash; Define your profit target and max loss BEFORE entering. Write it down.</li>\n</ol>"
+      },
+      {
+        "type": "comparison-table",
+        "headers": [
+          "Risk Category",
+          "Rule",
+          "Why It Matters"
+        ],
+        "rows": [
+          [
+            "Position Size",
+            "Max 2-5% of account per trade",
+            "Survive losing streaks without account destruction"
+          ],
+          [
+            "Strategy Selection",
+            "Beginners: defined risk only",
+            "Known max loss prevents catastrophic surprises"
+          ],
+          [
+            "Profit Taking",
+            "Close at 50-75% of max profit",
+            "Locking in gains avoids round-tripping winners"
+          ],
+          [
+            "Loss Cutting",
+            "Exit at 1.5-2x premium (debit) or 2x credit (credit spreads)",
+            "Small losses are recoverable; large ones are not"
+          ],
+          [
+            "Margin",
+            "Never use more than 50% of available margin",
+            "Leaves room for adjustments and avoids margin calls"
+          ],
+          [
+            "Diversification",
+            "No more than 3-5 positions in same sector",
+            "Sector events can hit all correlated positions at once"
+          ]
+        ]
+      },
+      {
+        "type": "payoff-diagram",
+        "config": {
+          "title": "Iron Condor — Defined Risk, Range-Bound Strategy",
+          "description": "An iron condor profits when the stock stays within a range. You collect premium from selling both a put and a call, with defined risk on both sides. This diagram shows the short strikes — your profit zone is between them.",
+          "strategies": [
+            {
+              "type": "short-put",
+              "strike": 160,
+              "premium": 3
+            },
+            {
+              "type": "short-call",
+              "strike": 200,
+              "premium": 3
+            }
+          ],
+          "stockPrice": 180,
+          "controls": [
+            {
+              "type": "slider",
+              "label": "Short Put Strike",
+              "min": 140,
+              "max": 175,
+              "default": 160,
+              "id": "putStrike",
+              "step": 5
+            },
+            {
+              "type": "slider",
+              "label": "Short Call Strike",
+              "min": 185,
+              "max": 220,
+              "default": 200,
+              "id": "callStrike",
+              "step": 5
+            }
+          ]
+        }
+      }
+    ],
+    "track": "options",
+    "order": 14
+  }
+]

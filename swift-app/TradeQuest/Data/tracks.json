@@ -1,0 +1,30 @@
+[
+  {
+    "id": "stock-markets",
+    "name": "Stock Market Fundamentals",
+    "icon": "📊",
+    "description": "Learn the basics of stocks, exchanges, and how markets work",
+    "lessons": []
+  },
+  {
+    "id": "technical-analysis",
+    "name": "Technical Analysis",
+    "icon": "📈",
+    "description": "Master chart reading, indicators, and pattern recognition",
+    "lessons": []
+  },
+  {
+    "id": "options",
+    "name": "Options Trading",
+    "icon": "🎯",
+    "description": "Understand options contracts, Greeks, and strategies",
+    "lessons": []
+  },
+  {
+    "id": "risk-management",
+    "name": "Risk Management",
+    "icon": "🛡️",
+    "description": "Position sizing, stop losses, and portfolio protection",
+    "lessons": []
+  }
+]

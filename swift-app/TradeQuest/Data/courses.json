@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Yale - Financial Markets (Robert Shiller)",
+    "provider": "Yale / Coursera",
+    "price": "Free",
+    "difficulty": "beginner",
+    "category": "Free Courses",
+    "url": "https://www.coursera.org/learn/financial-markets-global",
+    "description": "Nobel laureate Robert Shiller's legendary course on how financial markets work. Covers insurance, banking, securities, behavioral finance.",
+    "rank": 1,
+    "featured": true
+  },
+  {
+    "name": "QuantConnect Bootcamp",
+    "provider": "QuantConnect",
+    "price": "Free",
+    "difficulty": "intermediate",
+    "category": "Free Courses",
+    "url": "https://www.quantconnect.com/learning",
+    "description": "Hands-on algorithmic trading tutorials using LEAN engine. Build strategies in Python with real market data.",
+    "rank": 2,
+    "featured": true
+  },
+  {
+    "name": "Financial Engineering and Risk Management",
+    "provider": "Columbia / Coursera",
+    "price": "$49/month",
+    "difficulty": "advanced",
+    "category": "Paid Courses",
+    "url": "https://www.coursera.org/specializations/financialengineering",
+    "description": "Columbia University specialization: derivatives pricing, term structure models, computational methods. Rigorous and math-heavy.",
+    "rank": 3,
+    "featured": true
+  },
+  {
+    "name": "tastylive Learn Center",
+    "provider": "tastylive",
+    "price": "Free",
+    "difficulty": "beginner",
+    "category": "Platform-Specific",
+    "url": "https://www.tastylive.com/concepts-strategies",
+    "description": "Thousands of hours of free options education. Research-backed approach focusing on selling premium and managing probability.",
+    "rank": 4,
+    "featured": true
+  },
+  {
+    "name": "Machine Learning for Trading",
+    "provider": "Georgia Tech / Udacity",
+    "price": "Free audit / $399",
+    "difficulty": "advanced",
+    "category": "Paid Courses",
+    "url": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+    "description": "Apply ML to trading: Q-learning for portfolio optimization. Part of Georgia Tech OMSCS program.",
+    "rank": 5,
+    "featured": true
+  },
+  {
+    "name": "Khan Academy - Finance & Capital Markets",
+    "provider": "Khan Academy",
+    "price": "Free",
+    "difficulty": "beginner",
+    "category": "Free Courses",
+    "url": "https://www.khanacademy.org/economics-finance-domain",
+    "description": "Covers stocks, bonds, interest, inflation, and basic financial concepts. Excellent visual explanations with exercises.",
+    "rank": 7
+  },
+  {
+    "name": "MIT OpenCourseWare - Finance Theory I",
+    "provider": "MIT OCW",
+    "price": "Free",
+    "difficulty": "intermediate",
+    "category": "Free Courses",
+    "url": "https://ocw.mit.edu/courses/15-401-finance-theory-i-fall-2008/",
+    "description": "Full MIT finance course: present value, portfolio theory, CAPM, and options pricing. Lectures, problem sets, exams.",
+    "rank": 6
+  },
+  {
+    "name": "Investopedia Simulator + Tutorials",
+    "provider": "Investopedia",
+    "price": "Free",
+    "difficulty": "beginner",
+    "category": "Free Courses",
+    "url": "https://www.investopedia.com/simulator/",
+    "description": "Free stock market simulator plus hundreds of tutorials on trading basics, options, technical and fundamental analysis.",
+    "rank": 9
+  },
+  {
+    "name": "Babypips School of Pipsology",
+    "provider": "BabyPips",
+    "price": "Free",
+    "difficulty": "beginner",
+    "category": "Free Courses",
+    "url": "https://www.babypips.com/learn/forex",
+    "description": "Comprehensive free forex curriculum from beginner to advanced. Charts, indicators, risk management, psychology.",
+    "rank": 11
+  },
+  {
+    "name": "Financial Engineering and Risk Management",
+    "provider": "Columbia / Coursera",
+    "price": "$49/month",
+    "difficulty": "advanced",
+    "category": "Paid Courses",
+    "url": "https://www.coursera.org/specializations/financialengineering",
+    "description": "Columbia University specialization: derivatives pricing, term structure models, computational methods. Rigorous and math-heavy."
+  },
+  {
+    "name": "Machine Learning for Trading",
+    "provider": "Georgia Tech / Udacity",
+    "price": "Free audit / $399",
+    "difficulty": "advanced",
+    "category": "Paid Courses",
+    "url": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+    "description": "Apply ML to trading: Q-learning for portfolio optimization. Part of Georgia Tech OMSCS program."
+  },
+  {
+    "name": "Investment Management with Python and ML",
+    "provider": "EDHEC / Coursera",
+    "price": "$49/month",
+    "difficulty": "intermediate",
+    "category": "Paid Courses",
+    "url": "https://www.coursera.org/specializations/investment-management-python-machine-learning",
+    "description": "Four-course specialization: portfolio construction, optimization, and advanced risk management using Python."
+  },
+  {
+    "name": "Python for Financial Analysis",
+    "provider": "Udemy (Jose Portilla)",
+    "price": "$15-25",
+    "difficulty": "intermediate",
+    "category": "Paid Courses",
+    "url": "https://www.udemy.com/course/python-for-finance-and-trading-algorithms/",
+    "description": "Practical Python for finance: NumPy, Pandas, Matplotlib. Build trading algorithms and perform quantitative analysis."
+  },
+  {
+    "name": "Computational Investing Part I",
+    "provider": "Georgia Tech / Coursera",
+    "price": "Free audit / $49",
+    "difficulty": "intermediate",
+    "category": "Paid Courses",
+    "url": "https://www.coursera.org/learn/computational-investing",
+    "description": "Build a market simulator, analyze portfolio performance, implement technical indicators. Hands-on with real data."
+  },
+  {
+    "name": "Certificate in Quantitative Finance (CQF)",
+    "provider": "CQF Institute",
+    "price": "$15,000+",
+    "difficulty": "advanced",
+    "category": "University Programs",
+    "url": "https://www.cqf.com",
+    "description": "Six-month intensive: stochastic calculus, derivatives, numerical methods, ML for finance. Industry gold standard for quant credentials."
+  },
+  {
+    "name": "MicroMasters in Finance",
+    "provider": "MIT / edX",
+    "price": "$1,500",
+    "difficulty": "advanced",
+    "category": "University Programs",
+    "url": "https://www.edx.org/micromasters/mitx-finance",
+    "description": "Graduate-level MIT finance: corporate finance, derivatives, mathematical methods. Can count toward a full MIT master's."
+  },
+  {
+    "name": "MSc Financial Engineering (Tuition-Free)",
+    "provider": "WorldQuant University",
+    "price": "Free",
+    "difficulty": "advanced",
+    "category": "University Programs",
+    "url": "https://wqu.org",
+    "description": "Fully online, tuition-free master's degree in financial engineering. Econometrics, derivatives, algo trading. Highly selective."
+  },
+  {
+    "name": "CME Group Education",
+    "provider": "CME Group",
+    "price": "Free",
+    "difficulty": "intermediate",
+    "category": "University Programs",
+    "url": "https://www.cmegroup.com/education.html",
+    "description": "Free courses on futures, options, derivatives from the world's largest derivatives exchange. Interactive simulations."
+  },
+  {
+    "name": "tastylive Learn Center",
+    "provider": "tastylive",
+    "price": "Free",
+    "difficulty": "beginner",
+    "category": "Platform-Specific",
+    "url": "https://www.tastylive.com/concepts-strategies",
+    "description": "Thousands of hours of free options education. Research-backed approach focusing on selling premium and managing probability."
+  },
+  {
+    "name": "Schwab thinkorswim Education",
+    "provider": "Charles Schwab",
+    "price": "Free",
+    "difficulty": "beginner",
+    "category": "Platform-Specific",
+    "url": "https://www.schwab.com/learn",
+    "description": "Webcasts, articles, and videos covering stocks, options, futures. Especially strong on the thinkorswim platform."
+  },
+  {
+    "name": "Interactive Brokers Traders' Academy",
+    "provider": "Interactive Brokers",
+    "price": "Free",
+    "difficulty": "intermediate",
+    "category": "Platform-Specific",
+    "url": "https://www.interactivebrokers.com/en/trading/traders-academy.php",
+    "description": "Free courses on trading technology, market structure, order types, and global markets. Strong on execution and microstructure."
+  },
+  {
+    "name": "Kaggle Learn - ML + Time Series",
+    "provider": "Kaggle",
+    "price": "Free",
+    "difficulty": "intermediate",
+    "category": "Platform-Specific",
+    "url": "https://www.kaggle.com/learn",
+    "description": "Practical ML courses with runnable notebooks. Apply ML to financial datasets in competitions."
+  },
+  {
+    "name": "Option Alpha Courses",
+    "provider": "Option Alpha",
+    "price": "Free / $99+/mo",
+    "difficulty": "beginner",
+    "category": "Platform-Specific",
+    "url": "https://optionalpha.com",
+    "description": "Structured options courses from fundamentals to automation. Systematic, probability-based approach."
+  },
+  {
+    "name": "Quantopian Lectures (Archived)",
+    "provider": "Community",
+    "price": "Free",
+    "difficulty": "advanced",
+    "category": "Platform-Specific",
+    "url": "https://gist.github.com/ih2502mk/50d8f7feb614c8676383431b056f4291",
+    "description": "Archived Jupyter notebooks: factor models, pairs trading, Kalman filters, portfolio optimization."
+  }
+]

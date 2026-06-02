@@ -1,0 +1,328 @@
+[
+  {
+    "title": "Option Volatility and Pricing",
+    "author": "Sheldon Natenberg",
+    "difficulty": "intermediate",
+    "category": "Options Trading",
+    "description": "The gold standard for understanding options pricing, the Greeks, volatility, and strategies. Used by professional market makers.",
+    "why": "Every professional options trader has read this -- the industry standard.",
+    "rank": 1,
+    "featured": true
+  },
+  {
+    "title": "Trading in the Zone",
+    "author": "Mark Douglas",
+    "difficulty": "beginner",
+    "category": "Trading Psychology",
+    "description": "How to develop a probabilistic mindset and overcome the psychological barriers that cause most traders to fail.",
+    "why": "The most recommended trading psychology book -- transforms how you think about risk.",
+    "rank": 2,
+    "featured": true
+  },
+  {
+    "title": "Technical Analysis of the Financial Markets",
+    "author": "John Murphy",
+    "difficulty": "intermediate",
+    "category": "Technical Analysis",
+    "description": "The definitive reference on charting methods, indicators, and intermarket analysis. Covers everything from candlesticks to Elliott Wave.",
+    "why": "Considered the bible of technical analysis -- every serious chart trader owns a copy.",
+    "rank": 3,
+    "featured": true
+  },
+  {
+    "title": "Quantitative Trading",
+    "author": "Ernest Chan",
+    "difficulty": "intermediate",
+    "category": "Quantitative Finance",
+    "description": "Step-by-step guide to building an algo trading business: finding strategies, backtesting, risk management, and execution.",
+    "why": "The most practical guide to actually building and running an algo trading system.",
+    "rank": 4,
+    "featured": true
+  },
+  {
+    "title": "The Intelligent Investor",
+    "author": "Benjamin Graham",
+    "difficulty": "intermediate",
+    "category": "Investing",
+    "description": "The foundational text on value investing: margin of safety, Mr. Market analogy, and investing vs speculation.",
+    "why": "Warren Buffett calls it 'the best book on investing ever written.'",
+    "rank": 5,
+    "featured": true
+  },
+  {
+    "title": "A Random Walk Down Wall Street",
+    "author": "Burton Malkiel",
+    "difficulty": "beginner",
+    "category": "Beginner Trading",
+    "description": "Foundational overview of market theory, index investing, and why beating the market is hard. Essential starting point for any new investor.",
+    "why": "The definitive beginner's guide to understanding how markets actually work.",
+    "rank": 6
+  },
+  {
+    "title": "How to Make Money in Stocks",
+    "author": "William O'Neil",
+    "difficulty": "beginner",
+    "category": "Beginner Trading",
+    "description": "Introduces the CAN SLIM system for identifying growth stocks using fundamental and technical criteria.",
+    "why": "Created one of the most proven stock selection systems still used by traders today.",
+    "rank": 10
+  },
+  {
+    "title": "The Little Book of Common Sense Investing",
+    "author": "John C. Bogle",
+    "difficulty": "beginner",
+    "category": "Beginner Trading",
+    "description": "The case for low-cost index fund investing from the founder of Vanguard. Explains why most active managers underperform.",
+    "why": "Changed how millions invest by proving simplicity beats complexity.",
+    "rank": 8
+  },
+  {
+    "title": "One Up On Wall Street",
+    "author": "Peter Lynch",
+    "difficulty": "beginner",
+    "category": "Beginner Trading",
+    "description": "How everyday investors can find winning stocks by observing businesses in daily life. Lynch ran the best-performing mutual fund in history.",
+    "why": "Teaches you to use your own knowledge and observations as an investing edge.",
+    "rank": 12
+  },
+  {
+    "title": "Trading for a Living",
+    "author": "Alexander Elder",
+    "difficulty": "beginner",
+    "category": "Beginner Trading",
+    "description": "Covers the three pillars of trading success: psychology, tactics, and money management. A complete framework for beginning traders.",
+    "why": "One of the first books to treat trading as a professional discipline."
+  },
+  {
+    "title": "Technical Analysis of the Financial Markets",
+    "author": "John Murphy",
+    "difficulty": "intermediate",
+    "category": "Technical Analysis",
+    "description": "The definitive reference on charting methods, indicators, and intermarket analysis. Covers everything from candlesticks to Elliott Wave.",
+    "why": "Considered the bible of technical analysis -- every serious chart trader owns a copy."
+  },
+  {
+    "title": "Japanese Candlestick Charting Techniques",
+    "author": "Steve Nison",
+    "difficulty": "intermediate",
+    "category": "Technical Analysis",
+    "description": "Introduced Western traders to candlestick charting. Explains dozens of candlestick patterns for timing entries and exits.",
+    "why": "The original book that brought candlestick charting to Western markets."
+  },
+  {
+    "title": "Encyclopedia of Chart Patterns",
+    "author": "Thomas Bulkowski",
+    "difficulty": "intermediate",
+    "category": "Technical Analysis",
+    "description": "Data-driven analysis of chart patterns with statistics on success rates, average price moves, and volume characteristics.",
+    "why": "Turns pattern trading from art into science with decades of statistical research."
+  },
+  {
+    "title": "Evidence-Based Technical Analysis",
+    "author": "David Aronson",
+    "difficulty": "advanced",
+    "category": "Technical Analysis",
+    "description": "Applies scientific method and statistical hypothesis testing to technical analysis. Separates what works from folklore.",
+    "why": "The rigorous counterpoint to anecdotal TA -- essential for quant-minded traders."
+  },
+  {
+    "title": "Option Volatility and Pricing",
+    "author": "Sheldon Natenberg",
+    "difficulty": "intermediate",
+    "category": "Options Trading",
+    "description": "The gold standard for understanding options pricing, the Greeks, volatility, and strategies. Used by professional market makers.",
+    "why": "Every professional options trader has read this -- the industry standard."
+  },
+  {
+    "title": "Options as a Strategic Investment",
+    "author": "Lawrence McMillan",
+    "difficulty": "intermediate",
+    "category": "Options Trading",
+    "description": "Comprehensive encyclopedia of options strategies from basic to complex, with detailed risk/reward analysis for each.",
+    "why": "The most complete options strategy reference at over 1000 pages."
+  },
+  {
+    "title": "The Options Playbook",
+    "author": "Brian Overby",
+    "difficulty": "beginner",
+    "category": "Options Trading",
+    "description": "Visual guide to 40 options strategies with clear P&L diagrams and plain-English explanations. Perfect first options book.",
+    "why": "Makes options approachable for beginners with excellent visual payoff diagrams."
+  },
+  {
+    "title": "Dynamic Hedging",
+    "author": "Nassim Nicholas Taleb",
+    "difficulty": "advanced",
+    "category": "Options Trading",
+    "description": "Managing vanilla and exotic options from a practitioner's perspective. Covers real-world hedging challenges textbooks ignore.",
+    "why": "Written by a legendary options trader -- how professionals actually manage risk."
+  },
+  {
+    "title": "Volatility Trading",
+    "author": "Euan Sinclair",
+    "difficulty": "advanced",
+    "category": "Options Trading",
+    "description": "Practical framework for identifying mispriced volatility and building strategies around it. Includes position sizing and forecasting.",
+    "why": "Bridges academic volatility theory and profitable trading practice."
+  },
+  {
+    "title": "Options, Futures, and Other Derivatives",
+    "author": "John Hull",
+    "difficulty": "intermediate",
+    "category": "Quantitative Finance",
+    "description": "The standard university textbook for derivatives pricing: Black-Scholes, binomial models, interest rate models, credit derivatives.",
+    "why": "Required reading at virtually every quant finance program in the world."
+  },
+  {
+    "title": "Quantitative Trading",
+    "author": "Ernest Chan",
+    "difficulty": "intermediate",
+    "category": "Quantitative Finance",
+    "description": "Step-by-step guide to building an algo trading business: finding strategies, backtesting, risk management, and execution.",
+    "why": "The most practical guide to actually building and running an algo trading system."
+  },
+  {
+    "title": "Inside the Black Box",
+    "author": "Rishi Narang",
+    "difficulty": "intermediate",
+    "category": "Quantitative Finance",
+    "description": "Demystifies how quant trading firms work: alpha models, risk models, transaction cost models, and portfolio construction.",
+    "why": "The best non-technical overview of how quantitative hedge funds actually operate."
+  },
+  {
+    "title": "Paul Wilmott Introduces Quantitative Finance",
+    "author": "Paul Wilmott",
+    "difficulty": "intermediate",
+    "category": "Quantitative Finance",
+    "description": "Accessible introduction to quant finance mathematics including stochastic calculus, derivatives pricing, and numerical methods.",
+    "why": "Makes complex quant math approachable without sacrificing rigor."
+  },
+  {
+    "title": "Algorithmic Trading and DMA",
+    "author": "Barry Johnson",
+    "difficulty": "advanced",
+    "category": "Quantitative Finance",
+    "description": "Covers market microstructure, order types, execution algorithms, and direct market access. How orders actually get filled.",
+    "why": "The definitive guide to electronic market execution."
+  },
+  {
+    "title": "Advances in Financial Machine Learning",
+    "author": "Marcos Lopez de Prado",
+    "difficulty": "advanced",
+    "category": "Quantitative Finance",
+    "description": "How to properly apply ML to finance: meta-labeling, fractional differentiation, portfolio optimization. Avoids common pitfalls.",
+    "why": "The most important ML-finance book -- written by a top quant researcher."
+  },
+  {
+    "title": "The Concepts and Practice of Mathematical Finance",
+    "author": "Mark Joshi",
+    "difficulty": "advanced",
+    "category": "Quantitative Finance",
+    "description": "Comprehensive derivatives pricing with Monte Carlo methods, trees, and PDEs. Strong focus on practical implementation.",
+    "why": "Preferred by quant interview candidates for its clarity and depth."
+  },
+  {
+    "title": "Trading in the Zone",
+    "author": "Mark Douglas",
+    "difficulty": "beginner",
+    "category": "Trading Psychology",
+    "description": "How to develop a probabilistic mindset and overcome the psychological barriers that cause most traders to fail.",
+    "why": "The most recommended trading psychology book -- transforms how you think about risk."
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "difficulty": "intermediate",
+    "category": "Trading Psychology",
+    "description": "Nobel laureate explains cognitive biases and the two systems of thought that lead to poor financial decisions.",
+    "why": "Understanding your own biases is the first step to avoiding them in trading."
+  },
+  {
+    "title": "Reminiscences of a Stock Operator",
+    "author": "Edwin Lefevre",
+    "difficulty": "beginner",
+    "category": "Trading Psychology",
+    "description": "Fictionalized biography of Jesse Livermore, one of the greatest traders ever. Timeless lessons on speculation and patience.",
+    "why": "Written in 1923 and still the most-quoted trading book on Wall Street."
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "difficulty": "beginner",
+    "category": "Trading Psychology",
+    "description": "Short stories exploring how people think about money, wealth, and financial decisions. Financial success is more about behavior than knowledge.",
+    "why": "A modern classic that reframes finance as a soft skill."
+  },
+  {
+    "title": "Fooled by Randomness",
+    "author": "Nassim Nicholas Taleb",
+    "difficulty": "intermediate",
+    "category": "Trading Psychology",
+    "description": "How humans confuse luck with skill in trading. Explores survivorship bias, narrative fallacy, and the role of randomness.",
+    "why": "Will permanently change how you evaluate trading track records."
+  },
+  {
+    "title": "The Black Swan",
+    "author": "Nassim Nicholas Taleb",
+    "difficulty": "intermediate",
+    "category": "Risk Management",
+    "description": "How rare, unpredictable events dominate financial markets and why standard risk models fail. Changed how the industry thinks about tail risk.",
+    "why": "Predicted the 2008 crisis framework -- essential for understanding market fragility."
+  },
+  {
+    "title": "Against the Gods",
+    "author": "Peter Bernstein",
+    "difficulty": "beginner",
+    "category": "Risk Management",
+    "description": "History of risk management from ancient civilizations to modern finance. How our understanding of probability and risk evolved.",
+    "why": "The intellectual foundation for understanding why risk management matters."
+  },
+  {
+    "title": "Positional Option Trading",
+    "author": "Euan Sinclair",
+    "difficulty": "advanced",
+    "category": "Risk Management",
+    "description": "Advanced position management and risk control for options traders. Portfolio-level Greeks management and practical hedging.",
+    "why": "The most practical advanced guide to managing real options portfolio risk."
+  },
+  {
+    "title": "The Intelligent Investor",
+    "author": "Benjamin Graham",
+    "difficulty": "intermediate",
+    "category": "Investing",
+    "description": "The foundational text on value investing: margin of safety, Mr. Market analogy, and investing vs speculation.",
+    "why": "Warren Buffett calls it 'the best book on investing ever written.'"
+  },
+  {
+    "title": "Common Stocks and Uncommon Profits",
+    "author": "Philip Fisher",
+    "difficulty": "intermediate",
+    "category": "Investing",
+    "description": "Pioneered growth investing and the scuttlebutt method of researching companies.",
+    "why": "Fisher's 15-point checklist for evaluating growth companies is still used today."
+  },
+  {
+    "title": "Market Wizards",
+    "author": "Jack Schwager",
+    "difficulty": "beginner",
+    "category": "Investing",
+    "description": "Interviews with the greatest traders of the 1980s: Paul Tudor Jones, Ed Seykota, Bruce Kovner. Their strategies and mindsets.",
+    "why": "The most famous trading interview book -- shows many paths to market success."
+  },
+  {
+    "title": "You Can Be a Stock Market Genius",
+    "author": "Joel Greenblatt",
+    "difficulty": "intermediate",
+    "category": "Investing",
+    "description": "Finding investment opportunities in special situations: spinoffs, restructurings, mergers, and other corporate events.",
+    "why": "Reveals hidden corners of the market where individual investors can find edges."
+  },
+  {
+    "title": "Margin of Safety",
+    "author": "Seth Klarman",
+    "difficulty": "advanced",
+    "category": "Investing",
+    "description": "Value investing philosophy from one of the most successful hedge fund managers. Out of print and legendary.",
+    "why": "Considered the modern successor to The Intelligent Investor."
+  }
+]

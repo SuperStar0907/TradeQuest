@@ -1,0 +1,879 @@
+{
+  "glossary": [
+    {
+      "term": "Ask",
+      "definition": "The lowest price at which a seller is willing to sell a security. Also known as the offer price. The difference between the bid and ask is called the spread."
+    },
+    {
+      "term": "ATM (At-The-Money)",
+      "definition": "An option whose strike price is equal or very close to the current market price of the underlying asset. ATM options have the highest time value and a delta near 0.50."
+    },
+    {
+      "term": "Bear Market",
+      "definition": "A market condition characterized by a decline of 20% or more from recent highs in a broad market index, typically accompanied by widespread pessimism and negative investor sentiment."
+    },
+    {
+      "term": "Beta",
+      "definition": "A measure of a stock's volatility relative to the overall market. A beta of 1.0 means the stock moves in line with the market; above 1.0 indicates higher volatility; below 1.0 indicates lower volatility."
+    },
+    {
+      "term": "Bid",
+      "definition": "The highest price a buyer is willing to pay for a security. The bid price is always lower than the ask price, and the difference is called the bid-ask spread."
+    },
+    {
+      "term": "Bollinger Bands",
+      "definition": "A technical analysis tool consisting of a middle band (20-period SMA) and two outer bands set at 2 standard deviations above and below. They expand and contract with volatility, helping identify overbought and oversold conditions."
+    },
+    {
+      "term": "Breakout",
+      "definition": "A price movement above a resistance level or below a support level, often accompanied by increased volume. Breakouts signal potential continuation of the move in the breakout direction."
+    },
+    {
+      "term": "Bull Market",
+      "definition": "A market condition characterized by rising prices and optimistic investor sentiment, generally defined as a sustained increase of 20% or more from recent lows in a broad market index."
+    },
+    {
+      "term": "Call Option",
+      "definition": "A financial contract giving the holder the right, but not the obligation, to buy a specified quantity of an underlying asset at a predetermined strike price before or at expiration."
+    },
+    {
+      "term": "Candlestick",
+      "definition": "A type of price chart that displays the open, high, low, and close for a specific time period. The body shows the open-to-close range, while the wicks (shadows) show the high and low."
+    },
+    {
+      "term": "Consolidation",
+      "definition": "A period during which a stock trades within a relatively narrow price range, reflecting a balance between supply and demand. Consolidation often precedes a breakout in either direction."
+    },
+    {
+      "term": "Correction",
+      "definition": "A decline of 10% or more from a recent peak in a stock or market index. Corrections are considered normal parts of market cycles and can present buying opportunities."
+    },
+    {
+      "term": "Covered Call",
+      "definition": "An options strategy where an investor holds 100 shares of a stock and sells a call option against those shares. It generates income from the premium but caps upside potential at the strike price."
+    },
+    {
+      "term": "Dark Pool",
+      "definition": "A private electronic trading venue where large institutional orders are executed anonymously, away from public exchanges. They allow large block trades without impacting the public market price."
+    },
+    {
+      "term": "Day Trade",
+      "definition": "The practice of buying and selling a security within the same trading day. The Pattern Day Trader rule limits accounts under $25,000 to 3 day trades within 5 business days."
+    },
+    {
+      "term": "Death Cross",
+      "definition": "A bearish technical signal that occurs when the 50-day moving average crosses below the 200-day moving average, suggesting potential for a sustained downtrend. It is the opposite of a golden cross."
+    },
+    {
+      "term": "Delta",
+      "definition": "An options Greek that measures the sensitivity of an option's price to a $1 change in the underlying asset. Call deltas range from 0 to 1; put deltas range from -1 to 0."
+    },
+    {
+      "term": "Divergence",
+      "definition": "A condition where the price of an asset and a technical indicator (such as RSI or MACD) move in opposite directions. Bullish divergence suggests a potential reversal upward; bearish divergence suggests a potential reversal downward."
+    },
+    {
+      "term": "Dividend",
+      "definition": "A distribution of a portion of a company's earnings to its shareholders, typically paid quarterly. Dividends can be in cash or additional shares and represent a return on investment beyond price appreciation."
+    },
+    {
+      "term": "Drawdown",
+      "definition": "The peak-to-trough decline in account or portfolio value before a new high is reached. Maximum drawdown is a key risk metric that measures the worst-case loss scenario over a given period."
+    },
+    {
+      "term": "EMA (Exponential Moving Average)",
+      "definition": "A type of moving average that places greater weight on the most recent data points, making it more responsive to new information than a simple moving average."
+    },
+    {
+      "term": "EPS (Earnings Per Share)",
+      "definition": "A company's net profit divided by the number of outstanding shares. It indicates how much money a company earns for each share of stock and is a key metric for valuation."
+    },
+    {
+      "term": "ETF (Exchange-Traded Fund)",
+      "definition": "An investment fund that trades on stock exchanges like individual stocks. ETFs hold assets such as stocks, bonds, or commodities and typically track an index, sector, or strategy."
+    },
+    {
+      "term": "Fibonacci Retracement",
+      "definition": "A technical analysis tool that uses horizontal lines to indicate potential support and resistance levels at key Fibonacci ratios (23.6%, 38.2%, 50%, 61.8%, 78.6%) of a prior price move."
+    },
+    {
+      "term": "Float",
+      "definition": "The number of shares available for public trading, excluding restricted shares held by insiders and institutions. Low-float stocks tend to have higher volatility due to limited supply."
+    },
+    {
+      "term": "FOMC (Federal Open Market Committee)",
+      "definition": "The branch of the Federal Reserve that determines the direction of monetary policy, including setting interest rates. FOMC meetings and statements significantly impact financial markets."
+    },
+    {
+      "term": "Gamma",
+      "definition": "An options Greek that measures the rate of change of delta per $1 move in the underlying asset. Gamma is highest for at-the-money options near expiration."
+    },
+    {
+      "term": "Gap",
+      "definition": "A discontinuity in a stock's price chart where the price opens significantly higher or lower than the previous close. Gaps can be caused by news, earnings, or overnight events."
+    },
+    {
+      "term": "Golden Cross",
+      "definition": "A bullish technical signal that occurs when a shorter-term moving average (typically 50-day) crosses above a longer-term moving average (typically 200-day), suggesting potential for a sustained uptrend."
+    },
+    {
+      "term": "Hedge",
+      "definition": "An investment or strategy designed to reduce the risk of adverse price movements in an asset. Common hedging methods include buying put options, short selling, or diversifying across asset classes."
+    },
+    {
+      "term": "Implied Volatility (IV)",
+      "definition": "The market's expectation of future price volatility of the underlying asset, derived from option prices. Higher IV leads to more expensive options premiums, and vice versa."
+    },
+    {
+      "term": "Iron Condor",
+      "definition": "A neutral options strategy combining a bull put spread and a bear call spread. It profits when the underlying stays within the range of the two short strikes and benefits from time decay and declining IV."
+    },
+    {
+      "term": "ITM (In-The-Money)",
+      "definition": "An option with intrinsic value. A call is ITM when the stock price is above the strike; a put is ITM when the stock price is below the strike. ITM options have a delta greater than 0.50."
+    },
+    {
+      "term": "Leverage",
+      "definition": "The use of borrowed capital or financial instruments to amplify the potential return of an investment. While leverage can magnify gains, it equally magnifies losses."
+    },
+    {
+      "term": "Limit Order",
+      "definition": "An order to buy or sell a security at a specific price or better. A buy limit order executes at the limit price or lower; a sell limit order executes at the limit price or higher."
+    },
+    {
+      "term": "Liquidity",
+      "definition": "The ease with which an asset can be bought or sold in the market without significantly affecting its price. High liquidity means tight bid-ask spreads and high trading volume."
+    },
+    {
+      "term": "Long",
+      "definition": "Holding a position where you own an asset or have bought a contract, profiting when the price increases. \"Going long\" means buying with the expectation that the value will rise."
+    },
+    {
+      "term": "MACD (Moving Average Convergence Divergence)",
+      "definition": "A trend-following momentum indicator that shows the relationship between two EMAs (typically 12 and 26 period). It consists of the MACD line, signal line (9-period EMA), and histogram."
+    },
+    {
+      "term": "Margin",
+      "definition": "Borrowed money from a broker used to purchase securities. Margin trading amplifies both gains and losses. A margin call occurs when account equity falls below the broker's required minimum."
+    },
+    {
+      "term": "Market Cap (Market Capitalization)",
+      "definition": "The total market value of a company's outstanding shares, calculated by multiplying the share price by the total number of shares. It classifies companies as large-cap, mid-cap, or small-cap."
+    },
+    {
+      "term": "Market Maker",
+      "definition": "A firm or individual that actively quotes both bid and ask prices for a security, providing liquidity to the market. Market makers profit from the bid-ask spread and are obligated to maintain orderly markets."
+    },
+    {
+      "term": "Market Order",
+      "definition": "An order to buy or sell a security immediately at the best available current price. Market orders guarantee execution but not price, and may experience slippage in volatile markets."
+    },
+    {
+      "term": "Moving Average",
+      "definition": "A calculation used to smooth price data by creating a constantly updated average price over a specific time period. Common types include Simple Moving Average (SMA) and Exponential Moving Average (EMA)."
+    },
+    {
+      "term": "Open Interest (OI)",
+      "definition": "The total number of outstanding options or futures contracts that have not been settled, closed, or expired. It indicates the level of activity and liquidity in a contract."
+    },
+    {
+      "term": "Options Chain",
+      "definition": "A listing of all available options contracts for a particular security, organized by expiration date and strike price, showing calls and puts with their respective premiums, volume, open interest, and Greeks."
+    },
+    {
+      "term": "OTM (Out-of-The-Money)",
+      "definition": "An option with no intrinsic value. A call is OTM when the stock price is below the strike; a put is OTM when the stock price is above the strike. OTM options consist entirely of extrinsic value."
+    },
+    {
+      "term": "Overbought",
+      "definition": "A condition where a security's price has risen too far too fast relative to its fundamentals, suggesting a potential pullback. Technically, RSI above 70 is a common overbought indicator."
+    },
+    {
+      "term": "Oversold",
+      "definition": "A condition where a security's price has fallen too far too fast relative to its fundamentals, suggesting a potential bounce. Technically, RSI below 30 is a common oversold indicator."
+    },
+    {
+      "term": "P/E Ratio (Price-to-Earnings)",
+      "definition": "A valuation ratio calculated by dividing a stock's current price by its earnings per share. It indicates how much investors are willing to pay per dollar of earnings. A higher P/E suggests higher growth expectations."
+    },
+    {
+      "term": "PDT Rule (Pattern Day Trader)",
+      "definition": "A regulatory designation for traders who execute 4 or more day trades within 5 business days in a margin account. PDT accounts must maintain a minimum equity of $25,000."
+    },
+    {
+      "term": "Premium",
+      "definition": "The price paid by an option buyer to the option seller for the rights conveyed by the contract. It is determined by intrinsic value, time value, implied volatility, and interest rates."
+    },
+    {
+      "term": "Put Option",
+      "definition": "A financial contract giving the holder the right, but not the obligation, to sell a specified quantity of an underlying asset at a predetermined strike price before or at expiration."
+    },
+    {
+      "term": "Rally",
+      "definition": "A sustained increase in the price of a stock, bond, or index. Rallies can occur in both bull and bear markets and may be driven by positive news, earnings, or technical factors."
+    },
+    {
+      "term": "Resistance",
+      "definition": "A price level where selling pressure tends to prevent the price from rising further. It acts as a ceiling and can be identified by previous highs, moving averages, or round numbers."
+    },
+    {
+      "term": "RSI (Relative Strength Index)",
+      "definition": "A momentum oscillator ranging from 0 to 100 that measures the speed and magnitude of recent price changes. Readings above 70 indicate overbought conditions; below 30 indicate oversold conditions."
+    },
+    {
+      "term": "Sector Rotation",
+      "definition": "The movement of investment capital from one industry sector to another as investors anticipate the next stage of the economic cycle. Different sectors outperform at different points in the business cycle."
+    },
+    {
+      "term": "Short Selling",
+      "definition": "Selling a borrowed security with the intention of buying it back at a lower price. Short sellers profit when prices decline but face theoretically unlimited losses if prices rise."
+    },
+    {
+      "term": "SMA (Simple Moving Average)",
+      "definition": "A moving average calculated by summing the closing prices over a set number of periods and dividing by that number. Each price point is weighted equally in the calculation."
+    },
+    {
+      "term": "Spread",
+      "definition": "In general, the difference between two prices. In options, a strategy involving simultaneous purchase and sale of options on the same underlying with different strikes or expirations."
+    },
+    {
+      "term": "Stop Loss",
+      "definition": "An order placed to sell a security when it reaches a specific price, designed to limit an investor's loss. Stop losses help enforce discipline and remove emotion from exit decisions."
+    },
+    {
+      "term": "Straddle",
+      "definition": "An options strategy involving the simultaneous purchase of a call and put at the same strike price and expiration. It profits from large price movements in either direction regardless of the direction."
+    },
+    {
+      "term": "Strike Price",
+      "definition": "The predetermined price at which an option holder can buy (call) or sell (put) the underlying asset. Also called the exercise price. It is fixed when the option contract is created."
+    },
+    {
+      "term": "Support",
+      "definition": "A price level where buying pressure tends to prevent the price from falling further. It acts as a floor and can be identified by previous lows, moving averages, or round numbers."
+    },
+    {
+      "term": "Theta",
+      "definition": "An options Greek that measures the rate of decline in an option's value due to the passage of time (time decay). Theta is typically negative for long options and positive for short options."
+    },
+    {
+      "term": "Trailing Stop",
+      "definition": "A dynamic stop-loss order that adjusts upward as the stock price rises but remains fixed when the price falls. It locks in profits while providing downside protection during an uptrend."
+    },
+    {
+      "term": "Trend",
+      "definition": "The general direction of a market or asset price over time. An uptrend consists of higher highs and higher lows; a downtrend consists of lower highs and lower lows."
+    },
+    {
+      "term": "Vega",
+      "definition": "An options Greek that measures the sensitivity of an option's price to a 1 percentage point change in implied volatility. Options with more time until expiration have higher vega."
+    },
+    {
+      "term": "VIX (Volatility Index)",
+      "definition": "Known as the \"fear gauge,\" the VIX measures the market's expectation of 30-day volatility based on S&P 500 index options. Higher VIX values indicate greater expected volatility and uncertainty."
+    },
+    {
+      "term": "Volume",
+      "definition": "The total number of shares or contracts traded in a security or market during a given period. High volume often confirms the strength of a price move or breakout."
+    },
+    {
+      "term": "VWAP (Volume Weighted Average Price)",
+      "definition": "The average price a security has traded at throughout the day, weighted by volume. It is used as a benchmark by institutional traders and can act as dynamic support or resistance."
+    },
+    {
+      "term": "Wash Sale Rule",
+      "definition": "An IRS rule that disallows a tax loss deduction if you sell a security at a loss and repurchase a substantially identical security within 30 days before or after the sale."
+    },
+    {
+      "term": "Wick (Shadow)",
+      "definition": "The thin lines extending above and below the body of a candlestick, representing the high and low prices during that period. Long wicks can indicate rejection of price levels and potential reversals."
+    },
+    {
+      "term": "Alpha",
+      "definition": "The excess return of an investment relative to a benchmark index. A positive alpha indicates the investment outperformed the benchmark after adjusting for risk, while a negative alpha indicates underperformance. It is a key measure of a portfolio manager's skill."
+    },
+    {
+      "term": "Sharpe Ratio",
+      "definition": "A risk-adjusted performance metric that measures the excess return per unit of total risk (standard deviation). A higher Sharpe Ratio indicates better risk-adjusted returns. Values above 1.0 are generally considered acceptable, above 2.0 are very good, and above 3.0 are excellent."
+    },
+    {
+      "term": "Margin Call",
+      "definition": "A demand from a broker for an investor to deposit additional money or securities to bring a margin account up to the minimum maintenance requirement. Failure to meet a margin call can result in the broker liquidating positions without the investor's consent."
+    },
+    {
+      "term": "Naked Short",
+      "definition": "The illegal practice of short selling shares that have not been affirmatively determined to exist or that the seller has not borrowed or arranged to borrow. Naked shorting can create artificial selling pressure and was restricted by SEC Regulation SHO."
+    },
+    {
+      "term": "High-Frequency Trading (HFT)",
+      "definition": "A form of algorithmic trading that uses powerful computers to execute a large number of orders in fractions of a second. HFT firms profit from tiny price discrepancies and provide liquidity, but critics argue they create unfair advantages and can amplify market volatility."
+    },
+    {
+      "term": "Stop-Loss Order",
+      "definition": "An order placed with a broker to sell a security when it reaches a specified price, designed to limit an investor's loss on a position. Once triggered, the stop-loss becomes a market order and may execute at a price different from the stop price in fast-moving markets."
+    },
+    {
+      "term": "Fill or Kill (FOK)",
+      "definition": "An order that must be executed immediately and in its entirety or not at all. If the full quantity cannot be filled at the specified price or better right away, the entire order is cancelled. It is commonly used for large institutional orders where partial fills are undesirable."
+    },
+    {
+      "term": "Good-Til-Cancelled (GTC)",
+      "definition": "An order to buy or sell a security that remains active until the investor cancels it or the order is executed. Unlike day orders that expire at the end of the trading session, GTC orders can persist for days, weeks, or months depending on the broker's policy."
+    },
+    {
+      "term": "Price-to-Book (P/B) Ratio",
+      "definition": "A valuation metric comparing a company's market price per share to its book value per share. A P/B below 1.0 may indicate the stock is undervalued or that the company has fundamental problems. It is especially useful for evaluating financial institutions and asset-heavy companies."
+    },
+    {
+      "term": "Dividend Yield",
+      "definition": "The annual dividend payment expressed as a percentage of the current stock price. It measures the cash return an investor receives relative to the price paid for a share. High dividend yields can signal value but may also indicate a declining stock price or unsustainable payout."
+    },
+    {
+      "term": "Ex-Dividend Date",
+      "definition": "The date on which a stock begins trading without the right to receive the next declared dividend. Investors who purchase shares on or after the ex-dividend date will not receive the upcoming dividend payment. Stock prices typically drop by approximately the dividend amount on this date."
+    },
+    {
+      "term": "Stock Split",
+      "definition": "A corporate action that increases the number of outstanding shares by dividing each existing share into multiple shares, proportionally reducing the price per share. A 2-for-1 split doubles the shares and halves the price. Splits make shares more accessible to retail investors without changing the company's market capitalization."
+    },
+    {
+      "term": "Reverse Split",
+      "definition": "A corporate action that reduces the number of outstanding shares by merging multiple shares into one, proportionally increasing the price per share. A 1-for-10 reverse split converts every 10 shares into 1 share at 10 times the price. Companies often use reverse splits to meet minimum exchange listing requirements."
+    },
+    {
+      "term": "Circuit Breaker",
+      "definition": "A regulatory mechanism that temporarily halts trading on an exchange when prices decline by a predetermined percentage within a specified time period. In the U.S., market-wide circuit breakers trigger at Level 1 (7% decline), Level 2 (13% decline), and Level 3 (20% decline) of the S&P 500."
+    },
+    {
+      "term": "Black Swan",
+      "definition": "An unpredictable event that is beyond what is normally expected and has potentially severe consequences for financial markets. Coined by Nassim Nicholas Taleb, black swan events are characterized by their extreme rarity, severe impact, and the widespread insistence they were obvious in hindsight."
+    },
+    {
+      "term": "Dead Cat Bounce",
+      "definition": "A temporary recovery in the price of a declining asset, followed by a continuation of the downtrend. The term implies that even a dead cat will bounce if it falls from a great height. Traders must distinguish dead cat bounces from genuine reversals to avoid buying into further declines."
+    },
+    {
+      "term": "Gap Up/Gap Down",
+      "definition": "A gap up occurs when a security opens significantly above its previous close, while a gap down occurs when it opens significantly below. Gaps are caused by overnight news, earnings reports, or macroeconomic events and can signal strong momentum or create support and resistance zones on the chart."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Simple Moving Average (SMA)",
+      "formula": "SMA = (P1 + P2 + ... + Pn) / n",
+      "description": "The arithmetic mean of closing prices over n periods. Each price is weighted equally. Common periods are 20, 50, and 200 days."
+    },
+    {
+      "name": "Exponential Moving Average (EMA)",
+      "formula": "EMA = (Price x Multiplier) + (Previous EMA x (1 - Multiplier)), where Multiplier = 2 / (n + 1)",
+      "description": "A weighted moving average that gives greater significance to recent prices. The multiplier determines how much weight is applied to the most recent data point."
+    },
+    {
+      "name": "Relative Strength Index (RSI)",
+      "formula": "RSI = 100 - (100 / (1 + RS)), where RS = Average Gain / Average Loss over n periods",
+      "description": "A momentum oscillator that ranges from 0 to 100. The standard period is 14. Values above 70 indicate overbought conditions; below 30 indicate oversold conditions."
+    },
+    {
+      "name": "MACD",
+      "formula": "MACD Line = 12-period EMA - 26-period EMA; Signal Line = 9-period EMA of MACD Line; Histogram = MACD Line - Signal Line",
+      "description": "A trend-following momentum indicator. Buy signals occur when the MACD line crosses above the signal line; sell signals when it crosses below."
+    },
+    {
+      "name": "Bollinger Bands",
+      "formula": "Upper Band = SMA(20) + 2 x SD(20); Middle Band = SMA(20); Lower Band = SMA(20) - 2 x SD(20)",
+      "description": "Volatility bands placed above and below a moving average. The bands widen during high volatility and contract during low volatility. SD is the standard deviation of prices."
+    },
+    {
+      "name": "Fibonacci Retracement Levels",
+      "formula": "Level = High - ((High - Low) x Fibonacci Ratio), where ratios are 0.236, 0.382, 0.500, 0.618, 0.786",
+      "description": "Horizontal lines indicating potential support and resistance based on Fibonacci ratios applied to a prior price move from a significant low to a significant high."
+    },
+    {
+      "name": "Black-Scholes (Call Option Price)",
+      "formula": "C = S x N(d1) - K x e^(-rT) x N(d2)",
+      "description": "The theoretical price of a European call option where S is stock price, K is strike price, r is risk-free rate, T is time to expiration, and N() is the cumulative normal distribution function."
+    },
+    {
+      "name": "d1 (Black-Scholes)",
+      "formula": "d1 = [ln(S/K) + (r + sigma^2 / 2) x T] / (sigma x sqrt(T))",
+      "description": "An intermediate variable in the Black-Scholes formula where S is stock price, K is strike price, r is risk-free rate, sigma is volatility, and T is time to expiration in years."
+    },
+    {
+      "name": "d2 (Black-Scholes)",
+      "formula": "d2 = d1 - sigma x sqrt(T)",
+      "description": "The second intermediate variable in Black-Scholes, representing d1 adjusted downward by the volatility component. N(d2) approximates the probability that the option will expire in-the-money."
+    },
+    {
+      "name": "Delta (Call)",
+      "formula": "Delta (Call) = N(d1); Delta (Put) = N(d1) - 1",
+      "description": "The rate of change of option price with respect to the underlying price. Call delta ranges from 0 to 1; put delta ranges from -1 to 0. ATM options have a delta near 0.50."
+    },
+    {
+      "name": "Gamma",
+      "formula": "Gamma = N'(d1) / (S x sigma x sqrt(T))",
+      "description": "The rate of change of delta per unit change in the underlying price. N'(d1) is the standard normal probability density function. Gamma is highest for ATM options near expiration."
+    },
+    {
+      "name": "Theta (Call)",
+      "formula": "Theta = -(S x N'(d1) x sigma) / (2 x sqrt(T)) - r x K x e^(-rT) x N(d2)",
+      "description": "The rate of decline in option value due to time passage, expressed per day. Theta accelerates as expiration approaches, particularly for ATM options."
+    },
+    {
+      "name": "Vega",
+      "formula": "Vega = S x sqrt(T) x N'(d1)",
+      "description": "The sensitivity of option price to a 1 percentage point change in implied volatility. Vega is highest for ATM options with longer time to expiration."
+    },
+    {
+      "name": "Position Size",
+      "formula": "Position Size = (Account Risk $) / (Entry Price - Stop Loss Price)",
+      "description": "Determines the number of shares to buy based on account risk and the distance between entry and stop loss. Account risk is typically 1-2% of total account equity."
+    },
+    {
+      "name": "Risk/Reward Ratio",
+      "formula": "Risk/Reward = (Target Price - Entry Price) / (Entry Price - Stop Loss Price)",
+      "description": "Compares the potential profit to the potential loss of a trade. A ratio of 2:1 or higher is generally considered favorable for most trading strategies."
+    },
+    {
+      "name": "Sharpe Ratio",
+      "formula": "Sharpe Ratio = (Rp - Rf) / SDp",
+      "description": "Measures risk-adjusted return where Rp is portfolio return, Rf is risk-free rate, and SDp is portfolio standard deviation. Higher values indicate better risk-adjusted performance."
+    },
+    {
+      "name": "Sortino Ratio",
+      "formula": "Sortino Ratio = (Rp - Rf) / Downside Deviation",
+      "description": "Similar to the Sharpe Ratio but only penalizes downside volatility. It uses downside deviation instead of total standard deviation, providing a more relevant measure for asymmetric return distributions."
+    },
+    {
+      "name": "Maximum Drawdown",
+      "formula": "Max Drawdown = (Trough Value - Peak Value) / Peak Value x 100%",
+      "description": "The largest percentage decline from a peak to a trough in portfolio value before a new peak is reached. It measures the worst-case loss scenario over a period."
+    },
+    {
+      "name": "Win Rate",
+      "formula": "Win Rate = (Number of Winning Trades / Total Number of Trades) x 100%",
+      "description": "The percentage of trades that result in a profit. Win rate alone does not determine profitability; it must be considered alongside the average win size versus average loss size."
+    },
+    {
+      "name": "Profit Factor",
+      "formula": "Profit Factor = Gross Profit / Gross Loss",
+      "description": "The ratio of total profits to total losses. A profit factor above 1.0 indicates a profitable system. Values above 1.5 are considered good; above 2.0 are considered excellent."
+    },
+    {
+      "name": "Kelly Criterion",
+      "formula": "Kelly % = W - [(1 - W) / R], where W = Win Rate, R = Win/Loss Ratio",
+      "description": "Determines the optimal percentage of capital to risk on each trade to maximize long-term growth. Most traders use a fraction (half or quarter Kelly) to reduce volatility."
+    },
+    {
+      "name": "P/E Ratio",
+      "formula": "P/E = Share Price / Earnings Per Share",
+      "description": "A valuation multiple indicating how much investors pay per dollar of earnings. Forward P/E uses estimated future earnings; trailing P/E uses actual past earnings."
+    },
+    {
+      "name": "Earnings Per Share (EPS)",
+      "formula": "EPS = (Net Income - Preferred Dividends) / Weighted Average Shares Outstanding",
+      "description": "The portion of a company's profit allocated to each outstanding share of common stock. It is a key driver of stock price and is reported quarterly."
+    },
+    {
+      "name": "Market Capitalization",
+      "formula": "Market Cap = Share Price x Total Shares Outstanding",
+      "description": "The total market value of a company's outstanding shares. Large-cap is typically above $10 billion, mid-cap is $2-10 billion, and small-cap is below $2 billion."
+    },
+    {
+      "name": "Dividend Yield",
+      "formula": "Dividend Yield = (Annual Dividends Per Share / Current Share Price) x 100%",
+      "description": "The annual dividend payment expressed as a percentage of the stock price. It shows how much cash flow an investor receives for each dollar invested in equity."
+    },
+    {
+      "name": "Beta",
+      "formula": "Beta = Covariance(Stock Returns, Market Returns) / Variance(Market Returns)",
+      "description": "A measure of systematic risk relative to the market. Beta of 1.0 matches market volatility; above 1.0 is more volatile; below 1.0 is less volatile; negative beta moves inversely."
+    },
+    {
+      "name": "Alpha (Jensen's Alpha)",
+      "formula": "Alpha = Rp - [Rf + Beta x (Rm - Rf)]",
+      "description": "Measures the excess return of a portfolio above or below the return predicted by the Capital Asset Pricing Model (CAPM). Rp is portfolio return, Rf is risk-free rate, Rm is market return. Positive alpha indicates outperformance on a risk-adjusted basis."
+    },
+    {
+      "name": "Compound Annual Growth Rate (CAGR)",
+      "formula": "CAGR = (Ending Value / Beginning Value)^(1 / n) - 1",
+      "description": "The annualized rate of return that smooths out volatility over a multi-year period. It represents the constant rate at which an investment would have grown to reach its ending value. Useful for comparing investments held over different time periods."
+    },
+    {
+      "name": "Dividend Discount Model (DDM)",
+      "formula": "Price = D1 / (r - g), where D1 = Next Year's Dividend, r = Required Rate of Return, g = Dividend Growth Rate",
+      "description": "A valuation method that prices a stock based on the present value of its expected future dividends. The Gordon Growth Model assumes dividends grow at a constant rate indefinitely. Only applicable to companies that pay regular and predictable dividends."
+    },
+    {
+      "name": "PEG Ratio",
+      "formula": "PEG = (P/E Ratio) / Annual EPS Growth Rate",
+      "description": "Adjusts the P/E ratio by the company's expected earnings growth rate to provide a more complete valuation picture. A PEG of 1.0 suggests the stock is fairly valued relative to growth; below 1.0 may indicate undervaluation; above 1.0 may indicate overvaluation."
+    },
+    {
+      "name": "Debt-to-Equity Ratio",
+      "formula": "D/E = Total Liabilities / Total Shareholders' Equity",
+      "description": "Measures a company's financial leverage by comparing its total debt to total equity. A higher ratio indicates more debt financing relative to equity, implying greater financial risk. Industry norms vary widely, so comparisons should be made within the same sector."
+    },
+    {
+      "name": "Current Ratio",
+      "formula": "Current Ratio = Current Assets / Current Liabilities",
+      "description": "A liquidity ratio that measures a company's ability to pay short-term obligations due within one year. A ratio above 1.0 means the company has more current assets than current liabilities. Values between 1.5 and 3.0 are generally considered healthy."
+    },
+    {
+      "name": "Quick Ratio (Acid-Test)",
+      "formula": "Quick Ratio = (Current Assets - Inventory) / Current Liabilities",
+      "description": "A stricter liquidity measure than the current ratio that excludes inventory, which may not be easily convertible to cash. A quick ratio of 1.0 or higher indicates the company can meet its short-term obligations without selling inventory."
+    },
+    {
+      "name": "Return on Equity (ROE)",
+      "formula": "ROE = Net Income / Average Shareholders' Equity x 100%",
+      "description": "Measures how effectively a company uses shareholder equity to generate profits. A higher ROE indicates more efficient use of equity capital. ROE above 15% is generally considered strong, but it should be evaluated alongside leverage since high debt can inflate ROE."
+    },
+    {
+      "name": "Return on Assets (ROA)",
+      "formula": "ROA = Net Income / Total Assets x 100%",
+      "description": "Measures how efficiently a company uses its total assets to generate profit. Unlike ROE, ROA is not affected by leverage. Asset-heavy industries like manufacturing typically have lower ROA than asset-light industries like software."
+    },
+    {
+      "name": "Profit Margin (Net)",
+      "formula": "Net Profit Margin = (Net Income / Revenue) x 100%",
+      "description": "The percentage of revenue that remains as profit after all expenses, taxes, and costs are deducted. It reveals how much profit a company generates per dollar of sales. Higher margins indicate better cost control and pricing power."
+    },
+    {
+      "name": "EV/EBITDA",
+      "formula": "EV/EBITDA = (Market Cap + Total Debt - Cash) / EBITDA",
+      "description": "An enterprise value multiple that compares a company's total value (equity plus debt minus cash) to its earnings before interest, taxes, depreciation, and amortization. It is capital-structure-neutral and widely used in M&A analysis and cross-company comparisons."
+    },
+    {
+      "name": "Free Cash Flow (FCF)",
+      "formula": "FCF = Operating Cash Flow - Capital Expenditures",
+      "description": "The cash a company generates after accounting for capital expenditures needed to maintain or expand its asset base. FCF represents the cash available for dividends, debt repayment, share buybacks, or reinvestment. Positive and growing FCF is a sign of financial health."
+    }
+  ],
+  "patterns": [
+    {
+      "name": "Head and Shoulders",
+      "type": "Reversal (Bearish)",
+      "description": "A bearish reversal pattern with three peaks: the middle peak (head) is the highest, flanked by two lower peaks (shoulders). A break below the neckline connecting the troughs confirms the pattern and suggests further downside."
+    },
+    {
+      "name": "Inverse Head and Shoulders",
+      "type": "Reversal (Bullish)",
+      "description": "A bullish reversal pattern forming three troughs: the middle trough (head) is the lowest, flanked by two higher troughs (shoulders). A break above the neckline confirms the pattern and signals a potential upward move."
+    },
+    {
+      "name": "Double Top",
+      "type": "Reversal (Bearish)",
+      "description": "A bearish reversal pattern where price reaches the same resistance level twice and fails to break above it, forming an \"M\" shape. Confirmation occurs when price breaks below the support level between the two peaks."
+    },
+    {
+      "name": "Double Bottom",
+      "type": "Reversal (Bullish)",
+      "description": "A bullish reversal pattern where price reaches the same support level twice and bounces, forming a \"W\" shape. Confirmation occurs when price breaks above the resistance level between the two troughs."
+    },
+    {
+      "name": "Triple Top",
+      "type": "Reversal (Bearish)",
+      "description": "A bearish reversal pattern with three peaks at approximately the same price level, indicating strong resistance. Confirmation occurs when price breaks below the support level connecting the intervening troughs."
+    },
+    {
+      "name": "Triple Bottom",
+      "type": "Reversal (Bullish)",
+      "description": "A bullish reversal pattern with three troughs at approximately the same price level, indicating strong support. Confirmation occurs when price breaks above the resistance level connecting the intervening peaks."
+    },
+    {
+      "name": "Ascending Triangle",
+      "type": "Continuation (Bullish)",
+      "description": "A bullish continuation pattern with a flat upper resistance line and a rising lower trendline of higher lows. Volume typically decreases during formation and increases on the breakout above resistance."
+    },
+    {
+      "name": "Descending Triangle",
+      "type": "Continuation (Bearish)",
+      "description": "A bearish continuation pattern with a flat lower support line and a declining upper trendline of lower highs. The pattern typically resolves with a breakdown below support on increased volume."
+    },
+    {
+      "name": "Symmetrical Triangle",
+      "type": "Continuation (Neutral)",
+      "description": "A continuation pattern with converging trendlines of lower highs and higher lows. It can break in either direction but tends to continue the prior trend. Volume contracts during formation and expands on breakout."
+    },
+    {
+      "name": "Cup and Handle",
+      "type": "Continuation (Bullish)",
+      "description": "A bullish continuation pattern resembling a teacup. The cup is a rounded bottom formation, followed by a smaller pullback (handle). A breakout above the handle resistance with volume confirms the pattern."
+    },
+    {
+      "name": "Bull Flag",
+      "type": "Continuation (Bullish)",
+      "description": "A bullish continuation pattern featuring a sharp price rise (flagpole) followed by a brief downward-sloping consolidation (flag). The pattern resolves with a breakout upward, often on increased volume."
+    },
+    {
+      "name": "Bear Flag",
+      "type": "Continuation (Bearish)",
+      "description": "A bearish continuation pattern featuring a sharp price decline (flagpole) followed by a brief upward-sloping consolidation (flag). The pattern resolves with a breakdown downward, continuing the prior trend."
+    },
+    {
+      "name": "Pennant",
+      "type": "Continuation (Bullish)",
+      "description": "Similar to a flag but with converging trendlines forming a small symmetrical triangle after a strong move. The pattern represents a brief pause before the prior trend resumes on a volume-confirmed breakout."
+    },
+    {
+      "name": "Rising Wedge",
+      "type": "Reversal (Bearish)",
+      "description": "A bearish pattern with two converging upward-sloping trendlines where the lower line rises more steeply. Despite higher highs and higher lows, momentum weakens and typically breaks downward."
+    },
+    {
+      "name": "Falling Wedge",
+      "type": "Reversal (Bullish)",
+      "description": "A bullish pattern with two converging downward-sloping trendlines where the upper line declines more steeply. Despite lower highs and lower lows, selling pressure weakens and typically breaks upward."
+    },
+    {
+      "name": "Rounding Bottom",
+      "type": "Reversal (Bullish)",
+      "description": "A long-term bullish reversal pattern forming a gradual U-shape as selling pressure slowly diminishes and buying interest builds. It signals a transition from a downtrend to an uptrend over an extended period."
+    },
+    {
+      "name": "Channel Up",
+      "type": "Continuation (Bullish)",
+      "description": "A bullish pattern defined by two parallel upward-sloping trendlines containing price action. Traders buy near the lower trendline and sell near the upper trendline. A break below the channel signals a potential trend reversal."
+    },
+    {
+      "name": "Channel Down",
+      "type": "Continuation (Bearish)",
+      "description": "A bearish pattern defined by two parallel downward-sloping trendlines containing price action. Traders sell near the upper trendline and cover near the lower trendline. A break above the channel signals a potential trend reversal."
+    },
+    {
+      "name": "Doji",
+      "type": "Candlestick",
+      "description": "A candlestick where the open and close are virtually equal, creating a cross or plus sign shape. It represents indecision between buyers and sellers and can signal a potential reversal, especially after a strong trend."
+    },
+    {
+      "name": "Hammer",
+      "type": "Candlestick",
+      "description": "A bullish reversal candlestick with a small body at the top and a long lower wick (at least twice the body length). It appears during a downtrend, indicating that sellers drove prices lower but buyers pushed the price back up."
+    },
+    {
+      "name": "Inverted Hammer",
+      "type": "Candlestick",
+      "description": "A potential bullish reversal candlestick with a small body at the bottom and a long upper wick. It appears during a downtrend, suggesting that buyers attempted to push prices higher. Confirmation from the next candle is needed."
+    },
+    {
+      "name": "Bullish Engulfing",
+      "type": "Candlestick",
+      "description": "A two-candle bullish reversal pattern where a large green candle completely engulfs the prior smaller red candle. It indicates strong buying pressure overtaking selling pressure and often appears at the end of a downtrend."
+    },
+    {
+      "name": "Bearish Engulfing",
+      "type": "Candlestick",
+      "description": "A two-candle bearish reversal pattern where a large red candle completely engulfs the prior smaller green candle. It indicates strong selling pressure overtaking buying pressure and often appears at the end of an uptrend."
+    },
+    {
+      "name": "Morning Star",
+      "type": "Candlestick",
+      "description": "A three-candle bullish reversal pattern: a large red candle, followed by a small-bodied candle that gaps down (the star), then a large green candle that closes well into the first candle's body. It signals the end of a downtrend."
+    },
+    {
+      "name": "Evening Star",
+      "type": "Candlestick",
+      "description": "A three-candle bearish reversal pattern: a large green candle, followed by a small-bodied candle that gaps up (the star), then a large red candle that closes well into the first candle's body. It signals the end of an uptrend."
+    },
+    {
+      "name": "Three White Soldiers",
+      "type": "Candlestick (Bullish)",
+      "description": "A bullish reversal pattern consisting of three consecutive long-bodied green candles, each opening within the previous candle's body and closing progressively higher. It signals strong buying pressure and the potential start of an uptrend, especially when appearing after a prolonged downtrend or consolidation."
+    },
+    {
+      "name": "Three Black Crows",
+      "type": "Candlestick (Bearish)",
+      "description": "A bearish reversal pattern consisting of three consecutive long-bodied red candles, each opening within the previous candle's body and closing progressively lower. It signals strong selling pressure and the potential start of a downtrend, especially when appearing after a prolonged uptrend."
+    },
+    {
+      "name": "Piercing Line",
+      "type": "Candlestick (Bullish)",
+      "description": "A two-candle bullish reversal pattern where a red candle is followed by a green candle that opens below the prior low but closes above the midpoint of the first candle's body. The deeper the penetration into the first candle, the stronger the reversal signal. Most effective at the end of a downtrend or near support levels."
+    },
+    {
+      "name": "Dark Cloud Cover",
+      "type": "Candlestick (Bearish)",
+      "description": "A two-candle bearish reversal pattern where a green candle is followed by a red candle that opens above the prior high but closes below the midpoint of the first candle's body. It indicates that bulls initially pushed prices higher but bears took control. Most effective at the end of an uptrend or near resistance levels."
+    },
+    {
+      "name": "Island Reversal",
+      "type": "Reversal (Bullish or Bearish)",
+      "description": "A pattern formed when a cluster of price bars is separated from the surrounding price action by gaps on both sides, creating an isolated \"island.\" A bearish island reversal occurs at the top of an uptrend with a gap up followed by a gap down. A bullish island reversal forms at the bottom of a downtrend with a gap down followed by a gap up. The pattern signals a strong shift in sentiment."
+    },
+    {
+      "name": "Bump and Run Reversal",
+      "type": "Reversal (Bearish)",
+      "description": "A three-phase pattern beginning with a gradual lead-in trend, followed by a steep speculative bump that accelerates away from the trendline, and ending with a run phase where price breaks through the lead-in trendline and declines. The bump phase typically reaches 2-3 times the height of the lead-in. It signals the exhaustion of a speculative advance."
+    }
+  ],
+  "strategies": [
+    {
+      "name": "Long Call",
+      "outlook": "Bullish",
+      "risk": "Limited to premium paid",
+      "reward": "Unlimited upside potential",
+      "description": "Buy a call option to profit from an expected price increase. The breakeven is the strike price plus the premium paid. Maximum loss is the premium if the option expires worthless."
+    },
+    {
+      "name": "Long Put",
+      "outlook": "Bearish",
+      "risk": "Limited to premium paid",
+      "reward": "Substantial (stock can fall to zero)",
+      "description": "Buy a put option to profit from an expected price decrease. The breakeven is the strike price minus the premium paid. Maximum loss is the premium if the option expires worthless."
+    },
+    {
+      "name": "Covered Call",
+      "outlook": "Neutral to mildly bullish",
+      "risk": "Substantial (stock can decline significantly, offset partially by premium)",
+      "reward": "Limited to premium received plus gains up to the strike price",
+      "description": "Own 100 shares and sell a call option against them. Generates income from the premium but caps upside at the strike price. Ideal for generating income on stocks you are willing to sell at a higher price."
+    },
+    {
+      "name": "Protective Put",
+      "outlook": "Bullish with downside protection",
+      "risk": "Limited to the difference between stock price and put strike, plus premium paid",
+      "reward": "Unlimited upside on the stock position",
+      "description": "Own shares and buy a put option as insurance against a decline. The put sets a floor on losses while preserving unlimited upside. The cost of protection is the premium paid for the put."
+    },
+    {
+      "name": "Cash-Secured Put",
+      "outlook": "Neutral to mildly bullish",
+      "risk": "Substantial (must buy shares at strike if assigned, stock could drop significantly)",
+      "reward": "Limited to premium received",
+      "description": "Sell a put option while holding enough cash to buy 100 shares at the strike price if assigned. Used to generate income or to acquire a stock at a price below current market value."
+    },
+    {
+      "name": "Bull Call Spread",
+      "outlook": "Moderately bullish",
+      "risk": "Limited to net debit paid",
+      "reward": "Limited to difference between strikes minus net debit",
+      "description": "Buy a call at a lower strike and sell a call at a higher strike with the same expiration. Reduces cost compared to a single long call but caps maximum profit. Profitable when stock rises above the lower strike."
+    },
+    {
+      "name": "Bear Put Spread",
+      "outlook": "Moderately bearish",
+      "risk": "Limited to net debit paid",
+      "reward": "Limited to difference between strikes minus net debit",
+      "description": "Buy a put at a higher strike and sell a put at a lower strike with the same expiration. Reduces cost compared to a single long put but caps maximum profit. Profitable when stock falls below the higher strike."
+    },
+    {
+      "name": "Bull Put Spread",
+      "outlook": "Neutral to moderately bullish",
+      "risk": "Limited to difference between strikes minus net credit",
+      "reward": "Limited to net credit received",
+      "description": "Sell a put at a higher strike and buy a put at a lower strike with the same expiration. A credit spread that profits when the stock stays above the short put strike at expiration."
+    },
+    {
+      "name": "Bear Call Spread",
+      "outlook": "Neutral to moderately bearish",
+      "risk": "Limited to difference between strikes minus net credit",
+      "reward": "Limited to net credit received",
+      "description": "Sell a call at a lower strike and buy a call at a higher strike with the same expiration. A credit spread that profits when the stock stays below the short call strike at expiration."
+    },
+    {
+      "name": "Iron Condor",
+      "outlook": "Neutral (low volatility expected)",
+      "risk": "Limited to the width of the wider spread minus net credit",
+      "reward": "Limited to net credit received",
+      "description": "Combines a bull put spread and a bear call spread. Profits when the stock stays within the range of the two short strikes. Benefits from time decay and declining implied volatility. Maximum profit at expiration when stock is between short strikes."
+    },
+    {
+      "name": "Iron Butterfly",
+      "outlook": "Neutral (expecting minimal movement)",
+      "risk": "Limited to the width of a wing minus net credit",
+      "reward": "Limited to net credit received",
+      "description": "Sell an ATM call and ATM put at the same strike, and buy an OTM call and OTM put as wings. Similar to an iron condor but with the short strikes at the same price. Maximum profit if the stock closes exactly at the short strike at expiration."
+    },
+    {
+      "name": "Long Straddle",
+      "outlook": "Volatile (expecting large move in either direction)",
+      "risk": "Limited to total premium paid for both options",
+      "reward": "Unlimited on the upside; substantial on the downside",
+      "description": "Buy a call and a put at the same strike price and expiration. Profits from a large move in either direction. Breakevens are the strike plus total premium (upside) and strike minus total premium (downside)."
+    },
+    {
+      "name": "Long Strangle",
+      "outlook": "Volatile (expecting large move in either direction)",
+      "risk": "Limited to total premium paid for both options",
+      "reward": "Unlimited on the upside; substantial on the downside",
+      "description": "Buy an OTM call and an OTM put with different strike prices but the same expiration. Cheaper than a straddle but requires a larger move to profit. Best when implied volatility is low and a significant move is expected."
+    },
+    {
+      "name": "Calendar Spread",
+      "outlook": "Neutral (expecting low short-term volatility)",
+      "risk": "Limited to net debit paid",
+      "reward": "Limited, maximized when stock is at the strike at near-term expiration",
+      "description": "Sell a near-term option and buy a longer-term option at the same strike. Profits from the faster time decay of the near-term option relative to the longer-term option. Also benefits from an increase in implied volatility."
+    },
+    {
+      "name": "The Wheel",
+      "outlook": "Neutral to bullish on underlying",
+      "risk": "Substantial (stock can decline significantly while holding shares)",
+      "reward": "Limited to premiums collected plus any capital appreciation up to call strikes",
+      "description": "A repeating cycle: sell cash-secured puts to potentially acquire shares at a discount; if assigned, sell covered calls on the shares to generate income. Continue cycling between the two strategies, collecting premium at each step."
+    },
+    {
+      "name": "Poor Man's Covered Call",
+      "outlook": "Moderately bullish",
+      "risk": "Limited to the net debit paid for the LEAPS call minus any premium received from the short call",
+      "reward": "Limited to the difference between the long and short call strikes minus net debit",
+      "description": "A capital-efficient alternative to a covered call that replaces owning 100 shares with buying a deep in-the-money LEAPS call option. A short-term out-of-the-money call is then sold against it. This reduces capital requirements significantly while maintaining a similar profit profile to a traditional covered call."
+    },
+    {
+      "name": "Jade Lizard",
+      "outlook": "Neutral to moderately bullish",
+      "risk": "Limited to the downside below the short put strike minus total credit received; no risk to the upside",
+      "reward": "Limited to the net credit received",
+      "description": "Combines a short put with a short call spread (bear call spread) where the total credit received is greater than the width of the call spread. This eliminates upside risk entirely, meaning the position can only lose money if the stock drops below the short put. Ideal when expecting the stock to stay flat or rise modestly."
+    },
+    {
+      "name": "Broken Wing Butterfly",
+      "outlook": "Neutral with directional bias",
+      "risk": "Limited but asymmetric; greater risk on the broken wing side, reduced or zero risk on the other side",
+      "reward": "Maximum at the center strike; limited to the credit received if price moves toward the unbroken wing",
+      "description": "A modified butterfly spread where one wing is wider than the other, creating an asymmetric risk profile. By skipping a strike on one side, the trade can be entered for a net credit, eliminating risk on one side entirely. The broken wing is placed on the side where the trader believes the stock is less likely to move."
+    },
+    {
+      "name": "Ratio Call Spread",
+      "outlook": "Moderately bullish",
+      "risk": "Unlimited above the upper breakeven if the stock rises sharply; can be partially offset by the credit from extra short calls",
+      "reward": "Maximum at the short call strike; limited to the difference between strikes plus net credit (or minus net debit)",
+      "description": "Buy one call at a lower strike and sell two or more calls at a higher strike. The additional short call(s) finance the long call, potentially creating a net credit entry. The position profits most if the stock rises to the short strike at expiration. Risk increases if the stock surges well past the short strikes due to the uncovered short calls."
+    },
+    {
+      "name": "Short Strangle",
+      "outlook": "Neutral (expecting low volatility)",
+      "risk": "Unlimited on the upside; substantial on the downside (stock can fall to zero)",
+      "reward": "Limited to the total premium received from both options",
+      "description": "Sell an out-of-the-money call and an out-of-the-money put with the same expiration. Profits when the stock remains between the two strike prices and both options expire worthless. Benefits from time decay and declining implied volatility. Requires significant margin due to the undefined risk profile."
+    },
+    {
+      "name": "Collar",
+      "outlook": "Neutral with limited risk and limited reward",
+      "risk": "Limited to the stock price minus the put strike, partially offset by the call premium received",
+      "reward": "Limited to the call strike minus the stock price, partially reduced by the put premium paid",
+      "description": "Own 100 shares, buy a protective out-of-the-money put, and sell a covered out-of-the-money call. The premium from the short call offsets some or all of the cost of the protective put. Creates a floor and ceiling on the position, effectively trading upside potential for downside protection. Often used to protect gains on an existing stock position."
+    },
+    {
+      "name": "Synthetic Long Stock",
+      "outlook": "Bullish",
+      "risk": "Substantial on the downside (equivalent to owning 100 shares minus premium received)",
+      "reward": "Unlimited upside (equivalent to owning 100 shares)",
+      "description": "Buy an at-the-money call and sell an at-the-money put at the same strike and expiration. This replicates the profit-and-loss profile of owning 100 shares of stock but requires significantly less capital. The position has a delta near 1.0 and moves dollar-for-dollar with the underlying stock."
+    },
+    {
+      "name": "Ratio Put Spread",
+      "outlook": "Moderately bearish",
+      "risk": "Substantial below the lower breakeven if the stock crashes; can be partially offset by the credit from extra short puts",
+      "reward": "Maximum at the short put strike; limited to the difference between strikes plus net credit (or minus net debit)",
+      "description": "Buy one put at a higher strike and sell two or more puts at a lower strike. The additional short put(s) help finance the long put, potentially creating a net credit entry. The position profits most if the stock falls to the short strike at expiration. Risk increases if the stock drops significantly below the short strikes due to the uncovered short puts."
+    },
+    {
+      "name": "Double Diagonal",
+      "outlook": "Neutral (expecting range-bound price action)",
+      "risk": "Limited to the net debit paid for the position",
+      "reward": "Limited, maximized when the stock closes near either short strike at near-term expiration",
+      "description": "Combines two diagonal spreads: sell a near-term out-of-the-money call and put, while buying a longer-term further out-of-the-money call and put. It profits from time decay on the short options while the longer-dated long options provide protection. Similar to an iron condor but with different expirations, allowing for rolling the short options to collect additional premium."
+    }
+  ]
+}
